@@ -1,0 +1,10 @@
+*.sch linguist-language=Eagle
+*.brd linguist-language=Eagle
+
+special-vendored-path/* linguist-vendored
+*.sch linguist-vendored=false
+*.brd linguist-vendored=false
+
+
+*.sch linguist-detectable=true
+*.brd linguist-detectable=true
