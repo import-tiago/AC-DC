@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -110,7 +110,7 @@
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
 <layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
 <layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
@@ -158,108 +158,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="frames" urn="urn:adsk.eagle:library:229">
-<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="DINA3_L" urn="urn:adsk.eagle:symbol:13868/1" library_version="1">
-<frame x1="0" y1="0" x2="388.62" y2="264.16" columns="4" rows="4" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
-</symbol>
-<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:13864/1" library_version="1">
-<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
-<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
-<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
-<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
-<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
-<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
-<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
-<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
-<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
-<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
-<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
-<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="DINA3_L" urn="urn:adsk.eagle:component:13931/1" prefix="FRAME" uservalue="yes" library_version="1">
-<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
-DIN A3, landscape with extra doc field</description>
-<gates>
-<gate name="G$1" symbol="DINA3_L" x="0" y="0"/>
-<gate name="G$2" symbol="DOCFIELD" x="287.02" y="0" addlevel="must"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="trafo" urn="urn:adsk.eagle:library:394">
-<packages>
-</packages>
-<symbols>
-<symbol name="TRAFO">
-<wire x1="-0.508" y1="7.62" x2="-0.508" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="5.08" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="0.508" y1="7.62" x2="0.508" y2="-7.62" width="0.254" layer="94"/>
-<text x="-3.81" y="8.89" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="BLK@1" x="-7.62" y="7.62" visible="off" length="middle" direction="pas"/>
-<pin name="BLK@2" x="-7.62" y="-2.54" visible="off" length="middle" direction="pas"/>
-<pin name="GRN@1" x="7.62" y="7.62" visible="off" length="middle" direction="pas" rot="R180"/>
-<pin name="GRN/YEL" x="-7.62" y="2.54" visible="off" length="middle" direction="pas"/>
-<pin name="GRN@2" x="7.62" y="-7.62" visible="off" length="middle" direction="pas" rot="R180"/>
-<pin name="GRN/YEL1" x="-7.62" y="-7.62" visible="off" length="middle" direction="pas"/>
-<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="-7.62" width="0.254" layer="94" curve="-180"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-180"/>
-<wire x1="2.54" y1="-7.62" x2="2.54" y2="-5.08" width="0.254" layer="94" curve="-180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TRAFO" prefix="TR?">
-<gates>
-<gate name="G$1" symbol="TRAFO" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name="">
-<attribute name="_EXTERNAL_" value="_EXTERNAL_" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rectifier" urn="urn:adsk.eagle:library:336">
 <description>&lt;b&gt;Rectifiers&lt;/b&gt;&lt;p&gt;
 General Instrument, Semikron, Diotec, Fagor&lt;p&gt;
@@ -329,7 +227,7 @@ General Instrument, Semikron, Diotec, Fagor&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GBPC1" urn="urn:adsk.eagle:component:23932/1" prefix="B" uservalue="yes" library_version="2">
+<deviceset name="GBPC1" urn="urn:adsk.eagle:component:23932/2" prefix="B" uservalue="yes" library_version="3">
 <description>&lt;b&gt;GENERAL INSTRUMENT RECTIFIER&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GB" x="0" y="0"/>
@@ -346,7 +244,9 @@ General Instrument, Semikron, Diotec, Fagor&lt;p&gt;
 <package3dinstance package3d_urn="urn:adsk.eagle:package:23890/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -13013,7 +12913,7 @@ Source:  Data sheet</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CPOL-EU" urn="urn:adsk.eagle:component:23787/27" prefix="C" uservalue="yes" library_version="10">
+<deviceset name="CPOL-EU" urn="urn:adsk.eagle:component:23787/28" prefix="C" uservalue="yes" library_version="11">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="CPOL" x="0" y="0"/>
@@ -13029,6 +12929,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13043,6 +12944,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13057,6 +12959,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13071,6 +12974,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13085,6 +12989,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="9" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13099,6 +13004,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13113,6 +13019,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13127,6 +13034,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13141,6 +13049,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13155,6 +13064,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13169,6 +13079,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13183,6 +13094,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13197,6 +13109,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13211,6 +13124,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13225,6 +13139,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13239,6 +13154,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13253,6 +13169,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13267,6 +13184,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13281,6 +13199,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13295,6 +13214,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13309,6 +13229,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13323,6 +13244,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13337,6 +13259,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13351,6 +13274,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13365,6 +13289,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13379,6 +13304,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13393,6 +13319,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13407,6 +13334,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13421,6 +13349,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13435,6 +13364,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13449,6 +13379,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13463,6 +13394,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13477,6 +13409,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13491,6 +13424,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13505,6 +13439,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13519,6 +13454,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13533,6 +13469,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13547,6 +13484,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13561,6 +13499,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="12" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13575,6 +13514,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13589,6 +13529,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13603,6 +13544,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13617,6 +13559,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13631,6 +13574,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="16" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13645,6 +13589,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="26" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13659,6 +13604,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="17" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13673,6 +13619,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13687,6 +13634,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="7" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13701,6 +13649,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="14" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13715,6 +13664,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13729,6 +13679,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13743,6 +13694,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13757,6 +13709,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="5" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13771,6 +13724,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13785,6 +13739,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13799,6 +13754,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="13" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13813,6 +13769,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13827,6 +13784,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13841,6 +13799,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13855,6 +13814,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13869,6 +13829,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13883,6 +13844,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13897,6 +13859,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13911,6 +13874,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13925,6 +13889,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13939,6 +13904,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13953,6 +13919,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13967,6 +13934,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13981,6 +13949,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="23" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -13995,6 +13964,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14009,6 +13979,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14023,6 +13994,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="6" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14037,6 +14009,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14051,6 +14024,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14065,6 +14039,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14079,6 +14054,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14093,6 +14069,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14107,6 +14084,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14121,6 +14099,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14135,6 +14114,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14149,6 +14129,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="6" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14163,6 +14144,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14177,6 +14159,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14191,6 +14174,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14205,6 +14189,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14219,6 +14204,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14233,6 +14219,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14247,6 +14234,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14261,6 +14249,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14275,6 +14264,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14289,6 +14279,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14303,6 +14294,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14317,6 +14309,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14331,6 +14324,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14345,6 +14339,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14359,6 +14354,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14373,6 +14369,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14387,6 +14384,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14401,6 +14399,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14415,6 +14414,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14429,6 +14429,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14443,6 +14444,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14457,6 +14459,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="5" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14471,6 +14474,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14485,6 +14489,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14499,6 +14504,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14513,6 +14519,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14527,6 +14534,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14541,6 +14549,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14555,6 +14564,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14569,6 +14579,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14583,6 +14594,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14597,6 +14609,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14611,6 +14624,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14625,6 +14639,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14639,6 +14654,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14653,6 +14669,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14667,6 +14684,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14681,6 +14699,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14695,6 +14714,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14709,6 +14729,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14723,6 +14744,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14737,6 +14759,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14751,6 +14774,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14765,6 +14789,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14779,6 +14804,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="16" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14793,6 +14819,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14807,6 +14834,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14821,6 +14849,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14835,6 +14864,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="10" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14849,6 +14879,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="27" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14863,6 +14894,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14877,6 +14909,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14891,6 +14924,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14905,6 +14939,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="25" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14919,6 +14954,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14933,6 +14969,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14947,6 +14984,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14961,6 +14999,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14975,6 +15014,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -14989,6 +15029,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15003,6 +15044,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15017,6 +15059,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15031,6 +15074,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15045,6 +15089,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15059,6 +15104,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15073,6 +15119,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15087,6 +15134,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15101,6 +15149,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15115,6 +15164,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15129,6 +15179,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15143,6 +15194,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15157,6 +15209,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15171,6 +15224,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15185,6 +15239,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15199,6 +15254,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15213,6 +15269,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15227,6 +15284,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15241,6 +15299,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15255,6 +15314,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15269,6 +15329,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15283,6 +15344,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15297,6 +15359,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15311,6 +15374,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15325,6 +15389,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15339,6 +15404,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15353,6 +15419,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15367,6 +15434,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15381,6 +15449,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15395,6 +15464,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15409,6 +15479,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15423,6 +15494,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15437,6 +15509,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15451,6 +15524,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15465,6 +15539,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15477,7 +15552,7 @@ Source:  Data sheet</description>
 </pinmapping>
 </spice>
 </deviceset>
-<deviceset name="C-EU" urn="urn:adsk.eagle:component:23793/45" prefix="C" uservalue="yes" library_version="10">
+<deviceset name="C-EU" urn="urn:adsk.eagle:component:23793/46" prefix="C" uservalue="yes" library_version="11">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="C-EU" x="0" y="0"/>
@@ -15493,6 +15568,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="18" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15507,6 +15583,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15521,6 +15598,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="73" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15535,6 +15613,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="88" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15549,6 +15628,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="54" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15563,6 +15643,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15577,6 +15658,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15591,6 +15673,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15605,6 +15688,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15619,6 +15703,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15633,6 +15718,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15647,6 +15733,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15661,6 +15748,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15675,6 +15763,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15689,6 +15778,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15703,6 +15793,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="56" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15717,6 +15808,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="65" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15731,6 +15823,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="14" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15745,6 +15838,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15759,6 +15853,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="16" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15773,6 +15868,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15787,6 +15883,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15801,6 +15898,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15815,6 +15913,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15829,6 +15928,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15843,6 +15943,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15857,6 +15958,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="33" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15871,6 +15973,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="29" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15885,6 +15988,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15899,6 +16003,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="9" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15913,6 +16018,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15927,6 +16033,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15941,6 +16048,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15955,6 +16063,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15969,6 +16078,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15983,6 +16093,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -15997,6 +16108,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16011,6 +16123,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16025,6 +16138,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16039,6 +16153,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16053,6 +16168,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16067,6 +16183,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16081,6 +16198,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16095,6 +16213,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16109,6 +16228,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16123,6 +16243,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16137,6 +16258,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16151,6 +16273,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16165,6 +16288,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16179,6 +16303,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16193,6 +16318,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16207,6 +16333,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16221,6 +16348,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16235,6 +16363,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16249,6 +16378,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16263,6 +16393,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16277,6 +16408,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16291,6 +16423,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16305,6 +16438,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16319,6 +16453,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16333,6 +16468,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16347,6 +16483,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16361,6 +16498,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16375,6 +16513,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16389,6 +16528,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16403,6 +16543,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="15" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16417,6 +16558,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="30" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16431,6 +16573,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="52" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16445,6 +16588,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="13" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16459,6 +16603,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16473,6 +16618,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16487,6 +16633,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16501,6 +16648,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16515,6 +16663,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16529,6 +16678,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16543,6 +16693,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16557,6 +16708,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16571,6 +16723,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16585,6 +16738,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="C" constant="no"/>
 </technology>
 </technologies>
@@ -16597,7 +16751,7 @@ Source:  Data sheet</description>
 </pinmapping>
 </spice>
 </deviceset>
-<deviceset name="R-EU_" urn="urn:adsk.eagle:component:23791/20" prefix="R" uservalue="yes" library_version="10">
+<deviceset name="R-EU_" urn="urn:adsk.eagle:component:23791/21" prefix="R" uservalue="yes" library_version="11">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="R-EU" x="0" y="0"/>
@@ -16613,6 +16767,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16627,6 +16782,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="70" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16641,6 +16797,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="86" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16655,6 +16812,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16669,6 +16827,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="41" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16683,6 +16842,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16697,6 +16857,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16711,6 +16872,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16725,6 +16887,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16739,6 +16902,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16753,6 +16917,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16767,6 +16932,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16781,6 +16947,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16795,6 +16962,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16809,6 +16977,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16823,6 +16992,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="5" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16837,6 +17007,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16851,6 +17022,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16865,6 +17037,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16879,6 +17052,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16893,6 +17067,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16907,6 +17082,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16921,6 +17097,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="45" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16935,6 +17112,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="17" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16949,6 +17127,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16963,6 +17142,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16977,6 +17157,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -16991,6 +17172,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17005,6 +17187,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17019,6 +17202,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17033,6 +17217,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="35" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17047,6 +17232,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="79" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17061,6 +17247,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="11" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17075,6 +17262,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="81" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17089,6 +17277,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="9" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17103,6 +17292,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17117,6 +17307,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="17" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17131,6 +17322,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17145,6 +17337,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="46" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17159,6 +17352,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17173,6 +17367,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="6" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17187,6 +17382,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17201,6 +17397,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="5" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17215,6 +17412,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17229,6 +17427,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17243,6 +17442,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17257,6 +17457,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17271,6 +17472,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17285,6 +17487,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17299,6 +17502,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17313,6 +17517,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17327,6 +17532,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17341,6 +17547,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17355,6 +17562,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17369,6 +17577,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17383,6 +17592,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17397,6 +17607,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17411,6 +17622,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17425,6 +17637,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17439,6 +17652,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17453,6 +17667,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17467,6 +17682,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17481,6 +17697,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17495,6 +17712,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17509,6 +17727,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17523,6 +17742,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17537,6 +17757,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17551,6 +17772,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17565,6 +17787,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17579,6 +17802,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17593,6 +17817,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17607,6 +17832,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17621,6 +17847,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17635,6 +17862,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17649,6 +17877,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17663,6 +17892,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17677,6 +17907,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17691,6 +17922,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17705,6 +17937,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17719,6 +17952,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17733,6 +17967,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17747,6 +17982,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17761,6 +17997,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17775,6 +18012,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17789,6 +18027,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17803,6 +18042,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEPREFIX" value="R" constant="no"/>
 </technology>
 </technologies>
@@ -17815,7 +18055,7 @@ Source:  Data sheet</description>
 </pinmapping>
 </spice>
 </deviceset>
-<deviceset name="R-TRIMM" urn="urn:adsk.eagle:component:23798/4" prefix="R" uservalue="yes" library_version="10">
+<deviceset name="R-TRIMM" urn="urn:adsk.eagle:component:23798/5" prefix="R" uservalue="yes" library_version="11">
 <description>&lt;b&gt;Trimm resistor&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="R-TRIM" x="0" y="0"/>
@@ -17832,6 +18072,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -17848,6 +18089,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -17864,6 +18106,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -17880,6 +18123,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -17896,6 +18140,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -17912,6 +18157,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -17928,6 +18174,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -17944,6 +18191,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -17960,6 +18208,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -17976,6 +18225,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -17992,6 +18242,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18008,6 +18259,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18024,6 +18276,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18040,6 +18293,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18056,6 +18310,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18072,6 +18327,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18088,6 +18344,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18104,6 +18361,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18120,6 +18378,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18136,6 +18395,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18152,6 +18412,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18168,6 +18429,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18184,6 +18446,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18200,6 +18463,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18216,6 +18480,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18232,6 +18497,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="29" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18248,6 +18514,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="21" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18264,6 +18531,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18280,6 +18548,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18296,6 +18565,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18312,6 +18582,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18328,6 +18599,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18344,6 +18616,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18360,6 +18633,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18376,6 +18650,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18392,6 +18667,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="4" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18408,6 +18684,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="3" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18424,6 +18701,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18440,6 +18718,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18456,6 +18735,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18472,6 +18752,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18488,6 +18769,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18504,6 +18786,7 @@ Source:  Data sheet</description>
 </package3dinstances>
 <technologies>
 <technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
 <attribute name="SPICEMODEL" value="X" constant="no"/>
 <attribute name="SPICEPREFIXL" value="POT" constant="no"/>
 </technology>
@@ -18796,7 +19079,7 @@ diameter 3.5 mm, horizontal, grid 12.7 mm</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1N5060GP" urn="urn:adsk.eagle:component:43574/3" prefix="D" library_version="7">
+<deviceset name="1N5060GP" urn="urn:adsk.eagle:component:43574/4" prefix="D" library_version="8">
 <description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
 controlled avalanche rectifier</description>
 <gates>
@@ -18812,7 +19095,9 @@ controlled avalanche rectifier</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:43369/2"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -18858,7 +19143,7 @@ controlled avalanche rectifier</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AMMETER">
+<deviceset name="AMMETER" prefix="AMP">
 <gates>
 <gate name="G$1" symbol="AMMETER" x="0" y="0"/>
 </gates>
@@ -18872,7 +19157,7 @@ controlled avalanche rectifier</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="VOLTMETER">
+<deviceset name="VOLTMETER" prefix="VOLT">
 <gates>
 <gate name="G$1" symbol="VOLTMETER" x="0" y="0"/>
 </gates>
@@ -18886,7 +19171,7 @@ controlled avalanche rectifier</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="GENERATOR">
+<deviceset name="GENERATOR" prefix="G">
 <gates>
 <gate name="G$1" symbol="GENERATOR" x="0" y="0"/>
 </gates>
@@ -18965,7 +19250,7 @@ TR5 Fuse Holder Wickmann</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="19559" urn="urn:adsk.eagle:component:14089/1" prefix="F" uservalue="yes" library_version="1">
+<deviceset name="19559" urn="urn:adsk.eagle:component:14089/2" prefix="F" uservalue="yes" library_version="2">
 <description>&lt;b&gt;FUSE HOLDER&lt;/b&gt;&lt;p&gt;
 TR5, Wickmann</description>
 <gates>
@@ -18986,6 +19271,7 @@ TR5, Wickmann</description>
 <attribute name="MPN" value="55900000001" constant="no"/>
 <attribute name="OC_FARNELL" value="9516360" constant="no"/>
 <attribute name="OC_NEWARK" value="02P0286" constant="no"/>
+<attribute name="POPULARITY" value="4" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -19233,7 +19519,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="AK500/4-H" urn="urn:adsk.eagle:component:9939/1" prefix="X" uservalue="yes" library_version="1">
+<deviceset name="AK500/4-H" urn="urn:adsk.eagle:component:9939/2" prefix="X" uservalue="yes" library_version="2">
 <description>&lt;b&gt;CONNECTOR&lt;/b&gt;&lt;p&gt;
 Aug. 2004 / PTR Meßtechnik:&lt;br&gt;
 Die Bezeichnung der Serie AK505 wurde geändert.&lt;br&gt;
@@ -19261,6 +19547,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.</description>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
 <attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -20032,7 +20319,7 @@ Source: Data sheet </description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="APF30212C" urn="urn:adsk.eagle:component:24826/1" prefix="K" library_version="4">
+<deviceset name="APF30212C" urn="urn:adsk.eagle:component:24826/2" prefix="K" library_version="5">
 <description>&lt;b&gt;Compliant with European standards 1a/1c 6A Slim power relays&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://pewa.panasonic.com/assets/pcsd/catalog/pf-catalog.pdf"&gt;Data sheet &lt;/a&gt;</description>
 <gates>
@@ -20056,6 +20343,7 @@ Source: &lt;a href="http://pewa.panasonic.com/assets/pcsd/catalog/pf-catalog.pdf
 <attribute name="MF" value="" constant="no"/>
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="POPULARITY" value="0" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -20240,10 +20528,10 @@ www.ligitek.com or other producers.</description>
 <wire x1="-5.842" y1="-4.572" x2="-7.239" y2="-5.969" width="0.1524" layer="94"/>
 <wire x1="-5.715" y1="-5.715" x2="-7.112" y2="-7.112" width="0.1524" layer="94"/>
 <circle x="0" y="0" radius="0.254" width="0.4064" layer="94"/>
-<text x="6.985" y="-1.905" size="1.778" layer="95">&gt;NAME</text>
-<text x="6.985" y="-4.445" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-1.27" y="-6.35" size="1.016" layer="94" ratio="10" rot="R90">red</text>
-<text x="6.35" y="-6.985" size="1.016" layer="94" ratio="10" rot="R90">green</text>
+<text x="7.62" y="-2.2225" size="1.778" layer="95">&gt;NAME</text>
+<text x="7.62" y="-4.7625" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-0.3175" y="-6.6675" size="1.778" layer="94" ratio="10" rot="R90">red</text>
+<text x="6.985" y="-8.255" size="1.778" layer="94" ratio="10" rot="R90">green</text>
 <pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
 <pin name="CR" x="-3.81" y="-8.89" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="CG" x="3.81" y="-8.89" visible="off" length="short" direction="pas" rot="R90"/>
@@ -20300,6 +20588,1821 @@ www.ligitek.com or other producers.</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="frames">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="TABL_L">
+<wire x1="0" y1="0" x2="401.32" y2="0" width="0.4064" layer="94"/>
+<wire x1="401.32" y1="0" x2="401.32" y2="266.7" width="0.4064" layer="94"/>
+<wire x1="401.32" y1="266.7" x2="0" y2="266.7" width="0.4064" layer="94"/>
+<wire x1="0" y1="266.7" x2="0" y2="0" width="0.4064" layer="94"/>
+</symbol>
+<symbol name="DOCFIELD">
+<wire x1="0" y1="0" x2="80.01" y2="0" width="0.1016" layer="94"/>
+<wire x1="80.01" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="80.01" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="80.01" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="38.1" x2="68.58" y2="38.1" width="0.1016" layer="94"/>
+<wire x1="68.58" y1="38.1" x2="0" y2="38.1" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="38.1" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="0" y1="10.16" x2="80.01" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="80.01" y1="10.16" x2="101.6" y2="10.16" width="0.1016" layer="94"/>
+<wire x1="0" y1="10.16" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="38.1" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="10.16" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
+<text x="11.43" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="81.28" y="6.35" size="2.54" layer="94">Sheet:</text>
+<text x="92.71" y="6.35" size="2.54" layer="94">&gt;SHEET</text>
+<text x="81.534" y="1.524" size="2.54" layer="94">Rev.:</text>
+<text x="1.27" y="11.557" size="2.54" layer="94">Project Name:</text>
+<text x="1.27" y="6.477" size="2.54" layer="94">Page Title:</text>
+<text x="25.4" y="11.557" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<wire x1="80.01" y1="10.16" x2="80.01" y2="5.08" width="0.1016" layer="94"/>
+<text x="1.27" y="33.655" size="2.54" layer="94">Design by:</text>
+<wire x1="80.01" y1="5.08" x2="80.01" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="68.58" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="68.58" y1="15.24" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="71.4375" y1="18.8912" x2="71.4375" y2="17.6212" width="0.508" layer="94"/>
+<wire x1="72.7075" y1="18.8912" x2="72.7075" y2="17.6212" width="0.508" layer="94"/>
+<wire x1="71.4375" y1="18.8912" x2="72.7075" y2="18.8912" width="0.508" layer="94" curve="-180"/>
+<wire x1="72.7075" y1="17.6212" x2="71.4375" y2="17.6212" width="0.508" layer="94" curve="-180"/>
+<wire x1="73.66" y1="19.05" x2="73.66" y2="17.78" width="0.508" layer="94"/>
+<wire x1="74.93" y1="19.05" x2="74.93" y2="17.78" width="0.508" layer="94"/>
+<wire x1="73.66" y1="19.05" x2="74.93" y2="19.05" width="0.508" layer="94" curve="-180"/>
+<wire x1="74.93" y1="17.78" x2="73.66" y2="17.78" width="0.508" layer="94" curve="-180"/>
+<wire x1="73.66" y1="17.78" x2="73.66" y2="16.51" width="0.508" layer="94"/>
+<wire x1="75.8824" y1="19.05" x2="75.8824" y2="18.415" width="0.508" layer="94"/>
+<wire x1="75.8824" y1="19.05" x2="77.1524" y2="19.05" width="0.508" layer="94" curve="-180"/>
+<wire x1="77.1524" y1="19.05" x2="75.8824" y2="18.415" width="0.508" layer="94"/>
+<wire x1="75.8824" y1="18.415" x2="75.8824" y2="18.0975" width="0.508" layer="94"/>
+<wire x1="75.8824" y1="18.0975" x2="76.5174" y2="17.4625" width="0.508" layer="94" curve="90"/>
+<wire x1="77.1524" y1="18.0975" x2="76.5174" y2="17.4625" width="0.508" layer="94" curve="-90"/>
+<wire x1="77.1524" y1="18.0975" x2="77.1524" y2="18.415" width="0.508" layer="94"/>
+<wire x1="78.1049" y1="17.4625" x2="78.1049" y2="19.05" width="0.508" layer="94"/>
+<wire x1="78.1049" y1="19.05" x2="78.7399" y2="19.685" width="0.508" layer="94" curve="-90"/>
+<wire x1="78.7399" y1="19.685" x2="79.3749" y2="19.05" width="0.508" layer="94" curve="-90"/>
+<wire x1="79.3749" y1="19.05" x2="79.3749" y2="17.4625" width="0.508" layer="94"/>
+<wire x1="81.7561" y1="17.4624" x2="81.7561" y2="19.0499" width="0.4064" layer="94"/>
+<wire x1="81.7561" y1="19.0499" x2="82.3911" y2="19.6849" width="0.4064" layer="94" curve="-90"/>
+<wire x1="82.3911" y1="19.6849" x2="83.0261" y2="19.0499" width="0.4064" layer="94" curve="-90"/>
+<wire x1="83.0261" y1="19.0499" x2="83.0261" y2="17.4624" width="0.4064" layer="94"/>
+<wire x1="81.7561" y1="19.0499" x2="81.7561" y2="20.6374" width="0.4064" layer="94"/>
+<wire x1="85.2486" y1="18.7324" x2="85.2486" y2="19.0499" width="0.4064" layer="94"/>
+<wire x1="85.2486" y1="19.0499" x2="84.6136" y2="19.6849" width="0.4064" layer="94" curve="90"/>
+<wire x1="84.6136" y1="19.6849" x2="83.9786" y2="19.0499" width="0.4064" layer="94" curve="90"/>
+<wire x1="85.2486" y1="18.7324" x2="84.6136" y2="18.4149" width="0.4064" layer="94"/>
+<wire x1="84.6136" y1="18.4149" x2="83.9786" y2="17.7799" width="0.4064" layer="94" curve="36.869898"/>
+<wire x1="84.6136" y1="17.4624" x2="84.2961" y2="17.4624" width="0.4064" layer="94"/>
+<wire x1="84.2961" y1="17.4624" x2="83.9786" y2="17.7799" width="0.4064" layer="94" curve="-90"/>
+<wire x1="85.2486" y1="17.4624" x2="85.2486" y2="18.7324" width="0.4064" layer="94"/>
+<wire x1="86.2011" y1="17.4624" x2="86.2011" y2="19.0499" width="0.4064" layer="94"/>
+<wire x1="86.2011" y1="19.0499" x2="86.8361" y2="19.6849" width="0.4064" layer="94" curve="-90"/>
+<wire x1="86.8361" y1="19.6849" x2="87.4711" y2="19.0499" width="0.4064" layer="94" curve="-90"/>
+<wire x1="89.6936" y1="18.0974" x2="89.6936" y2="19.3674" width="0.4064" layer="94"/>
+<wire x1="88.4236" y1="18.0974" x2="88.4236" y2="19.3674" width="0.4064" layer="94"/>
+<wire x1="89.6936" y1="18.0974" x2="88.4236" y2="18.0974" width="0.4064" layer="94" curve="-180"/>
+<wire x1="88.4236" y1="19.3674" x2="89.6936" y2="19.3674" width="0.4064" layer="94" curve="-180"/>
+<wire x1="89.6936" y1="19.3674" x2="89.6936" y2="20.6374" width="0.4064" layer="94"/>
+<wire x1="90.6461" y1="19.7485" x2="90.6461" y2="17.9387" width="0.4064" layer="94"/>
+<wire x1="90.6461" y1="17.9387" x2="91.4399" y2="17.9387" width="0.4064" layer="94" curve="180"/>
+<wire x1="91.4399" y1="17.9387" x2="91.4399" y2="17.78" width="0.4064" layer="94"/>
+<wire x1="91.4399" y1="19.7485" x2="91.4399" y2="17.9387" width="0.4064" layer="94"/>
+<wire x1="91.4399" y1="17.9387" x2="92.2336" y2="17.9387" width="0.4064" layer="94" curve="180"/>
+<wire x1="92.2336" y1="17.9387" x2="92.2336" y2="19.7485" width="0.4064" layer="94"/>
+<wire x1="94.2973" y1="18.8912" x2="94.2973" y2="19.2087" width="0.4064" layer="94"/>
+<wire x1="94.2973" y1="19.2087" x2="93.6623" y2="19.8437" width="0.4064" layer="94" curve="90"/>
+<wire x1="93.6623" y1="19.8437" x2="93.0273" y2="19.2087" width="0.4064" layer="94" curve="90"/>
+<wire x1="94.2973" y1="18.8912" x2="93.6623" y2="18.5737" width="0.4064" layer="94"/>
+<wire x1="93.6623" y1="18.5737" x2="93.0273" y2="17.9387" width="0.4064" layer="94" curve="36.869898"/>
+<wire x1="93.6623" y1="17.6212" x2="93.3448" y2="17.6212" width="0.4064" layer="94"/>
+<wire x1="93.3448" y1="17.6212" x2="93.0273" y2="17.9387" width="0.4064" layer="94" curve="-90"/>
+<wire x1="94.2973" y1="17.6212" x2="94.2973" y2="18.8912" width="0.4064" layer="94"/>
+<wire x1="95.2498" y1="17.6212" x2="95.2498" y2="19.2087" width="0.4064" layer="94"/>
+<wire x1="95.2498" y1="19.2087" x2="95.8848" y2="19.8437" width="0.4064" layer="94" curve="-90"/>
+<wire x1="95.8848" y1="19.8437" x2="96.5198" y2="19.2087" width="0.4064" layer="94" curve="-90"/>
+<wire x1="97.4723" y1="19.2087" x2="97.4723" y2="18.5737" width="0.4064" layer="94"/>
+<wire x1="97.4723" y1="19.2087" x2="98.7423" y2="19.2087" width="0.4064" layer="94" curve="-180"/>
+<wire x1="98.7423" y1="19.2087" x2="97.4723" y2="18.5737" width="0.4064" layer="94"/>
+<wire x1="97.4723" y1="18.5737" x2="97.4723" y2="18.2562" width="0.4064" layer="94"/>
+<wire x1="97.4723" y1="18.2562" x2="98.1073" y2="17.6212" width="0.4064" layer="94" curve="90"/>
+<wire x1="98.7423" y1="18.2562" x2="98.1073" y2="17.6212" width="0.4064" layer="94" curve="-90"/>
+<wire x1="98.7423" y1="18.2562" x2="98.7423" y2="18.5737" width="0.4064" layer="94"/>
+<wire x1="86.4598" y1="23.1" x2="87.2311" y2="23.4972" width="0.4064" layer="94" curve="9.499291"/>
+<wire x1="87.2311" y1="23.4972" x2="89.1463" y2="21.9354" width="0.4064" layer="94"/>
+<wire x1="89.1463" y1="21.9354" x2="90.4596" y2="23.2487" width="0.4064" layer="94"/>
+<wire x1="90.4596" y1="23.2487" x2="88.8978" y2="25.1639" width="0.4064" layer="94"/>
+<wire x1="88.8978" y1="25.1639" x2="89.5595" y2="26.7615" width="0.4064" layer="94" curve="18.999182"/>
+<wire x1="89.5595" y1="26.7615" x2="92.0182" y2="27.0114" width="0.4064" layer="94"/>
+<wire x1="92.0182" y1="27.0114" x2="92.0182" y2="28.8686" width="0.4064" layer="94"/>
+<wire x1="92.0182" y1="28.8686" x2="89.5595" y2="29.1185" width="0.4064" layer="94"/>
+<wire x1="89.5595" y1="29.1185" x2="88.8978" y2="30.7161" width="0.4064" layer="94" curve="18.999182"/>
+<wire x1="88.8978" y1="30.7161" x2="90.4596" y2="32.6313" width="0.4064" layer="94"/>
+<wire x1="90.4596" y1="32.6313" x2="89.1463" y2="33.9446" width="0.4064" layer="94"/>
+<wire x1="89.1463" y1="33.9446" x2="87.2311" y2="32.3828" width="0.4064" layer="94"/>
+<wire x1="87.2311" y1="32.3828" x2="85.6335" y2="33.0445" width="0.4064" layer="94" curve="18.999182"/>
+<wire x1="85.6335" y1="33.0445" x2="85.3836" y2="35.5032" width="0.4064" layer="94"/>
+<wire x1="85.3836" y1="35.5032" x2="83.5264" y2="35.5032" width="0.4064" layer="94"/>
+<wire x1="83.5264" y1="35.5032" x2="83.2765" y2="33.0445" width="0.4064" layer="94"/>
+<wire x1="83.2765" y1="33.0445" x2="81.6789" y2="32.3828" width="0.4064" layer="94" curve="18.999182"/>
+<wire x1="81.6789" y1="32.3828" x2="79.7637" y2="33.9446" width="0.4064" layer="94"/>
+<wire x1="79.7637" y1="33.9446" x2="78.4504" y2="32.6313" width="0.4064" layer="94"/>
+<wire x1="78.4504" y1="32.6313" x2="80.0122" y2="30.7161" width="0.4064" layer="94"/>
+<wire x1="80.0122" y1="30.7161" x2="79.3505" y2="29.1185" width="0.4064" layer="94" curve="18.999182"/>
+<wire x1="79.3505" y1="29.1185" x2="76.8918" y2="28.8686" width="0.4064" layer="94"/>
+<wire x1="76.8918" y1="28.8686" x2="76.8918" y2="27.0114" width="0.4064" layer="94"/>
+<wire x1="76.8918" y1="27.0114" x2="79.3505" y2="26.7615" width="0.4064" layer="94"/>
+<wire x1="79.3505" y1="26.7615" x2="80.0122" y2="25.1639" width="0.4064" layer="94" curve="18.999182"/>
+<wire x1="80.0122" y1="25.1639" x2="78.4504" y2="23.2487" width="0.4064" layer="94"/>
+<wire x1="78.4504" y1="23.2487" x2="79.7637" y2="21.9354" width="0.4064" layer="94"/>
+<wire x1="79.7637" y1="21.9354" x2="81.6789" y2="23.4972" width="0.4064" layer="94"/>
+<wire x1="81.6789" y1="23.4972" x2="82.4502" y2="23.1" width="0.4064" layer="94" curve="9.499291"/>
+<wire x1="82.4502" y1="23.1" x2="83.5437" y2="25.74" width="0.4064" layer="94"/>
+<wire x1="83.5437" y1="25.74" x2="82.0737" y2="27.94" width="0.4064" layer="94" curve="-67.502133"/>
+<wire x1="82.0737" y1="27.94" x2="85.3663" y2="25.74" width="0.4064" layer="94" curve="-247.498918"/>
+<wire x1="85.3663" y1="25.74" x2="86.4598" y2="23.1" width="0.4064" layer="94"/>
+<polygon width="0.4064" layer="94">
+<vertex x="86.4598" y="23.1" curve="9.499291"/>
+<vertex x="87.2311" y="23.4972"/>
+<vertex x="89.1463" y="21.9354"/>
+<vertex x="90.4596" y="23.2487"/>
+<vertex x="88.8978" y="25.1639" curve="18.999182"/>
+<vertex x="89.5595" y="26.7615"/>
+<vertex x="92.0182" y="27.0114"/>
+<vertex x="92.0182" y="28.8686"/>
+<vertex x="89.5595" y="29.1185" curve="18.999182"/>
+<vertex x="88.8978" y="30.7161"/>
+<vertex x="90.4596" y="32.6313"/>
+<vertex x="89.1463" y="33.9446"/>
+<vertex x="87.2311" y="32.3828" curve="18.999182"/>
+<vertex x="85.6335" y="33.0445"/>
+<vertex x="85.3836" y="35.5032"/>
+<vertex x="83.5264" y="35.5032"/>
+<vertex x="83.2765" y="33.0445" curve="18.999182"/>
+<vertex x="81.6789" y="32.3828"/>
+<vertex x="79.7637" y="33.9446"/>
+<vertex x="78.4504" y="32.6313"/>
+<vertex x="80.0122" y="30.7161" curve="18.999182"/>
+<vertex x="79.3505" y="29.1185"/>
+<vertex x="76.8918" y="28.8686"/>
+<vertex x="76.8918" y="27.0114"/>
+<vertex x="79.3505" y="26.7615" curve="18.999182"/>
+<vertex x="80.0122" y="25.1639"/>
+<vertex x="78.4504" y="23.2487"/>
+<vertex x="79.7637" y="21.9354"/>
+<vertex x="81.6789" y="23.4972" curve="9.499291"/>
+<vertex x="82.4502" y="23.1"/>
+<vertex x="83.5437" y="25.74" curve="-67.502133"/>
+<vertex x="82.0737" y="27.94" curve="-247.498918"/>
+<vertex x="85.3663" y="25.74"/>
+</polygon>
+<wire x1="68.58" y1="15.24" x2="68.58" y2="38.1" width="0.1016" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TABL_L" prefix="FRAME" uservalue="yes">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+401 x 266 mm, landscape</description>
+<gates>
+<gate name="G$1" symbol="TABL_L" x="0" y="0"/>
+<gate name="G$2" symbol="DOCFIELD" x="299.72" y="0" addlevel="must"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="varistor" urn="urn:adsk.eagle:library:410">
+<description>&lt;b&gt;Varistors/Thermistors&lt;/b&gt;&lt;p&gt;
+Block, Siemens and generic&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="R-5" urn="urn:adsk.eagle:footprint:30504/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0" x2="1.778" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="0" x2="-1.27" y2="0" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0.635" x2="-1.27" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<text x="-2.54" y="-2.286" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.27" y="1.016" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+</package>
+<package name="R-7,5" urn="urn:adsk.eagle:footprint:30505/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0" x2="3.048" y2="0" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="0" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-3.048" y2="0" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-1.27" width="0.1524" layer="21"/>
+<pad name="1" x="-3.81" y="0" drill="0.8128" shape="octagon"/>
+<pad name="2" x="3.81" y="0" drill="0.8128" shape="octagon"/>
+<text x="-2.54" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="CT/CN0402" urn="urn:adsk.eagle:footprint:30507/1" library_version="2">
+<description>&lt;b&gt;EPCOS SMD Varistors, MLV; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<wire x1="-0.45" y1="0.2" x2="0.45" y2="0.2" width="0.1016" layer="51"/>
+<wire x1="0.45" y1="0.2" x2="0.45" y2="-0.2" width="0.1016" layer="51"/>
+<wire x1="0.45" y1="-0.2" x2="-0.45" y2="-0.2" width="0.1016" layer="51"/>
+<wire x1="-0.45" y1="-0.2" x2="-0.45" y2="0.2" width="0.1016" layer="51"/>
+<smd name="1" x="-0.55" y="0" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="0.55" y="0" dx="0.6" dy="0.6" layer="1"/>
+<text x="-0.75" y="0.5" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-0.75" y="-1.25" size="0.8128" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.45" y1="-0.2" x2="-0.2" y2="0.2" layer="51"/>
+<rectangle x1="0.2" y1="-0.2" x2="0.45" y2="0.2" layer="51" rot="R180"/>
+</package>
+<package name="CT/CN0603" urn="urn:adsk.eagle:footprint:30508/1" library_version="2">
+<description>&lt;b&gt;EPCOS SMD Varistors, MLV; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<wire x1="-0.75" y1="0.35" x2="0.75" y2="0.35" width="0.1016" layer="51"/>
+<wire x1="0.75" y1="0.35" x2="0.75" y2="-0.35" width="0.1016" layer="51"/>
+<wire x1="0.75" y1="-0.35" x2="-0.75" y2="-0.35" width="0.1016" layer="51"/>
+<wire x1="-0.75" y1="-0.35" x2="-0.75" y2="0.35" width="0.1016" layer="51"/>
+<smd name="1" x="-1" y="0" dx="1" dy="1" layer="1"/>
+<smd name="2" x="1" y="0" dx="1" dy="1" layer="1"/>
+<text x="-1.5" y="1" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.5" y="-2" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.75" y1="-0.35" x2="-0.4" y2="0.35" layer="51"/>
+<rectangle x1="0.4" y1="-0.35" x2="0.75" y2="0.35" layer="51" rot="R180"/>
+</package>
+<package name="CT/CN0805" urn="urn:adsk.eagle:footprint:30509/1" library_version="2">
+<description>&lt;b&gt;EPCOS SMD Varistors, MLV; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<wire x1="-0.95" y1="0.6" x2="0.95" y2="0.6" width="0.1016" layer="51"/>
+<wire x1="0.95" y1="0.6" x2="0.95" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="0.95" y1="-0.6" x2="-0.95" y2="-0.6" width="0.1016" layer="51"/>
+<wire x1="-0.95" y1="-0.6" x2="-0.95" y2="0.6" width="0.1016" layer="51"/>
+<smd name="1" x="-1.1" y="0" dx="1.2" dy="1.4" layer="1"/>
+<smd name="2" x="1.1" y="0" dx="1.2" dy="1.4" layer="1"/>
+<text x="-1.5" y="1" size="1.016" layer="25">&gt;NAME</text>
+<text x="-1.5" y="-2" size="1.016" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.95" y1="-0.6" x2="-0.4" y2="0.6" layer="51"/>
+<rectangle x1="0.4" y1="-0.6" x2="0.95" y2="0.6" layer="51" rot="R180"/>
+</package>
+<package name="CT/CN1206" urn="urn:adsk.eagle:footprint:30510/1" library_version="2">
+<description>&lt;b&gt;EPCOS SMD Varistors, MLV; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<wire x1="-1.65" y1="0.75" x2="1.65" y2="0.75" width="0.1016" layer="51"/>
+<wire x1="1.65" y1="0.75" x2="1.65" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="1.65" y1="-0.75" x2="-1.65" y2="-0.75" width="0.1016" layer="51"/>
+<wire x1="-1.65" y1="-0.75" x2="-1.65" y2="0.75" width="0.1016" layer="51"/>
+<smd name="1" x="-1.65" y="0" dx="1.2" dy="1.8" layer="1"/>
+<smd name="2" x="1.65" y="0" dx="1.2" dy="1.8" layer="1"/>
+<text x="-2" y="1" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-2.5" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.65" y1="-0.75" x2="-0.95" y2="0.75" layer="51"/>
+<rectangle x1="0.95" y1="-0.75" x2="1.65" y2="0.75" layer="51" rot="R180"/>
+</package>
+<package name="CT/CN1210" urn="urn:adsk.eagle:footprint:30511/1" library_version="2">
+<description>&lt;b&gt;EPCOS SMD Varistors, MLV; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<wire x1="-1.65" y1="1.25" x2="1.65" y2="1.25" width="0.1016" layer="51"/>
+<wire x1="1.65" y1="1.25" x2="1.65" y2="-1.25" width="0.1016" layer="51"/>
+<wire x1="1.65" y1="-1.25" x2="-1.65" y2="-1.25" width="0.1016" layer="51"/>
+<wire x1="-1.65" y1="-1.25" x2="-1.65" y2="1.25" width="0.1016" layer="51"/>
+<smd name="1" x="-1.65" y="0" dx="1.2" dy="2.8" layer="1"/>
+<smd name="2" x="1.65" y="0" dx="1.2" dy="2.8" layer="1"/>
+<text x="-2" y="1.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2" y="-3" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.65" y1="-1.25" x2="-0.95" y2="1.25" layer="51"/>
+<rectangle x1="0.95" y1="-1.25" x2="1.65" y2="1.25" layer="51" rot="R180"/>
+</package>
+<package name="CT/CN1812" urn="urn:adsk.eagle:footprint:30512/1" library_version="2">
+<description>&lt;b&gt;EPCOS SMD Varistors, MLV; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<wire x1="-2.35" y1="1.55" x2="2.35" y2="1.55" width="0.1016" layer="51"/>
+<wire x1="2.35" y1="1.55" x2="2.35" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="2.35" y1="-1.55" x2="-2.35" y2="-1.55" width="0.1016" layer="51"/>
+<wire x1="-2.35" y1="-1.55" x2="-2.35" y2="1.55" width="0.1016" layer="51"/>
+<smd name="1" x="-2.25" y="0" dx="1.5" dy="3.6" layer="1"/>
+<smd name="2" x="2.25" y="0" dx="1.5" dy="3.6" layer="1"/>
+<text x="-2.5" y="2.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5" y="-3.5" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.35" y1="-1.55" x2="-1.4" y2="1.55" layer="51"/>
+<rectangle x1="1.4" y1="-1.55" x2="2.35" y2="1.55" layer="51" rot="R180"/>
+</package>
+<package name="CT/CN2220" urn="urn:adsk.eagle:footprint:30513/1" library_version="2">
+<description>&lt;b&gt;EPCOS SMD Varistors, MLV; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<wire x1="-2.95" y1="2.45" x2="2.95" y2="2.45" width="0.1016" layer="51"/>
+<wire x1="2.95" y1="2.45" x2="2.95" y2="-2.45" width="0.1016" layer="51"/>
+<wire x1="2.95" y1="-2.45" x2="-2.95" y2="-2.45" width="0.1016" layer="51"/>
+<wire x1="-2.95" y1="-2.45" x2="-2.95" y2="2.45" width="0.1016" layer="51"/>
+<smd name="1" x="-2.85" y="0" dx="1.5" dy="5.5" layer="1"/>
+<smd name="2" x="2.85" y="0" dx="1.5" dy="5.5" layer="1"/>
+<text x="-3.5" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.5" y="-4.5" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.95" y1="-2.45" x2="-2.01" y2="2.44" layer="51"/>
+<rectangle x1="2.01" y1="-2.44" x2="2.95" y2="2.45" layer="51" rot="R180"/>
+</package>
+<package name="S05K11" urn="urn:adsk.eagle:footprint:30434/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-0.762" y1="3.683" x2="0.762" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="2.667" x2="1.778" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="2.667" x2="-1.778" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-3.683" x2="0.762" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-1.143" x2="-1.016" y2="2.032" width="0.0508" layer="21"/>
+<wire x1="1.016" y1="-2.032" x2="1.016" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="0.762" y1="-3.683" x2="1.778" y2="-2.667" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.778" y1="2.667" x2="-0.762" y2="3.683" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.778" y1="-2.667" x2="-0.762" y2="-3.683" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.762" y1="3.683" x2="1.778" y2="2.667" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="-0.762" y1="-1.143" x2="-0.762" y2="0" width="0.0508" layer="21"/>
+<pad name="1" x="-0.635" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="0.635" y="2.54" drill="0.9144" shape="long"/>
+<text x="-2.032" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.302" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S05K17" urn="urn:adsk.eagle:footprint:30435/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-0.889" y1="3.683" x2="0.889" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="2.667" x2="1.905" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="2.667" x2="-1.905" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-3.683" x2="0.889" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-1.143" x2="-1.143" y2="2.032" width="0.0508" layer="21"/>
+<wire x1="1.143" y1="-2.032" x2="1.143" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="0.889" y1="-3.683" x2="1.905" y2="-2.667" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.905" y1="2.667" x2="-0.889" y2="3.683" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.905" y1="-2.667" x2="-0.889" y2="-3.683" width="0.1524" layer="21" curve="90"/>
+<wire x1="0.889" y1="3.683" x2="1.905" y2="2.667" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.889" y1="0" x2="0.889" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="-0.889" y1="-1.143" x2="-0.889" y2="0" width="0.0508" layer="21"/>
+<pad name="1" x="-0.762" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="0.762" y="2.54" drill="0.9144" shape="long"/>
+<text x="-2.286" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.556" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S05K175" urn="urn:adsk.eagle:footprint:30437/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-1.143" y1="3.683" x2="1.143" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="2.667" x2="2.159" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="2.667" x2="-2.159" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-3.683" x2="1.143" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="-1.143" x2="-1.397" y2="2.032" width="0.0508" layer="21"/>
+<wire x1="1.27" y1="-2.032" x2="1.27" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="1.143" y1="-3.683" x2="2.159" y2="-2.667" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.159" y1="2.667" x2="-1.143" y2="3.683" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="-2.667" x2="-1.143" y2="-3.683" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.143" y1="3.683" x2="2.159" y2="2.667" width="0.1524" layer="21" curve="-90"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="-1.143" y1="-1.143" x2="-1.143" y2="0" width="0.0508" layer="21"/>
+<pad name="1" x="-1.016" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="1.016" y="2.54" drill="0.9144" shape="long"/>
+<text x="-2.54" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S05K230" urn="urn:adsk.eagle:footprint:30438/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-1.397" y1="3.683" x2="1.397" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="2.413" y1="2.667" x2="2.413" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="2.667" x2="-2.413" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="-3.683" x2="1.397" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-1.143" x2="-1.524" y2="2.032" width="0.0508" layer="21"/>
+<wire x1="1.524" y1="-2.032" x2="1.524" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="1.397" y1="-3.683" x2="2.413" y2="-2.667" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.413" y1="2.667" x2="-1.397" y2="3.683" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="-2.667" x2="-1.397" y2="-3.683" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="3.683" x2="2.413" y2="2.667" width="0.1524" layer="21" curve="-90"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="-1.27" y1="-1.143" x2="-1.27" y2="0" width="0.0508" layer="21"/>
+<pad name="1" x="-1.27" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="1.27" y="2.54" drill="0.9144" shape="long"/>
+<text x="-2.794" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.064" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S05K250" urn="urn:adsk.eagle:footprint:30439/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-1.524" y1="3.683" x2="1.524" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="2.667" x2="2.54" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="2.667" x2="-2.54" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-3.683" x2="1.524" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-1.143" x2="-1.651" y2="2.032" width="0.0508" layer="21"/>
+<wire x1="1.651" y1="-2.032" x2="1.651" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="1.524" y1="-3.683" x2="2.54" y2="-2.667" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.54" y1="2.667" x2="-1.524" y2="3.683" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-2.667" x2="-1.524" y2="-3.683" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.524" y1="3.683" x2="2.54" y2="2.667" width="0.1524" layer="21" curve="-90"/>
+<wire x1="1.397" y1="0" x2="1.397" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="-1.397" y1="-1.143" x2="-1.397" y2="0" width="0.0508" layer="21"/>
+<pad name="1" x="-1.397" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="1.397" y="2.54" drill="0.9144" shape="long"/>
+<text x="-2.921" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.191" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S05K275" urn="urn:adsk.eagle:footprint:30428/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-1.651" y1="3.683" x2="1.651" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="2.667" y1="2.667" x2="2.667" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-2.667" y1="2.667" x2="-2.667" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-3.683" x2="1.651" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="-1.143" x2="-1.778" y2="2.032" width="0.0508" layer="21"/>
+<wire x1="1.778" y1="-2.032" x2="1.778" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="1.651" y1="-3.683" x2="2.667" y2="-2.667" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.667" y1="2.667" x2="-1.651" y2="3.683" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.667" y1="-2.667" x2="-1.651" y2="-3.683" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.651" y1="3.683" x2="2.667" y2="2.667" width="0.1524" layer="21" curve="-90"/>
+<wire x1="1.524" y1="0" x2="1.524" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="-1.524" y1="-1.143" x2="-1.524" y2="0" width="0.0508" layer="21"/>
+<pad name="1" x="-1.524" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="1.524" y="2.54" drill="0.9144" shape="long"/>
+<text x="-3.175" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.318" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S05K300" urn="urn:adsk.eagle:footprint:30440/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-1.651" y1="3.683" x2="1.651" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="2.667" y1="2.667" x2="2.667" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-2.667" y1="2.667" x2="-2.667" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-1.651" y1="-3.683" x2="1.651" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="-1.143" x2="-1.778" y2="2.032" width="0.0508" layer="21"/>
+<wire x1="1.778" y1="-2.032" x2="1.778" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="1.651" y1="-3.683" x2="2.667" y2="-2.667" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.667" y1="2.667" x2="-1.651" y2="3.683" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.667" y1="-2.667" x2="-1.651" y2="-3.683" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.651" y1="3.683" x2="2.667" y2="2.667" width="0.1524" layer="21" curve="-90"/>
+<wire x1="1.524" y1="0" x2="1.524" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="-1.524" y1="-1.143" x2="-1.524" y2="0" width="0.0508" layer="21"/>
+<pad name="1" x="-1.524" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="1.524" y="2.54" drill="0.9144" shape="long"/>
+<text x="-3.175" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.318" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S05K385" urn="urn:adsk.eagle:footprint:30441/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-2.159" y1="3.683" x2="2.159" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="2.667" x2="3.175" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="2.667" x2="-3.175" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="-3.683" x2="2.159" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-1.143" x2="-2.286" y2="1.905" width="0.0508" layer="21"/>
+<wire x1="2.286" y1="-1.905" x2="2.286" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="2.159" y1="-3.683" x2="3.175" y2="-2.667" width="0.1524" layer="21" curve="90"/>
+<wire x1="-3.175" y1="2.667" x2="-2.159" y2="3.683" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.175" y1="-2.667" x2="-2.159" y2="-3.683" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="3.683" x2="3.175" y2="2.667" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.905" y1="-1.143" x2="-1.905" y2="0" width="0.0508" layer="21"/>
+<wire x1="1.905" y1="0" x2="1.905" y2="1.143" width="0.0508" layer="21"/>
+<pad name="1" x="-1.905" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="1.905" y="2.54" drill="0.9144" shape="long"/>
+<text x="-3.556" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.826" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S05K40" urn="urn:adsk.eagle:footprint:30436/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-1.143" y1="3.683" x2="1.143" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="2.667" x2="2.159" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="2.667" x2="-2.159" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-3.683" x2="1.143" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="2.032" width="0.0508" layer="21"/>
+<wire x1="1.27" y1="-2.032" x2="1.27" y2="1.27" width="0.0508" layer="21"/>
+<wire x1="1.143" y1="-3.683" x2="2.159" y2="-2.667" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.159" y1="2.667" x2="-1.143" y2="3.683" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="-2.667" x2="-1.143" y2="-3.683" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.143" y1="3.683" x2="2.159" y2="2.667" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.016" y1="-1.27" x2="-1.016" y2="0" width="0.0508" layer="21"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="1.27" width="0.0508" layer="21"/>
+<pad name="1" x="-0.889" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="0.889" y="2.54" drill="0.9144" shape="long"/>
+<text x="-2.54" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S05K420" urn="urn:adsk.eagle:footprint:30442/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-2.286" y1="3.683" x2="2.286" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="2.667" x2="3.302" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="2.667" x2="-3.302" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-3.683" x2="2.286" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.143" x2="-2.54" y2="1.905" width="0.0508" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="2.286" y1="-3.683" x2="3.302" y2="-2.667" width="0.1524" layer="21" curve="90"/>
+<wire x1="-3.302" y1="2.667" x2="-2.286" y2="3.683" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.302" y1="-2.667" x2="-2.286" y2="-3.683" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.286" y1="3.683" x2="3.302" y2="2.667" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.159" y1="0" x2="2.159" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="-2.159" y1="-1.143" x2="-2.159" y2="0" width="0.0508" layer="21"/>
+<pad name="1" x="-2.159" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="2.159" y="2.54" drill="0.9144" shape="long"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.953" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S05K440" urn="urn:adsk.eagle:footprint:30443/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-2.413" y1="3.683" x2="2.413" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="2.667" x2="3.429" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="2.667" x2="-3.429" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-3.683" x2="2.413" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-1.143" x2="-2.032" y2="0" width="0.0508" layer="21"/>
+<wire x1="2.032" y1="0" x2="2.032" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="2.413" y1="-3.683" x2="3.429" y2="-2.667" width="0.1524" layer="21" curve="90"/>
+<wire x1="-3.429" y1="2.667" x2="-2.413" y2="3.683" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="-2.667" x2="-2.413" y2="-3.683" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.413" y1="3.683" x2="3.429" y2="2.667" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.286" y1="-1.905" x2="2.286" y2="1.143" width="0.0508" layer="21"/>
+<wire x1="-2.286" y1="-1.143" x2="-2.286" y2="1.905" width="0.0508" layer="21"/>
+<pad name="1" x="-2.286" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="2.286" y="2.54" drill="0.9144" shape="long"/>
+<text x="-4.064" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="5.334" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S05K460" urn="urn:adsk.eagle:footprint:30444/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-2.54" y1="3.683" x2="2.54" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="3.556" y1="2.667" x2="3.556" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-3.556" y1="2.667" x2="-3.556" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-3.683" x2="2.54" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="0.889" x2="-2.286" y2="1.905" width="0.0508" layer="21"/>
+<wire x1="2.286" y1="-1.905" x2="2.286" y2="-0.889" width="0.0508" layer="21"/>
+<wire x1="2.54" y1="-3.683" x2="3.556" y2="-2.667" width="0.1524" layer="21" curve="90"/>
+<wire x1="-3.556" y1="2.667" x2="-2.54" y2="3.683" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.556" y1="-2.667" x2="-2.54" y2="-3.683" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.54" y1="3.683" x2="3.556" y2="2.667" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-1.143" x2="-2.54" y2="1.905" width="0.0508" layer="21"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="1.143" width="0.0508" layer="21"/>
+<pad name="1" x="-2.413" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="2.413" y="2.54" drill="0.9144" shape="long"/>
+<text x="-4.064" y="-2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="5.334" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S07K11" urn="urn:adsk.eagle:footprint:30445/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-0.508" y1="4.572" x2="0.508" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-1.397" x2="-0.635" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="0.635" y2="1.397" width="0.0508" layer="21"/>
+<wire x1="0.381" y1="-1.905" x2="0.381" y2="0" width="0.0508" layer="21"/>
+<wire x1="-0.381" y1="0" x2="-0.381" y2="1.905" width="0.0508" layer="21"/>
+<wire x1="1.778" y1="-0.635" x2="1.778" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="0.635" x2="-1.778" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-1.524" x2="-1.143" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="1.143" y1="1.524" x2="1.143" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="0.635" x2="-1.143" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.778" y1="-2.413" x2="-1.143" y2="-3.048" width="0.1524" layer="51" curve="90"/>
+<wire x1="1.143" y1="3.048" x2="1.778" y2="2.413" width="0.1524" layer="51" curve="-90"/>
+<wire x1="1.143" y1="-1.27" x2="1.778" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.143" y1="-3.937" x2="1.143" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-1.524" x2="-1.143" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="0.508" y1="-4.572" x2="1.143" y2="-3.937" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.143" y1="-3.937" x2="-0.508" y2="-4.572" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.143" y1="3.937" x2="-0.508" y2="4.572" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.508" y1="4.572" x2="1.143" y2="3.937" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.508" y1="-4.572" x2="0.508" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="3.556" x2="1.143" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="-1.143" y1="-3.937" x2="-1.143" y2="-3.556" width="0.1524" layer="21"/>
+<pad name="1" x="-0.635" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="0.635" y="2.54" drill="0.9144" shape="long"/>
+<text x="-2.032" y="-4.064" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.429" y="-4.064" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S07K17" urn="urn:adsk.eagle:footprint:30446/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-0.635" y1="4.572" x2="0.635" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="-0.762" y1="-1.397" x2="-0.762" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="1.397" width="0.0508" layer="21"/>
+<wire x1="0.508" y1="-2.54" x2="0.508" y2="0" width="0.0508" layer="21"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="1.905" y1="-0.635" x2="1.905" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="0.635" x2="-1.905" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.524" x2="-1.27" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="1.27" y1="1.524" x2="1.27" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="0.635" x2="-1.27" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.905" y1="-2.413" x2="-1.27" y2="-3.048" width="0.1524" layer="51" curve="90"/>
+<wire x1="1.27" y1="3.048" x2="1.905" y2="2.413" width="0.1524" layer="51" curve="-90"/>
+<wire x1="1.27" y1="-1.27" x2="1.905" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.27" y1="-3.937" x2="1.27" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.524" x2="-1.27" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-4.572" x2="1.27" y2="-3.937" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.27" y1="-3.937" x2="-0.635" y2="-4.572" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.27" y1="3.937" x2="-0.635" y2="4.572" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.635" y1="4.572" x2="1.27" y2="3.937" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.635" y1="-4.572" x2="0.635" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="3.556" x2="1.27" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-3.937" x2="-1.27" y2="-3.556" width="0.1524" layer="21"/>
+<pad name="1" x="-0.762" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="0.762" y="2.54" drill="0.9144" shape="long"/>
+<text x="-2.286" y="-4.064" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.556" y="-4.064" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S07K175" urn="urn:adsk.eagle:footprint:30448/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-0.889" y1="4.572" x2="0.889" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="-1.016" y1="-1.397" x2="-1.016" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="1.016" y1="-2.54" x2="1.016" y2="1.397" width="0.0508" layer="21"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="0" width="0.0508" layer="21"/>
+<wire x1="-0.762" y1="0" x2="-0.762" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="2.159" y1="-0.635" x2="2.159" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="0.635" x2="-2.159" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-1.524" x2="-1.524" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="1.524" y1="1.524" x2="1.524" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="-2.159" y1="0.635" x2="-1.524" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="-2.413" x2="-1.524" y2="-3.048" width="0.1524" layer="51" curve="90"/>
+<wire x1="1.524" y1="3.048" x2="2.159" y2="2.413" width="0.1524" layer="51" curve="-90"/>
+<wire x1="1.524" y1="-1.27" x2="2.159" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.524" y1="-3.937" x2="1.524" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-1.524" x2="-1.524" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="0.889" y1="-4.572" x2="1.524" y2="-3.937" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.524" y1="-3.937" x2="-0.889" y2="-4.572" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.524" y1="3.937" x2="-0.889" y2="4.572" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.889" y1="4.572" x2="1.524" y2="3.937" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.889" y1="-4.572" x2="0.889" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="3.556" x2="1.524" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-3.937" x2="-1.524" y2="-3.556" width="0.1524" layer="21"/>
+<pad name="1" x="-1.016" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="1.016" y="2.54" drill="0.9144" shape="long"/>
+<text x="-2.54" y="-4.064" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.81" y="-4.064" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S07K230" urn="urn:adsk.eagle:footprint:30449/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-1.143" y1="4.572" x2="1.143" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.397" x2="-1.27" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="1.397" width="0.0508" layer="21"/>
+<wire x1="1.016" y1="-2.54" x2="1.016" y2="0" width="0.0508" layer="21"/>
+<wire x1="-1.016" y1="0" x2="-1.016" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="2.413" y1="-0.635" x2="2.413" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="0.635" x2="-2.413" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="-1.524" x2="-1.778" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="1.524" x2="1.778" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="-2.413" y1="0.635" x2="-1.778" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="-2.413" x2="-1.778" y2="-3.048" width="0.1524" layer="51" curve="90"/>
+<wire x1="1.778" y1="3.048" x2="2.413" y2="2.413" width="0.1524" layer="51" curve="-90"/>
+<wire x1="1.778" y1="-1.27" x2="2.413" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.778" y1="-3.937" x2="1.778" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="-1.524" x2="-1.778" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="1.143" y1="-4.572" x2="1.778" y2="-3.937" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.778" y1="-3.937" x2="-1.143" y2="-4.572" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.778" y1="3.937" x2="-1.143" y2="4.572" width="0.1524" layer="21" curve="-90"/>
+<wire x1="1.143" y1="4.572" x2="1.778" y2="3.937" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.143" y1="-4.572" x2="1.143" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="3.556" x2="1.778" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="-1.778" y1="-3.937" x2="-1.778" y2="-3.556" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="1.27" y="2.54" drill="0.9144" shape="long"/>
+<text x="-2.794" y="-4.064" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.064" y="-4.064" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S07K250" urn="urn:adsk.eagle:footprint:30450/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-1.27" y1="4.572" x2="1.27" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="-1.397" x2="-1.397" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="1.397" y1="-2.54" x2="1.397" y2="1.397" width="0.0508" layer="21"/>
+<wire x1="1.143" y1="-2.54" x2="1.143" y2="0" width="0.0508" layer="21"/>
+<wire x1="-1.143" y1="0" x2="-1.143" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="2.54" y1="-0.635" x2="2.54" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="0.635" x2="-2.54" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.524" x2="-1.905" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="1.905" y1="1.524" x2="1.905" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="0.635" x2="-1.905" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.54" y1="-2.413" x2="-1.905" y2="-3.048" width="0.1524" layer="51" curve="90"/>
+<wire x1="1.905" y1="3.048" x2="2.54" y2="2.413" width="0.1524" layer="51" curve="-90"/>
+<wire x1="1.905" y1="-1.27" x2="2.54" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.905" y1="-3.937" x2="1.905" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.524" x2="-1.905" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-4.572" x2="1.905" y2="-3.937" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.905" y1="-3.937" x2="-1.27" y2="-4.572" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.905" y1="3.937" x2="-1.27" y2="4.572" width="0.1524" layer="21" curve="-90"/>
+<wire x1="1.27" y1="4.572" x2="1.905" y2="3.937" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.27" y1="-4.572" x2="1.27" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="3.556" x2="1.905" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-3.937" x2="-1.905" y2="-3.556" width="0.1524" layer="21"/>
+<pad name="1" x="-1.397" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="1.397" y="2.54" drill="0.9144" shape="long"/>
+<text x="-2.921" y="-4.064" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.191" y="-4.064" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S07K275" urn="urn:adsk.eagle:footprint:30429/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-1.397" y1="4.572" x2="1.397" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-1.397" x2="-1.524" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="1.524" y1="-2.54" x2="1.524" y2="1.397" width="0.0508" layer="21"/>
+<wire x1="1.27" y1="-2.54" x2="1.27" y2="0" width="0.0508" layer="21"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="2.667" y1="-0.635" x2="2.667" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-2.667" y1="0.635" x2="-2.667" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-1.524" x2="-2.032" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="1.524" x2="2.032" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="-2.667" y1="0.635" x2="-2.032" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.667" y1="-2.413" x2="-2.032" y2="-3.048" width="0.1524" layer="51" curve="90"/>
+<wire x1="2.032" y1="3.048" x2="2.667" y2="2.413" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.032" y1="-1.27" x2="2.667" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.032" y1="-3.937" x2="2.032" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-1.524" x2="-2.032" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="-4.572" x2="2.032" y2="-3.937" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.032" y1="-3.937" x2="-1.397" y2="-4.572" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.032" y1="3.937" x2="-1.397" y2="4.572" width="0.1524" layer="21" curve="-90"/>
+<wire x1="1.397" y1="4.572" x2="2.032" y2="3.937" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.397" y1="-4.572" x2="1.397" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="3.556" x2="2.032" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-3.937" x2="-2.032" y2="-3.556" width="0.1524" layer="21"/>
+<pad name="1" x="-1.524" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="1.524" y="2.54" drill="0.9144" shape="long"/>
+<text x="-3.048" y="-4.064" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.318" y="-4.064" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S07K385" urn="urn:adsk.eagle:footprint:30451/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-1.905" y1="4.572" x2="1.905" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="-1.397" x2="-2.032" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="2.032" y1="-2.54" x2="2.032" y2="1.397" width="0.0508" layer="21"/>
+<wire x1="1.778" y1="-2.54" x2="1.778" y2="0" width="0.0508" layer="21"/>
+<wire x1="-1.778" y1="0" x2="-1.778" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="3.175" y1="-0.635" x2="3.175" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="0.635" x2="-3.175" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.524" x2="-2.54" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="1.524" x2="2.54" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="-3.175" y1="0.635" x2="-2.54" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.175" y1="-2.413" x2="-2.54" y2="-3.048" width="0.1524" layer="51" curve="90"/>
+<wire x1="2.54" y1="3.048" x2="3.175" y2="2.413" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.54" y1="-1.27" x2="3.175" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.54" y1="-3.937" x2="2.54" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.524" x2="-2.54" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-4.572" x2="2.54" y2="-3.937" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.54" y1="-3.937" x2="-1.905" y2="-4.572" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.54" y1="3.937" x2="-1.905" y2="4.572" width="0.1524" layer="21" curve="-90"/>
+<wire x1="1.905" y1="4.572" x2="2.54" y2="3.937" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-1.905" y1="-4.572" x2="1.905" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="3.556" x2="2.54" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-3.937" x2="-2.54" y2="-3.556" width="0.1524" layer="21"/>
+<pad name="1" x="-1.905" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="1.905" y="2.54" drill="0.9144" shape="long"/>
+<text x="-3.556" y="-4.064" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.826" y="-4.064" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S07K40" urn="urn:adsk.eagle:footprint:30447/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-0.762" y1="4.572" x2="0.762" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="-0.889" y1="-1.397" x2="-0.889" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="0.889" y1="-2.54" x2="0.889" y2="1.397" width="0.0508" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="0.635" y2="0" width="0.0508" layer="21"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="2.032" y1="-0.635" x2="2.032" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-2.032" y1="0.635" x2="-2.032" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="-1.524" x2="-1.397" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="1.397" y1="1.524" x2="1.397" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="-2.032" y1="0.635" x2="-1.397" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.032" y1="-2.413" x2="-1.397" y2="-3.048" width="0.1524" layer="51" curve="90"/>
+<wire x1="1.397" y1="3.048" x2="2.032" y2="2.413" width="0.1524" layer="51" curve="-90"/>
+<wire x1="1.397" y1="-1.27" x2="2.032" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="1.397" y1="-3.937" x2="1.397" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="-1.524" x2="-1.397" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="0.762" y1="-4.572" x2="1.397" y2="-3.937" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.397" y1="-3.937" x2="-0.762" y2="-4.572" width="0.1524" layer="21" curve="90"/>
+<wire x1="-1.397" y1="3.937" x2="-0.762" y2="4.572" width="0.1524" layer="21" curve="-90"/>
+<wire x1="0.762" y1="4.572" x2="1.397" y2="3.937" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-0.762" y1="-4.572" x2="0.762" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="1.397" y1="3.556" x2="1.397" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="-3.937" x2="-1.397" y2="-3.556" width="0.1524" layer="21"/>
+<pad name="1" x="-0.889" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="0.889" y="2.54" drill="0.9144" shape="long"/>
+<text x="-2.413" y="-4.064" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.683" y="-4.064" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S07K420" urn="urn:adsk.eagle:footprint:30452/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-2.032" y1="4.572" x2="2.032" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="-1.397" x2="-2.159" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="2.159" y1="-2.54" x2="2.159" y2="1.397" width="0.0508" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="1.905" y2="0" width="0.0508" layer="21"/>
+<wire x1="-1.905" y1="0" x2="-1.905" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="3.302" y1="-0.635" x2="3.302" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-3.302" y1="0.635" x2="-3.302" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-2.667" y1="-1.524" x2="-2.667" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="2.667" y1="1.524" x2="2.667" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="-3.302" y1="0.635" x2="-2.667" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.302" y1="-2.413" x2="-2.667" y2="-3.048" width="0.1524" layer="51" curve="90"/>
+<wire x1="2.667" y1="3.048" x2="3.302" y2="2.413" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.667" y1="-1.27" x2="3.302" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.667" y1="-3.937" x2="2.667" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-2.667" y1="-1.524" x2="-2.667" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="2.032" y1="-4.572" x2="2.667" y2="-3.937" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.667" y1="-3.937" x2="-2.032" y2="-4.572" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.667" y1="3.937" x2="-2.032" y2="4.572" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.032" y1="4.572" x2="2.667" y2="3.937" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.032" y1="-4.572" x2="2.032" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="2.667" y1="3.556" x2="2.667" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="-2.667" y1="-3.937" x2="-2.667" y2="-3.556" width="0.1524" layer="21"/>
+<pad name="1" x="-2.159" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="2.159" y="2.54" drill="0.9144" shape="long"/>
+<text x="-3.683" y="-4.064" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="4.953" y="-4.064" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S07K440" urn="urn:adsk.eagle:footprint:30453/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-2.159" y1="4.572" x2="2.159" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="-2.286" y1="-1.397" x2="-2.286" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="2.286" y1="-2.54" x2="2.286" y2="1.397" width="0.0508" layer="21"/>
+<wire x1="2.032" y1="-2.54" x2="2.032" y2="0" width="0.0508" layer="21"/>
+<wire x1="-2.032" y1="0" x2="-2.032" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="3.429" y1="-0.635" x2="3.429" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="0.635" x2="-3.429" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="-1.524" x2="-2.794" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="2.794" y1="1.524" x2="2.794" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="-3.429" y1="0.635" x2="-2.794" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="-2.413" x2="-2.794" y2="-3.048" width="0.1524" layer="51" curve="90"/>
+<wire x1="2.794" y1="3.048" x2="3.429" y2="2.413" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.794" y1="-1.27" x2="3.429" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.794" y1="-3.937" x2="2.794" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="-1.524" x2="-2.794" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="-4.572" x2="2.794" y2="-3.937" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.794" y1="-3.937" x2="-2.159" y2="-4.572" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.794" y1="3.937" x2="-2.159" y2="4.572" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.159" y1="4.572" x2="2.794" y2="3.937" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.159" y1="-4.572" x2="2.159" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="3.556" x2="2.794" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="-2.794" y1="-3.937" x2="-2.794" y2="-3.556" width="0.1524" layer="21"/>
+<pad name="1" x="-2.286" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="2.286" y="2.54" drill="0.9144" shape="long"/>
+<text x="-3.81" y="-4.064" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-4.064" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="S07K460" urn="urn:adsk.eagle:footprint:30454/1" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<wire x1="-2.286" y1="4.572" x2="2.286" y2="4.572" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-1.397" x2="-2.413" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="2.413" y1="-2.54" x2="2.413" y2="1.397" width="0.0508" layer="21"/>
+<wire x1="2.159" y1="-2.54" x2="2.159" y2="0" width="0.0508" layer="21"/>
+<wire x1="-2.159" y1="0" x2="-2.159" y2="2.54" width="0.0508" layer="21"/>
+<wire x1="3.556" y1="-0.635" x2="3.556" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-3.556" y1="0.635" x2="-3.556" y2="-2.413" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="-1.524" x2="-2.921" y2="-3.556" width="0.1524" layer="51"/>
+<wire x1="2.921" y1="1.524" x2="2.921" y2="3.556" width="0.1524" layer="51"/>
+<wire x1="-3.556" y1="0.635" x2="-2.921" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.556" y1="-2.413" x2="-2.921" y2="-3.048" width="0.1524" layer="51" curve="90"/>
+<wire x1="2.921" y1="3.048" x2="3.556" y2="2.413" width="0.1524" layer="51" curve="-90"/>
+<wire x1="2.921" y1="-1.27" x2="3.556" y2="-0.635" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.921" y1="-3.937" x2="2.921" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="-1.524" x2="-2.921" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="2.286" y1="-4.572" x2="2.921" y2="-3.937" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.921" y1="-3.937" x2="-2.286" y2="-4.572" width="0.1524" layer="21" curve="90"/>
+<wire x1="-2.921" y1="3.937" x2="-2.286" y2="4.572" width="0.1524" layer="21" curve="-90"/>
+<wire x1="2.286" y1="4.572" x2="2.921" y2="3.937" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.286" y1="-4.572" x2="2.286" y2="-4.572" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="3.556" x2="2.921" y2="3.937" width="0.1524" layer="21"/>
+<wire x1="-2.921" y1="-3.937" x2="-2.921" y2="-3.556" width="0.1524" layer="21"/>
+<pad name="1" x="-2.413" y="-2.54" drill="0.9144" shape="long"/>
+<pad name="2" x="2.413" y="2.54" drill="0.9144" shape="long"/>
+<text x="-3.937" y="-4.064" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
+<text x="5.207" y="-4.064" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+</package>
+<package name="CU3225K" urn="urn:adsk.eagle:footprint:30514/1" library_version="2">
+<description>&lt;b&gt;SMD Varistors Monolithic; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.epcos.com .. 01430148.pdf</description>
+<wire x1="-3.5" y1="3.05" x2="3.5" y2="3.05" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="3.05" x2="3.5" y2="-3.05" width="0.2032" layer="51"/>
+<wire x1="3.5" y1="-3.05" x2="-3.5" y2="-3.05" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="-3.05" x2="-3.5" y2="3.05" width="0.2032" layer="51"/>
+<wire x1="-3.5" y1="-3.05" x2="-3.5" y2="-1.95" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="-1.95" x2="3.5" y2="-3.05" width="0.2032" layer="21"/>
+<wire x1="3.5" y1="3.05" x2="3.5" y2="1.95" width="0.2032" layer="21"/>
+<wire x1="-3.5" y1="1.95" x2="-3.5" y2="3.05" width="0.2032" layer="21"/>
+<smd name="1" x="-3.65" y="0" dx="2.8" dy="3.5" layer="1"/>
+<smd name="2" x="3.65" y="0" dx="2.8" dy="3.5" layer="1"/>
+<text x="-3.5" y="3.5" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.5" y="-5" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4" y1="-1.5" x2="-3.6" y2="1.5" layer="51"/>
+<rectangle x1="3.6" y1="-1.5" x2="4" y2="1.5" layer="51" rot="R180"/>
+</package>
+<package name="CU4032K" urn="urn:adsk.eagle:footprint:30515/1" library_version="2">
+<description>&lt;b&gt;SMD Varistors Monolithic; Standard Series&lt;/b&gt;&lt;p&gt;
+Source: www.epcos.com .. 01430148.pdf</description>
+<wire x1="-4.55" y1="3.9" x2="4.55" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="4.55" y1="3.9" x2="4.55" y2="-3.9" width="0.2032" layer="51"/>
+<wire x1="4.55" y1="-3.9" x2="-4.55" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="-4.55" y1="-3.9" x2="-4.55" y2="3.9" width="0.2032" layer="51"/>
+<wire x1="-4.55" y1="-3.9" x2="-4.55" y2="-1.95" width="0.2032" layer="21"/>
+<wire x1="4.55" y1="-1.95" x2="4.55" y2="-3.9" width="0.2032" layer="21"/>
+<wire x1="4.55" y1="3.9" x2="4.55" y2="1.95" width="0.2032" layer="21"/>
+<wire x1="-4.55" y1="1.95" x2="-4.55" y2="3.9" width="0.2032" layer="21"/>
+<smd name="1" x="-4.65" y="0" dx="2.8" dy="3.5" layer="1"/>
+<smd name="2" x="4.65" y="0" dx="2.8" dy="3.5" layer="1"/>
+<text x="-4.55" y="4.35" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.55" y="-5.85" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-5.05" y1="-1.5" x2="-4.65" y2="1.5" layer="51"/>
+<rectangle x1="4.65" y1="-1.5" x2="5.05" y2="1.5" layer="51" rot="R180"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="R-5" urn="urn:adsk.eagle:package:30591/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="R-5"/>
+</packageinstances>
+</package3d>
+<package3d name="R-7,5" urn="urn:adsk.eagle:package:30593/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="R-7,5"/>
+</packageinstances>
+</package3d>
+<package3d name="CT/CN0402" urn="urn:adsk.eagle:package:30596/1" type="box" library_version="2">
+<description>EPCOS SMD Varistors, MLV; Standard Series
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<packageinstances>
+<packageinstance name="CT/CN0402"/>
+</packageinstances>
+</package3d>
+<package3d name="CT/CN0603" urn="urn:adsk.eagle:package:30597/1" type="box" library_version="2">
+<description>EPCOS SMD Varistors, MLV; Standard Series
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<packageinstances>
+<packageinstance name="CT/CN0603"/>
+</packageinstances>
+</package3d>
+<package3d name="CT/CN0805" urn="urn:adsk.eagle:package:30598/1" type="box" library_version="2">
+<description>EPCOS SMD Varistors, MLV; Standard Series
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<packageinstances>
+<packageinstance name="CT/CN0805"/>
+</packageinstances>
+</package3d>
+<package3d name="CT/CN1206" urn="urn:adsk.eagle:package:30599/1" type="box" library_version="2">
+<description>EPCOS SMD Varistors, MLV; Standard Series
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<packageinstances>
+<packageinstance name="CT/CN1206"/>
+</packageinstances>
+</package3d>
+<package3d name="CT/CN1210" urn="urn:adsk.eagle:package:30600/1" type="box" library_version="2">
+<description>EPCOS SMD Varistors, MLV; Standard Series
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<packageinstances>
+<packageinstance name="CT/CN1210"/>
+</packageinstances>
+</package3d>
+<package3d name="CT/CN1812" urn="urn:adsk.eagle:package:30610/1" type="box" library_version="2">
+<description>EPCOS SMD Varistors, MLV; Standard Series
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<packageinstances>
+<packageinstance name="CT/CN1812"/>
+</packageinstances>
+</package3d>
+<package3d name="CT/CN2220" urn="urn:adsk.eagle:package:30603/1" type="box" library_version="2">
+<description>EPCOS SMD Varistors, MLV; Standard Series
+Source: www.farnell.com/datasheets/49238.pdf</description>
+<packageinstances>
+<packageinstance name="CT/CN2220"/>
+</packageinstances>
+</package3d>
+<package3d name="S05K11" urn="urn:adsk.eagle:package:30524/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S05K11"/>
+</packageinstances>
+</package3d>
+<package3d name="S05K17" urn="urn:adsk.eagle:package:30525/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S05K17"/>
+</packageinstances>
+</package3d>
+<package3d name="S05K175" urn="urn:adsk.eagle:package:30529/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S05K175"/>
+</packageinstances>
+</package3d>
+<package3d name="S05K230" urn="urn:adsk.eagle:package:30530/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S05K230"/>
+</packageinstances>
+</package3d>
+<package3d name="S05K250" urn="urn:adsk.eagle:package:30531/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S05K250"/>
+</packageinstances>
+</package3d>
+<package3d name="S05K275" urn="urn:adsk.eagle:package:30518/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S05K275"/>
+</packageinstances>
+</package3d>
+<package3d name="S05K300" urn="urn:adsk.eagle:package:30536/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S05K300"/>
+</packageinstances>
+</package3d>
+<package3d name="S05K385" urn="urn:adsk.eagle:package:30532/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S05K385"/>
+</packageinstances>
+</package3d>
+<package3d name="S05K40" urn="urn:adsk.eagle:package:30527/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S05K40"/>
+</packageinstances>
+</package3d>
+<package3d name="S05K420" urn="urn:adsk.eagle:package:30533/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S05K420"/>
+</packageinstances>
+</package3d>
+<package3d name="S05K440" urn="urn:adsk.eagle:package:30534/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S05K440"/>
+</packageinstances>
+</package3d>
+<package3d name="S05K460" urn="urn:adsk.eagle:package:30535/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S05K460"/>
+</packageinstances>
+</package3d>
+<package3d name="S07K11" urn="urn:adsk.eagle:package:30537/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S07K11"/>
+</packageinstances>
+</package3d>
+<package3d name="S07K17" urn="urn:adsk.eagle:package:30546/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S07K17"/>
+</packageinstances>
+</package3d>
+<package3d name="S07K175" urn="urn:adsk.eagle:package:30539/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S07K175"/>
+</packageinstances>
+</package3d>
+<package3d name="S07K230" urn="urn:adsk.eagle:package:30547/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S07K230"/>
+</packageinstances>
+</package3d>
+<package3d name="S07K250" urn="urn:adsk.eagle:package:30540/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S07K250"/>
+</packageinstances>
+</package3d>
+<package3d name="S07K275" urn="urn:adsk.eagle:package:30519/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S07K275"/>
+</packageinstances>
+</package3d>
+<package3d name="S07K385" urn="urn:adsk.eagle:package:30541/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S07K385"/>
+</packageinstances>
+</package3d>
+<package3d name="S07K40" urn="urn:adsk.eagle:package:30538/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S07K40"/>
+</packageinstances>
+</package3d>
+<package3d name="S07K420" urn="urn:adsk.eagle:package:30543/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S07K420"/>
+</packageinstances>
+</package3d>
+<package3d name="S07K440" urn="urn:adsk.eagle:package:30542/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S07K440"/>
+</packageinstances>
+</package3d>
+<package3d name="S07K460" urn="urn:adsk.eagle:package:30544/1" type="box" library_version="2">
+<description>VARISTOR</description>
+<packageinstances>
+<packageinstance name="S07K460"/>
+</packageinstances>
+</package3d>
+<package3d name="CU3225K" urn="urn:adsk.eagle:package:30601/1" type="box" library_version="2">
+<description>SMD Varistors Monolithic; Standard Series
+Source: www.epcos.com .. 01430148.pdf</description>
+<packageinstances>
+<packageinstance name="CU3225K"/>
+</packageinstances>
+</package3d>
+<package3d name="CU4032K" urn="urn:adsk.eagle:package:30602/1" type="box" library_version="2">
+<description>SMD Varistors Monolithic; Standard Series
+Source: www.epcos.com .. 01430148.pdf</description>
+<packageinstances>
+<packageinstance name="CU4032K"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="VARISTOR" urn="urn:adsk.eagle:symbol:30506/1" library_version="2">
+<wire x1="2.54" y1="1.016" x2="2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.016" x2="-2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.016" x2="-2.54" y2="1.016" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.016" x2="2.54" y2="1.016" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.032" x2="2.032" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="2.032" x2="-2.54" y2="2.032" width="0.254" layer="94"/>
+<wire x1="2.032" y1="-2.032" x2="-2.032" y2="2.032" width="0.254" layer="94"/>
+<text x="-2.54" y="3.81" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-6.35" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="VARISTOR" urn="urn:adsk.eagle:component:30685/2" prefix="R" library_version="2">
+<description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="VARISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-2,5" package="R-5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30591/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-7,5" package="R-7,5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30593/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="2" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-5" package="R-5">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30591/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="6" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CN0402" package="CT/CN0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30596/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CN0603" package="CT/CN0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30597/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="10" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CN0805" package="CT/CN0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30598/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CN1206" package="CT/CN1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30599/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CN1210" package="CT/CN1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30600/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CN1812" package="CT/CN1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30610/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="1" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CN2220" package="CT/CN2220">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30603/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S05K11" package="S05K11">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30524/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S05K17" package="S05K17">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30525/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S05K175" package="S05K175">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30529/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S05K230" package="S05K230">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30530/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S05K250" package="S05K250">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30531/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S05K275" package="S05K275">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30518/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S05K300" package="S05K300">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30536/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S05K385" package="S05K385">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30532/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S05K40" package="S05K40">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30527/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S05K420" package="S05K420">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30533/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S05K440" package="S05K440">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30534/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S05K460" package="S05K460">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30535/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S07K11" package="S07K11">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30537/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S07K17" package="S07K17">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30546/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S07K175" package="S07K175">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30539/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S07K230" package="S07K230">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30547/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S07K250" package="S07K250">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30540/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S07K275" package="S07K275">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30519/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S07K285" package="S07K385">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30541/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S07K40" package="S07K40">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30538/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S07K420" package="S07K420">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30543/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S07K440" package="S07K440">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30542/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="S07K460" package="S07K460">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30544/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CU3225K" package="CU3225K">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30601/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="CU4032K" package="CU4032K">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30602/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="POPULARITY" value="0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="switch" urn="urn:adsk.eagle:library:380">
+<description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
+Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="320-938" urn="urn:adsk.eagle:footprint:27541/1" library_version="2">
+<description>&lt;b&gt;TOGGLE SWITCH&lt;/b&gt;&lt;p&gt;
+distributor RS Components</description>
+<wire x1="-5.4102" y1="6.6802" x2="-6.0452" y2="6.0452" width="0.1524" layer="21"/>
+<wire x1="-5.4102" y1="6.6802" x2="5.4102" y2="6.6802" width="0.1524" layer="21"/>
+<wire x1="6.0452" y1="6.0452" x2="5.4102" y2="6.6802" width="0.1524" layer="21"/>
+<wire x1="5.4102" y1="-6.6802" x2="6.0452" y2="-6.0452" width="0.1524" layer="21"/>
+<wire x1="5.4102" y1="-6.6802" x2="-5.4102" y2="-6.6802" width="0.1524" layer="21"/>
+<wire x1="-6.0452" y1="-6.0452" x2="-5.4102" y2="-6.6802" width="0.1524" layer="21"/>
+<wire x1="6.0452" y1="6.0452" x2="6.0452" y2="-6.0452" width="0.1524" layer="21"/>
+<wire x1="-6.0452" y1="-6.0452" x2="-6.0452" y2="6.0452" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="2.286" x2="4.318" y2="-2.286" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="2.286" x2="-4.318" y2="-2.286" width="0.1524" layer="51"/>
+<wire x1="4.318" y1="2.286" x2="0" y2="5.08" width="0.1524" layer="51"/>
+<wire x1="0" y1="5.08" x2="-4.318" y2="2.286" width="0.1524" layer="51"/>
+<wire x1="-4.318" y1="-2.286" x2="0" y2="-5.08" width="0.1524" layer="51"/>
+<wire x1="0" y1="-5.08" x2="4.318" y2="-2.286" width="0.1524" layer="51"/>
+<wire x1="1.905" y1="-1.27" x2="2.54" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="2.54" y1="-1.905" x2="2.54" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="1.905" y1="-3.175" x2="2.54" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="1.905" y1="-3.175" x2="-1.905" y2="-3.175" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.905" y2="-3.175" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="-1.27" x2="-2.54" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="-1.905" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="1.6002" y1="1.27" x2="2.54" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="-1.6002" y1="1.27" x2="-2.54" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="51" curve="-270"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.1524" layer="51" curve="-233.130102"/>
+<wire x1="-1.6002" y1="1.27" x2="1.6002" y2="1.27" width="0.1524" layer="51"/>
+<pad name="3" x="-2.3876" y="-4.0132" drill="2.0066" shape="octagon"/>
+<pad name="2" x="-2.3876" y="0" drill="2.0066" shape="octagon"/>
+<pad name="1" x="-2.3876" y="4.0132" drill="2.0066" shape="octagon"/>
+<pad name="4" x="2.3876" y="4.0132" drill="2.0066" shape="octagon"/>
+<pad name="5" x="2.3876" y="0" drill="2.0066" shape="octagon"/>
+<pad name="6" x="2.3876" y="-4.0132" drill="2.0066" shape="octagon"/>
+<text x="-5.08" y="7.62" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-9.525" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="320-938" urn="urn:adsk.eagle:package:27685/1" type="box" library_version="2">
+<description>TOGGLE SWITCH
+distributor RS Components</description>
+<packageinstances>
+<packageinstance name="320-938"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="U2" urn="urn:adsk.eagle:symbol:27530/1" library_version="2">
+<wire x1="0" y1="-3.175" x2="0" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.905" x2="-1.905" y2="3.175" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.175" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
+<text x="5.08" y="-1.905" size="1.778" layer="95" rot="R90">&gt;PART</text>
+<pin name="P" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="O" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+<symbol name="KS-U-" urn="urn:adsk.eagle:symbol:27540/1" library_version="2">
+<wire x1="-3.81" y1="1.905" x2="-2.54" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.254" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-3.175" x2="2.54" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0.635" y2="3.175" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="3.175" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="0" x2="-0.254" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="0.254" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="0" x2="2.413" y2="0" width="0.1524" layer="94"/>
+<wire x1="3.175" y1="0" x2="3.683" y2="0" width="0.1524" layer="94"/>
+<wire x1="4.445" y1="0" x2="4.953" y2="0" width="0.1524" layer="94"/>
+<text x="-3.81" y="2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<text x="-6.35" y="-1.905" size="1.778" layer="95" rot="R90">&gt;PART</text>
+<pin name="P" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="S" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="O" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="320-938" urn="urn:adsk.eagle:component:27767/1" prefix="S" uservalue="yes" library_version="2">
+<description>&lt;b&gt;TOGGLE SWITCH&lt;/b&gt;&lt;p&gt;
+distributor RS Components</description>
+<gates>
+<gate name="B" symbol="U2" x="12.7" y="0" addlevel="always"/>
+<gate name="1" symbol="KS-U-" x="0" y="0" addlevel="must"/>
+</gates>
+<devices>
+<device name="" package="320-938">
+<connects>
+<connect gate="1" pin="O" pad="1"/>
+<connect gate="1" pin="P" pad="2"/>
+<connect gate="1" pin="S" pad="3"/>
+<connect gate="B" pin="O" pad="4"/>
+<connect gate="B" pin="P" pad="5"/>
+<connect gate="B" pin="S" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:27685/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="Trafo">
+<packages>
+</packages>
+<symbols>
+<symbol name="TRAFO">
+<wire x1="-0.508" y1="7.62" x2="-0.508" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="5.715" x2="-2.54" y2="3.175" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="3.175" x2="-2.54" y2="0.635" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="8.255" x2="-2.54" y2="5.715" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="4.445" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="4.445" x2="2.54" y2="6.985" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-0.635" x2="2.54" y2="1.905" width="0.254" layer="94" curve="-180"/>
+<wire x1="0.508" y1="7.62" x2="0.508" y2="-8.89" width="0.254" layer="94"/>
+<text x="-3.81" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-11.43" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="BLK@1" x="-7.62" y="8.255" visible="off" length="middle" direction="pas"/>
+<pin name="BLK@2" x="-7.62" y="-1.905" visible="off" length="middle" direction="pas"/>
+<pin name="GRN@1" x="7.62" y="6.985" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="GRN/YEL" x="-7.62" y="0.635" visible="off" length="middle" direction="pas"/>
+<pin name="GRN@2" x="7.62" y="-8.255" visible="off" length="middle" direction="pas" rot="R180"/>
+<pin name="GRN/YEL1" x="-7.62" y="-9.525" visible="off" length="middle" direction="pas"/>
+<wire x1="-2.54" y1="-6.985" x2="-2.54" y2="-9.525" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-4.445" x2="-2.54" y2="-6.985" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-5.715" x2="2.54" y2="-3.175" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-8.255" x2="2.54" y2="-5.715" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="-1.905" x2="-2.54" y2="-4.445" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="-3.175" x2="2.54" y2="-0.635" width="0.254" layer="94" curve="-180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TRAFO" prefix="TR?">
+<gates>
+<gate name="G$1" symbol="TRAFO" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name="">
+<attribute name="_EXTERNAL_" value="_EXTERNAL_" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -20310,304 +22413,441 @@ www.ligitek.com or other producers.</description>
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA3_L" device=""/>
-<part name="TR?1" library="trafo" library_urn="urn:adsk.eagle:library:394" deviceset="TRAFO" device=""/>
-<part name="B1" library="rectifier" library_urn="urn:adsk.eagle:library:336" deviceset="GBPC1" device="" package3d_urn="urn:adsk.eagle:package:23890/1"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E10-35" package3d_urn="urn:adsk.eagle:package:23395/1" value="15.000uF x 50V"/>
-<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100nF x 50V"/>
-<part name="U1" library="REG1117" deviceset="REG1117" device="F" value="LM338K"/>
-<part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="R2" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1"/>
-<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="10uF x 50V"/>
-<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="10uF x 50V"/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N5060GP" device="" package3d_urn="urn:adsk.eagle:package:43369/2" value="1N4007"/>
-<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N5060GP" device="" package3d_urn="urn:adsk.eagle:package:43369/2" value="1N4007"/>
-<part name="U$1" library="Instrumentos" deviceset="AMMETER" device=""/>
-<part name="U$2" library="Instrumentos" deviceset="VOLTMETER" device=""/>
-<part name="U$3" library="Instrumentos" deviceset="GENERATOR" device=""/>
-<part name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="19559" device="" package3d_urn="urn:adsk.eagle:package:14056/1"/>
-<part name="X1" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/4-H" device="" package3d_urn="urn:adsk.eagle:package:9908/1"/>
-<part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM358" device="N" package3d_urn="urn:adsk.eagle:package:16409/2"/>
-<part name="Q1" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC548*" device="" package3d_urn="urn:adsk.eagle:package:28989/2" technology="B"/>
-<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="64W" package3d_urn="urn:adsk.eagle:package:23748/1"/>
-<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
-<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
-<part name="SW1" library="switch-coto" library_urn="urn:adsk.eagle:library:374" deviceset="CT10-XXXX-" device="A2" package3d_urn="urn:adsk.eagle:package:27090/1" value=""/>
-<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
-<part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="APF30212C" device="" package3d_urn="urn:adsk.eagle:package:24565/1" value=""/>
-<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
+<part name="B2" library="rectifier" library_urn="urn:adsk.eagle:library:336" deviceset="GBPC1" device="" package3d_urn="urn:adsk.eagle:package:23890/1"/>
+<part name="C8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E10-35" package3d_urn="urn:adsk.eagle:package:23395/1" value="15.000uF x 50V"/>
+<part name="C9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100nF x 50V"/>
+<part name="U2" library="REG1117" deviceset="REG1117" device="F" value="LM338K"/>
+<part name="R15" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="5K"/>
+<part name="C10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="10uF x 50V"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="10uF x 50V"/>
+<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N5060GP" device="" package3d_urn="urn:adsk.eagle:package:43369/2" value="1N4007"/>
 <part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N5060GP" device="" package3d_urn="urn:adsk.eagle:package:43369/2" value="1N4007"/>
-<part name="Q3" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BC558*" device="" package3d_urn="urn:adsk.eagle:package:29218/2" technology="B"/>
-<part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
-<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="IC3" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/2" technology="12"/>
-<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
-<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
-<part name="Q2" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BC558*" device="" package3d_urn="urn:adsk.eagle:package:29218/2" technology="B"/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2"/>
+<part name="AMP2" library="Instrumentos" deviceset="AMMETER" device=""/>
+<part name="VOLT2" library="Instrumentos" deviceset="VOLTMETER" device=""/>
+<part name="G1" library="Instrumentos" deviceset="GENERATOR" device=""/>
+<part name="F1" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="19559" device="" package3d_urn="urn:adsk.eagle:package:14056/1"/>
+<part name="X2" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/4-H" device="" package3d_urn="urn:adsk.eagle:package:9908/1"/>
+<part name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="LM358" device="N" package3d_urn="urn:adsk.eagle:package:16409/2"/>
+<part name="Q1" library="transistor-npn" library_urn="urn:adsk.eagle:library:398" deviceset="BC548*" device="" package3d_urn="urn:adsk.eagle:package:28989/2" technology="B"/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k (5%)"/>
+<part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="100k (5%)"/>
+<part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="100k (5%)"/>
+<part name="R9" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="100k (5%)"/>
+<part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="100k (5%)"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="220k (5%)"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="64W" package3d_urn="urn:adsk.eagle:package:23748/1" value="300k"/>
+<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
-<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+24V" device="" value="30V"/>
-<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+24V" device="" value="30V"/>
-<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100nF x 50V"/>
-<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100nF x 50V"/>
-<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="10uF x 50V"/>
-<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
+<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
+<part name="SW1" library="switch-coto" library_urn="urn:adsk.eagle:library:374" deviceset="CT10-XXXX-" device="A2" package3d_urn="urn:adsk.eagle:package:27090/1" value=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
+<part name="K2" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="APF30212C" device="" package3d_urn="urn:adsk.eagle:package:24565/1" value="12VDC"/>
+<part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k (5%)"/>
+<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N5060GP" device="" package3d_urn="urn:adsk.eagle:package:43369/2" value="1N4007"/>
+<part name="Q3" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BC558*" device="" package3d_urn="urn:adsk.eagle:package:29218/2" technology="B"/>
+<part name="R16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="100k (5%)"/>
+<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="100R (5%)"/>
+<part name="IC1" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="TV" package3d_urn="urn:adsk.eagle:package:16417/2" technology="12"/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="1k (5%)"/>
+<part name="Q2" library="transistor-pnp" library_urn="urn:adsk.eagle:library:399" deviceset="BC558*" device="" package3d_urn="urn:adsk.eagle:package:29218/2" technology="B"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/2" value="10k (5%)"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
+<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
+<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+24V" device="" value="30V"/>
+<part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+24V" device="" value="30V"/>
+<part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100nF x 50V"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100nF x 50V"/>
+<part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="10uF x 50V"/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
+<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
+<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+24V" device="" value="12V"/>
-<part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+24V" device="" value="12V"/>
+<part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+24V" device="" value="12V"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+24V" device="" value="12V"/>
 <part name="SUPPLY6" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+24V" device="" value="12V"/>
-<part name="LD2" library="led" deviceset="DUOLED-RG-A" device="" package3d_urn="urn:adsk.eagle:package:15852/1"/>
-<part name="SUPPLY7" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+24V" device="" value="12V"/>
+<part name="LD1" library="led" deviceset="DUOLED-RG-A" device="" package3d_urn="urn:adsk.eagle:package:15852/1"/>
 <part name="SUPPLY8" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+24V" device="" value="12V"/>
+<part name="SUPPLY9" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+24V" device="" value="12V"/>
+<part name="FRAME1" library="frames" deviceset="TABL_L" device=""/>
+<part name="R1" library="varistor" library_urn="urn:adsk.eagle:library:410" deviceset="VARISTOR" device="-2,5" package3d_urn="urn:adsk.eagle:package:30591/1" value=""/>
+<part name="S1" library="switch" library_urn="urn:adsk.eagle:library:380" deviceset="320-938" device="" package3d_urn="urn:adsk.eagle:package:27685/1"/>
+<part name="TR?2" library="Trafo" deviceset="TRAFO" device=""/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="T93YB" package3d_urn="urn:adsk.eagle:package:23763/1" value="500R"/>
+<part name="K3" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="APF30212C" device="" package3d_urn="urn:adsk.eagle:package:24565/1" value="12VDC"/>
+<part name="B1" library="rectifier" library_urn="urn:adsk.eagle:library:336" deviceset="GBPC1" device="" package3d_urn="urn:adsk.eagle:package:23890/1"/>
+<part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E10-35" package3d_urn="urn:adsk.eagle:package:23395/1" value="15.000uF x 50V"/>
+<part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100nF x 50V"/>
+<part name="U1" library="REG1117" deviceset="REG1117" device="F" value="LM338K"/>
+<part name="R4" library="pot" library_urn="urn:adsk.eagle:library:331" deviceset="3RP/1610N" device="" package3d_urn="urn:adsk.eagle:package:22726/1" value="5K"/>
+<part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="10uF x 50V"/>
+<part name="C7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E3.5-8" package3d_urn="urn:adsk.eagle:package:23360/2" value="10uF x 50V"/>
+<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N5060GP" device="" package3d_urn="urn:adsk.eagle:package:43369/2" value="1N4007"/>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N5060GP" device="" package3d_urn="urn:adsk.eagle:package:43369/2" value="1N4007"/>
+<part name="AMP1" library="Instrumentos" deviceset="AMMETER" device=""/>
+<part name="VOLT1" library="Instrumentos" deviceset="VOLTMETER" device=""/>
+<part name="X1" library="con-ptr500" library_urn="urn:adsk.eagle:library:181" deviceset="AK500/4-H" device="" package3d_urn="urn:adsk.eagle:package:9908/1"/>
+<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
+<part name="K1" library="relay" library_urn="urn:adsk.eagle:library:339" deviceset="APF30212C" device="" package3d_urn="urn:adsk.eagle:package:24565/1" value=""/>
+<part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="+24V" device="" value="30V"/>
+<part name="TR?1" library="Trafo" deviceset="TRAFO" device=""/>
+<part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-TRIMM" device="T93YB" package3d_urn="urn:adsk.eagle:package:23763/1" value="500R"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="310.515" y="26.035" size="3.81" layer="94">Tiago Silva</text>
-<text x="294.64" y="19.685" size="2.54" layer="94">github.com/TiagoPaulaSilva/AC-DC</text>
-<text x="377.825" y="1.27" size="2.54" layer="94" ratio="5">1.0</text>
-<text x="306.705" y="6.35" size="2.54" layer="94" ratio="5">Complete Schematic</text>
-<text x="113.03" y="71.12" size="1.9304" layer="150">VREF = 1.20V</text>
+<text x="318.135" y="24.765" size="3.81" layer="94">Tiago Silva</text>
+<text x="304.8" y="18.415" size="2.54" layer="94">github.com/TiagoPaulaSilva/AC-DC</text>
+<text x="389.255" y="0" size="2.54" layer="94" ratio="5">1.0</text>
+<text x="318.135" y="5.08" size="2.54" layer="94" ratio="5">Complete Schematic</text>
+<text x="81.915" y="93.98" size="1.9304" layer="150">VREF = 1.20V</text>
+<wire x1="0.635" y1="146.05" x2="58.42" y2="146.05" width="0.254" layer="152" style="longdash"/>
+<wire x1="58.42" y1="146.05" x2="58.42" y2="69.85" width="0.254" layer="152" style="longdash"/>
+<wire x1="58.42" y1="69.85" x2="0.635" y2="69.85" width="0.254" layer="152" style="longdash"/>
+<wire x1="0.635" y1="69.85" x2="0.635" y2="146.05" width="0.254" layer="152" style="longdash"/>
+<wire x1="60.96" y1="146.05" x2="60.96" y2="69.85" width="0.254" layer="152" style="longdash"/>
+<wire x1="60.96" y1="69.85" x2="153.67" y2="69.85" width="0.254" layer="152" style="longdash"/>
+<wire x1="153.67" y1="69.85" x2="153.67" y2="146.05" width="0.254" layer="152" style="longdash"/>
+<wire x1="153.67" y1="146.05" x2="60.96" y2="146.05" width="0.254" layer="152" style="longdash"/>
+<wire x1="156.845" y1="146.05" x2="263.525" y2="146.05" width="0.254" layer="152" style="longdash"/>
+<wire x1="263.525" y1="146.05" x2="263.525" y2="69.85" width="0.254" layer="152" style="longdash"/>
+<wire x1="263.525" y1="69.85" x2="156.845" y2="69.85" width="0.254" layer="152" style="longdash"/>
+<wire x1="156.845" y1="69.85" x2="156.845" y2="146.05" width="0.254" layer="152" style="longdash"/>
+<wire x1="266.065" y1="146.05" x2="266.065" y2="69.85" width="0.254" layer="152" style="longdash"/>
+<wire x1="266.065" y1="69.85" x2="327.025" y2="69.85" width="0.254" layer="152" style="longdash"/>
+<wire x1="327.025" y1="69.85" x2="327.025" y2="146.05" width="0.254" layer="152" style="longdash"/>
+<wire x1="327.025" y1="146.05" x2="266.065" y2="146.05" width="0.254" layer="152" style="longdash"/>
+<text x="5.715" y="139.7" size="2.1844" layer="152">AUXILIARY FIXED POWER SUPPLY</text>
+<text x="107.95" y="140.97" size="2.1844" layer="152" align="center">SHORT CIRCUIT MONITOR</text>
+<text x="205.105" y="140.97" size="2.1844" layer="152" align="center">OUTPUT ON/OFF TRIGGER WITH LATCH</text>
+<wire x1="329.565" y1="69.85" x2="329.565" y2="146.05" width="0.254" layer="152" style="longdash"/>
+<wire x1="397.51" y1="146.05" x2="329.565" y2="146.05" width="0.254" layer="152" style="longdash"/>
+<wire x1="397.51" y1="69.85" x2="329.565" y2="69.85" width="0.254" layer="152" style="longdash"/>
+<wire x1="397.51" y1="69.85" x2="397.51" y2="146.05" width="0.254" layer="152" style="longdash"/>
+<text x="296.545" y="140.97" size="2.1844" layer="152" align="center">OUTPUT STATUS USER INTERFACE</text>
+<text x="364.49" y="140.97" size="2.1844" layer="152" align="center">OUTPUT ON/OFF DRIVER</text>
+<wire x1="229.235" y1="231.775" x2="229.235" y2="155.575" width="0.254" layer="152" style="longdash"/>
+<wire x1="397.51" y1="155.575" x2="229.235" y2="155.575" width="0.254" layer="152" style="longdash"/>
+<wire x1="397.51" y1="231.775" x2="229.235" y2="231.775" width="0.254" layer="152" style="longdash"/>
+<wire x1="397.51" y1="231.775" x2="397.51" y2="155.575" width="0.254" layer="152" style="longdash"/>
+<text x="318.77" y="226.695" size="2.54" layer="152" align="center">POWER SUPPLY 2</text>
+<wire x1="58.42" y1="231.775" x2="58.42" y2="155.575" width="0.254" layer="152" style="longdash"/>
+<wire x1="226.695" y1="155.575" x2="58.42" y2="155.575" width="0.254" layer="152" style="longdash"/>
+<wire x1="226.695" y1="231.775" x2="58.42" y2="231.775" width="0.254" layer="152" style="longdash"/>
+<wire x1="226.695" y1="231.775" x2="226.695" y2="155.575" width="0.254" layer="152" style="longdash"/>
+<text x="147.955" y="226.695" size="2.54" layer="152" align="center">POWER SUPPLY 1</text>
+<wire x1="1.27" y1="231.775" x2="1.27" y2="155.575" width="0.254" layer="152" style="longdash"/>
+<wire x1="53.34" y1="231.775" x2="53.34" y2="155.575" width="0.254" layer="152" style="longdash"/>
+<wire x1="1.27" y1="231.775" x2="53.34" y2="231.775" width="0.254" layer="152" style="longdash"/>
+<wire x1="1.27" y1="155.575" x2="53.34" y2="155.575" width="0.254" layer="152" style="longdash"/>
+<text x="25.4" y="224.79" size="2.54" layer="152" align="center">127V OR 220V
+AC INPUTY SELECT</text>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
-<instance part="FRAME1" gate="G$2" x="287.02" y="0" smashed="yes">
-<attribute name="LAST_DATE_TIME" x="298.45" y="1.27" size="2.54" layer="94"/>
-<attribute name="SHEET" x="379.73" y="6.35" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="312.42" y="11.557" size="2.54" layer="94"/>
+<instance part="B2" gate="1" x="265.43" y="200.025" smashed="yes">
+<attribute name="NAME" x="267.97" y="202.565" size="1.778" layer="95"/>
+<attribute name="VALUE" x="267.97" y="196.215" size="1.778" layer="96"/>
 </instance>
-<instance part="TR?1" gate="G$1" x="101.6" y="193.04" smashed="yes">
-<attribute name="NAME" x="97.79" y="201.93" size="1.778" layer="95"/>
-<attribute name="VALUE" x="97.79" y="182.88" size="1.778" layer="96"/>
+<instance part="C8" gate="G$1" x="275.59" y="184.785" smashed="yes">
+<attribute name="NAME" x="270.383" y="182.7276" size="1.778" layer="95"/>
+<attribute name="VALUE" x="280.1874" y="175.768" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="B1" gate="1" x="121.92" y="193.04" smashed="yes">
-<attribute name="NAME" x="124.46" y="195.58" size="1.778" layer="95"/>
-<attribute name="VALUE" x="124.46" y="189.23" size="1.778" layer="96"/>
+<instance part="C9" gate="G$1" x="288.29" y="184.785" smashed="yes">
+<attribute name="NAME" x="282.194" y="182.626" size="1.778" layer="95"/>
+<attribute name="VALUE" x="292.989" y="177.419" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C1" gate="G$1" x="137.16" y="177.8" smashed="yes">
-<attribute name="NAME" x="131.953" y="175.7426" size="1.778" layer="95"/>
-<attribute name="VALUE" x="141.7574" y="168.783" size="1.778" layer="96" rot="R90"/>
+<instance part="U2" gate="G$1" x="302.26" y="198.755" smashed="yes">
+<attribute name="NAME" x="295.908809375" y="205.740890625" size="1.77828125" layer="95" ratio="10"/>
+<attribute name="VALUE" x="295.902090625" y="203.20395" size="1.78076875" layer="96" ratio="10"/>
 </instance>
-<instance part="C2" gate="G$1" x="151.13" y="177.8" smashed="yes">
-<attribute name="NAME" x="145.034" y="175.641" size="1.778" layer="95"/>
-<attribute name="VALUE" x="155.829" y="170.434" size="1.778" layer="96" rot="R90"/>
+<instance part="R15" gate="G$1" x="316.23" y="175.895" smashed="yes">
+<attribute name="NAME" x="325.755" y="175.514" size="1.27" layer="95"/>
+<attribute name="VALUE" x="325.755" y="173.99" size="1.27" layer="96"/>
 </instance>
-<instance part="U1" gate="G$1" x="165.1" y="191.77" smashed="yes">
-<attribute name="NAME" x="158.748809375" y="198.755890625" size="1.77828125" layer="95" ratio="10"/>
-<attribute name="VALUE" x="158.742090625" y="196.21895" size="1.78076875" layer="96" ratio="10"/>
+<instance part="C10" gate="G$1" x="302.26" y="177.165" smashed="yes">
+<attribute name="NAME" x="297.053" y="175.1076" size="1.778" layer="95"/>
+<attribute name="VALUE" x="306.8574" y="170.688" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R1" gate="G$1" x="179.07" y="185.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="177.5714" y="184.15" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="182.372" y="181.61" size="1.778" layer="96" rot="R90"/>
+<instance part="C11" gate="G$1" x="337.82" y="184.785" smashed="yes">
+<attribute name="NAME" x="332.613" y="182.7276" size="1.778" layer="95"/>
+<attribute name="VALUE" x="342.4174" y="178.308" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R2" gate="G$1" x="179.07" y="168.91" smashed="yes">
-<attribute name="NAME" x="187.96" y="171.831" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="175.26" y="165.1" size="1.778" layer="96" rot="R90"/>
+<instance part="D4" gate="1" x="324.485" y="196.215" smashed="yes" rot="R90">
+<attribute name="NAME" x="327.025" y="197.3326" size="1.27" layer="95"/>
+<attribute name="VALUE" x="327.025" y="195.1736" size="1.27" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="165.1" y="167.64" smashed="yes">
-<attribute name="NAME" x="159.893" y="165.5826" size="1.778" layer="95"/>
-<attribute name="VALUE" x="169.6974" y="161.163" size="1.778" layer="96" rot="R90"/>
+<instance part="D3" gate="1" x="302.26" y="210.185" smashed="yes" rot="MR0">
+<attribute name="NAME" x="300.99" y="216.0524" size="1.27" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="299.085" y="213.7664" size="1.27" layer="96" rot="MR180"/>
 </instance>
-<instance part="C4" gate="G$1" x="200.66" y="177.8" smashed="yes">
-<attribute name="NAME" x="195.453" y="175.7426" size="1.778" layer="95"/>
-<attribute name="VALUE" x="205.2574" y="171.323" size="1.778" layer="96" rot="R90"/>
+<instance part="AMP2" gate="G$1" x="346.71" y="200.025" smashed="yes"/>
+<instance part="VOLT2" gate="G$1" x="355.6" y="183.515" smashed="yes"/>
+<instance part="G1" gate="G$1" x="5.715" y="193.675" smashed="yes"/>
+<instance part="F1" gate="1" x="12.065" y="199.39" smashed="yes">
+<attribute name="NAME" x="8.255" y="200.787" size="1.778" layer="95"/>
+<attribute name="VALUE" x="8.255" y="196.469" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="1" x="189.23" y="185.42" smashed="yes" rot="R90">
-<attribute name="NAME" x="187.4774" y="184.15" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="192.8114" y="181.61" size="1.778" layer="96" rot="R90"/>
+<instance part="X2" gate="-1" x="388.62" y="215.265" smashed="yes" rot="R180">
+<attribute name="NAME" x="389.89" y="214.376" size="1.778" layer="95"/>
 </instance>
-<instance part="D2" gate="1" x="165.1" y="207.01" smashed="yes" rot="MR0">
-<attribute name="NAME" x="166.37" y="208.7626" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="168.91" y="203.4286" size="1.778" layer="96" rot="MR0"/>
+<instance part="X2" gate="-2" x="388.62" y="167.005" smashed="yes" rot="R180">
+<attribute name="NAME" x="389.89" y="166.116" size="1.778" layer="95"/>
 </instance>
-<instance part="U$1" gate="G$1" x="209.55" y="193.04" smashed="yes"/>
-<instance part="U$2" gate="G$1" x="218.44" y="176.53" smashed="yes"/>
-<instance part="U$3" gate="G$1" x="66.04" y="193.04" smashed="yes"/>
-<instance part="F1" gate="1" x="77.47" y="200.66" smashed="yes">
-<attribute name="NAME" x="73.66" y="202.057" size="1.778" layer="95"/>
-<attribute name="VALUE" x="73.66" y="197.739" size="1.778" layer="96"/>
+<instance part="IC2" gate="A" x="117.475" y="99.06" smashed="yes">
+<attribute name="NAME" x="121.285" y="94.615" size="1.778" layer="95"/>
+<attribute name="VALUE" x="121.285" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-1" x="274.32" y="208.28" smashed="yes" rot="R180">
-<attribute name="NAME" x="275.59" y="207.391" size="1.778" layer="95"/>
+<instance part="IC2" gate="B" x="227.965" y="99.06" smashed="yes">
+<attribute name="NAME" x="233.045" y="94.615" size="1.778" layer="95"/>
+<attribute name="VALUE" x="233.045" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="X1" gate="-2" x="274.32" y="157.48" smashed="yes" rot="R180">
-<attribute name="NAME" x="275.59" y="156.591" size="1.778" layer="95"/>
+<instance part="Q1" gate="G$1" x="198.12" y="104.14" smashed="yes" rot="MR270">
+<attribute name="NAME" x="197.1675" y="99.3775" size="1.27" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="194.945" y="100.965" size="1.27" layer="96" rot="MR180"/>
 </instance>
-<instance part="IC1" gate="A" x="148.59" y="76.2" smashed="yes">
-<attribute name="NAME" x="152.4" y="71.755" size="1.778" layer="95"/>
-<attribute name="VALUE" x="152.4" y="68.58" size="1.778" layer="96"/>
+<instance part="R5" gate="G$1" x="192.405" y="109.22" smashed="yes" rot="MR180">
+<attribute name="NAME" x="189.865" y="112.8014" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="189.23" y="107.442" size="1.27" layer="96" rot="MR180"/>
 </instance>
-<instance part="IC1" gate="B" x="127" y="-44.45" smashed="yes">
-<attribute name="NAME" x="132.08" y="-48.895" size="1.778" layer="95"/>
-<attribute name="VALUE" x="132.08" y="-52.07" size="1.778" layer="96"/>
+<instance part="R6" gate="G$1" x="205.105" y="118.11" smashed="yes" rot="R90">
+<attribute name="NAME" x="203.6064" y="116.84" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="208.407" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q1" gate="G$1" x="90.17" y="-39.37" smashed="yes" rot="MR270">
-<attribute name="NAME" x="99.06" y="-39.37" size="1.778" layer="95" rot="MR0"/>
-<attribute name="VALUE" x="101.6" y="-36.83" size="1.778" layer="96" rot="MR0"/>
+<instance part="R7" gate="G$1" x="205.105" y="87.63" smashed="yes" rot="R90">
+<attribute name="NAME" x="203.6064" y="86.36" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="208.407" y="83.82" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R5" gate="G$1" x="81.28" y="-34.29" smashed="yes" rot="MR180">
-<attribute name="NAME" x="80.01" y="-35.7886" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="77.47" y="-30.988" size="1.778" layer="96" rot="MR180"/>
+<instance part="R9" gate="G$1" x="213.995" y="87.63" smashed="yes" rot="R90">
+<attribute name="NAME" x="212.4964" y="86.36" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="217.297" y="83.82" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R6" gate="G$1" x="104.14" y="-27.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="102.6414" y="-29.21" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="107.442" y="-31.75" size="1.778" layer="96" rot="R90"/>
+<instance part="R8" gate="G$1" x="213.995" y="118.11" smashed="yes" rot="R90">
+<attribute name="NAME" x="212.4964" y="116.84" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="217.297" y="114.3" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R7" gate="G$1" x="104.14" y="-55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="102.6414" y="-57.15" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="107.442" y="-59.69" size="1.778" layer="96" rot="R90"/>
+<instance part="R10" gate="G$1" x="226.695" y="110.49" smashed="yes">
+<attribute name="NAME" x="225.425" y="111.9886" size="1.778" layer="95"/>
+<attribute name="VALUE" x="222.25" y="107.188" size="1.778" layer="96"/>
 </instance>
-<instance part="R8" gate="G$1" x="113.03" y="-55.88" smashed="yes" rot="R90">
-<attribute name="NAME" x="111.5314" y="-57.15" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="116.332" y="-59.69" size="1.778" layer="96" rot="R90"/>
+<instance part="R2" gate="G$1" x="70.485" y="96.52" smashed="yes">
+<attribute name="NAME" x="62.865" y="97.409" size="1.27" layer="95"/>
+<attribute name="VALUE" x="62.865" y="95.25" size="1.27" layer="96"/>
 </instance>
-<instance part="R9" gate="G$1" x="113.03" y="-27.94" smashed="yes" rot="R90">
-<attribute name="NAME" x="111.5314" y="-29.21" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="116.332" y="-31.75" size="1.778" layer="96" rot="R90"/>
+<instance part="GND10" gate="1" x="259.08" y="161.925" smashed="yes">
+<attribute name="VALUE" x="257.175" y="159.385" size="1.778" layer="96"/>
 </instance>
-<instance part="R10" gate="G$1" x="125.73" y="-35.56" smashed="yes">
-<attribute name="NAME" x="124.46" y="-34.0614" size="1.778" layer="95"/>
-<attribute name="VALUE" x="121.92" y="-38.862" size="1.778" layer="96"/>
+<instance part="GND8" gate="1" x="205.105" y="74.93" smashed="yes">
+<attribute name="VALUE" x="203.2" y="72.39" size="1.778" layer="96"/>
 </instance>
-<instance part="R11" gate="G$1" x="101.6" y="73.66" smashed="yes">
-<attribute name="NAME" x="98.171" y="72.39" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="97.79" y="69.85" size="1.778" layer="96" rot="R90"/>
+<instance part="GND9" gate="1" x="213.995" y="74.93" smashed="yes">
+<attribute name="VALUE" x="212.09" y="72.39" size="1.778" layer="96"/>
 </instance>
-<instance part="GND2" gate="1" x="114.3" y="153.67" smashed="yes">
-<attribute name="VALUE" x="112.395" y="151.13" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="70.485" y="74.93" smashed="yes">
+<attribute name="VALUE" x="68.58" y="72.39" size="1.778" layer="96"/>
 </instance>
-<instance part="GND3" gate="1" x="104.14" y="-66.04" smashed="yes">
-<attribute name="VALUE" x="102.235" y="-68.58" size="1.778" layer="96"/>
+<instance part="SW1" gate="G$1" x="292.735" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="290.195" y="80.01" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="296.545" y="80.01" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND4" gate="1" x="113.03" y="-66.04" smashed="yes">
-<attribute name="VALUE" x="111.125" y="-68.58" size="1.778" layer="96"/>
+<instance part="GND11" gate="1" x="292.735" y="74.93" smashed="yes">
+<attribute name="VALUE" x="290.83" y="72.39" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="101.6" y="63.5" smashed="yes">
-<attribute name="VALUE" x="99.695" y="60.96" size="1.778" layer="96"/>
+<instance part="K2" gate="1" x="365.125" y="91.44" smashed="yes">
+<attribute name="VALUE" x="354.965" y="89.916" size="1.27" layer="96"/>
+<attribute name="PART" x="354.965" y="91.44" size="1.27" layer="95"/>
 </instance>
-<instance part="SW1" gate="G$1" x="247.65" y="57.15" smashed="yes" rot="R90">
-<attribute name="NAME" x="245.11" y="53.34" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="251.46" y="53.34" size="1.778" layer="96" rot="R90"/>
+<instance part="R17" gate="G$1" x="363.855" y="106.68" smashed="yes">
+<attribute name="NAME" x="362.585" y="108.1786" size="1.778" layer="95"/>
+<attribute name="VALUE" x="360.045" y="103.378" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="247.65" y="46.99" smashed="yes">
-<attribute name="VALUE" x="245.745" y="44.45" size="1.778" layer="96"/>
+<instance part="D5" gate="1" x="391.795" y="91.44" smashed="yes" rot="MR90">
+<attribute name="NAME" x="394.8176" y="90.17" size="1.778" layer="95" rot="MR90"/>
+<attribute name="VALUE" x="388.2136" y="87.63" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="K1" gate="1" x="337.82" y="64.77" smashed="yes">
-<attribute name="VALUE" x="339.09" y="67.691" size="1.778" layer="96"/>
-<attribute name="PART" x="330.2" y="64.77" size="1.778" layer="95"/>
+<instance part="Q3" gate="G$1" x="372.745" y="106.68" smashed="yes">
+<attribute name="NAME" x="376.555" y="106.68" size="1.778" layer="95"/>
+<attribute name="VALUE" x="376.555" y="104.14" size="1.778" layer="96"/>
 </instance>
-<instance part="K1" gate="2" x="218.44" y="203.2" smashed="yes">
-<attribute name="PART" x="220.98" y="203.2" size="1.778" layer="95"/>
+<instance part="R16" gate="G$1" x="356.235" y="114.3" smashed="yes" rot="R90">
+<attribute name="NAME" x="354.7364" y="113.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="359.537" y="109.855" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R3" gate="G$1" x="326.39" y="80.01" smashed="yes">
-<attribute name="NAME" x="325.12" y="81.5086" size="1.778" layer="95"/>
-<attribute name="VALUE" x="322.58" y="76.708" size="1.778" layer="96"/>
+<instance part="GND13" gate="1" x="375.285" y="74.93" smashed="yes">
+<attribute name="VALUE" x="373.38" y="72.39" size="1.778" layer="96"/>
 </instance>
-<instance part="D3" gate="1" x="347.98" y="64.77" smashed="yes" rot="MR90">
-<attribute name="NAME" x="349.7326" y="63.5" size="1.778" layer="95" rot="MR90"/>
-<attribute name="VALUE" x="344.3986" y="60.96" size="1.778" layer="96" rot="MR90"/>
+<instance part="R13" gate="G$1" x="314.325" y="106.68" smashed="yes" rot="R90">
+<attribute name="NAME" x="312.8264" y="104.14" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="318.262" y="100.33" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="Q3" gate="G$1" x="335.28" y="80.01" smashed="yes">
-<attribute name="NAME" x="339.09" y="82.55" size="1.778" layer="95"/>
-<attribute name="VALUE" x="339.09" y="80.01" size="1.778" layer="96"/>
+<instance part="IC1" gate="A1" x="25.4" y="109.22" smashed="yes">
+<attribute name="NAME" x="17.78" y="114.935" size="1.778" layer="95"/>
+<attribute name="VALUE" x="17.78" y="112.395" size="1.778" layer="96"/>
 </instance>
-<instance part="R4" gate="G$1" x="318.77" y="87.63" smashed="yes" rot="R90">
-<attribute name="NAME" x="317.2714" y="86.36" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="322.072" y="83.82" size="1.778" layer="96" rot="R90"/>
+<instance part="GND2" gate="1" x="25.4" y="76.2" smashed="yes">
+<attribute name="VALUE" x="23.495" y="73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="GND1" gate="1" x="337.82" y="46.99" smashed="yes">
-<attribute name="VALUE" x="335.915" y="44.45" size="1.778" layer="96"/>
+<instance part="R11" gate="G$1" x="300.355" y="102.87" smashed="yes" rot="R180">
+<attribute name="NAME" x="302.26" y="106.4514" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="304.8" y="101.092" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="R12" gate="G$1" x="269.24" y="80.01" smashed="yes" rot="R90">
-<attribute name="NAME" x="267.7414" y="78.74" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="272.542" y="76.2" size="1.778" layer="96" rot="R90"/>
+<instance part="Q2" gate="G$1" x="311.785" y="91.44" smashed="yes">
+<attribute name="NAME" x="315.595" y="91.44" size="1.778" layer="95"/>
+<attribute name="VALUE" x="315.595" y="88.9" size="1.778" layer="96"/>
 </instance>
-<instance part="IC3" gate="A1" x="53.34" y="85.09" smashed="yes">
-<attribute name="NAME" x="45.72" y="90.805" size="1.778" layer="95"/>
-<attribute name="VALUE" x="45.72" y="88.265" size="1.778" layer="96"/>
+<instance part="R12" gate="G$1" x="299.72" y="91.44" smashed="yes" rot="R180">
+<attribute name="NAME" x="301.625" y="95.0214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="304.8" y="89.662" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND7" gate="1" x="53.34" y="63.5" smashed="yes">
-<attribute name="VALUE" x="51.435" y="60.96" size="1.778" layer="96"/>
+<instance part="GND12" gate="1" x="314.325" y="74.93" smashed="yes">
+<attribute name="VALUE" x="312.42" y="72.39" size="1.778" layer="96"/>
 </instance>
-<instance part="R13" gate="G$1" x="256.54" y="76.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="257.81" y="74.7014" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="260.35" y="79.502" size="1.778" layer="96" rot="R180"/>
+<instance part="IC2" gate="P" x="117.475" y="99.06" smashed="yes"/>
+<instance part="GND7" gate="1" x="117.475" y="74.93" smashed="yes">
+<attribute name="VALUE" x="115.57" y="72.39" size="1.778" layer="96"/>
 </instance>
-<instance part="Q2" gate="G$1" x="266.7" y="64.77" smashed="yes">
-<attribute name="NAME" x="270.51" y="67.31" size="1.778" layer="95"/>
-<attribute name="VALUE" x="270.51" y="63.5" size="1.778" layer="96"/>
+<instance part="SUPPLY7" gate="+24V" x="275.59" y="213.995" smashed="yes">
+<attribute name="VALUE" x="273.685" y="217.17" size="1.778" layer="96"/>
 </instance>
-<instance part="R14" gate="G$1" x="256.54" y="64.77" smashed="yes" rot="R180">
-<attribute name="NAME" x="257.81" y="63.2714" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="260.35" y="68.072" size="1.778" layer="96" rot="R180"/>
+<instance part="SUPPLY1" gate="+24V" x="8.89" y="127" smashed="yes">
+<attribute name="VALUE" x="6.985" y="130.175" size="1.778" layer="96"/>
 </instance>
-<instance part="GND8" gate="1" x="269.24" y="46.99" smashed="yes">
-<attribute name="VALUE" x="267.335" y="44.45" size="1.778" layer="96"/>
+<instance part="C2" gate="G$1" x="39.37" y="99.06" smashed="yes">
+<attribute name="NAME" x="33.274" y="96.901" size="1.778" layer="95"/>
+<attribute name="VALUE" x="44.069" y="91.694" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="IC1" gate="P" x="148.59" y="76.2" smashed="yes"/>
-<instance part="GND9" gate="1" x="148.59" y="63.5" smashed="yes">
-<attribute name="VALUE" x="146.685" y="60.96" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="8.89" y="99.06" smashed="yes">
+<attribute name="NAME" x="2.794" y="96.901" size="1.778" layer="95"/>
+<attribute name="VALUE" x="13.589" y="91.059" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY1" gate="+24V" x="137.16" y="207.01" smashed="yes">
-<attribute name="VALUE" x="135.255" y="210.185" size="1.778" layer="96"/>
+<instance part="C3" gate="G$1" x="51.435" y="99.06" smashed="yes">
+<attribute name="NAME" x="46.228" y="97.0026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="56.0324" y="92.583" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY3" gate="+24V" x="36.83" y="92.71" smashed="yes">
-<attribute name="VALUE" x="34.925" y="95.885" size="1.778" layer="96"/>
+<instance part="GND1" gate="1" x="8.89" y="76.2" smashed="yes">
+<attribute name="VALUE" x="6.985" y="73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="C5" gate="G$1" x="67.31" y="74.93" smashed="yes">
-<attribute name="NAME" x="61.214" y="72.771" size="1.778" layer="95"/>
-<attribute name="VALUE" x="72.009" y="67.564" size="1.778" layer="96" rot="R90"/>
+<instance part="GND3" gate="1" x="39.37" y="76.2" smashed="yes">
+<attribute name="VALUE" x="37.465" y="73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="C6" gate="G$1" x="36.83" y="74.93" smashed="yes">
-<attribute name="NAME" x="30.734" y="72.771" size="1.778" layer="95"/>
-<attribute name="VALUE" x="41.529" y="67.564" size="1.778" layer="96" rot="R90"/>
+<instance part="GND4" gate="1" x="51.435" y="76.2" smashed="yes">
+<attribute name="VALUE" x="49.53" y="73.66" size="1.778" layer="96"/>
 </instance>
-<instance part="C7" gate="G$1" x="77.47" y="74.93" smashed="yes">
-<attribute name="NAME" x="72.263" y="72.8726" size="1.778" layer="95"/>
-<attribute name="VALUE" x="82.0674" y="68.453" size="1.778" layer="96" rot="R90"/>
+<instance part="SUPPLY2" gate="+24V" x="51.435" y="127" smashed="yes">
+<attribute name="VALUE" x="49.53" y="130.175" size="1.778" layer="96"/>
 </instance>
-<instance part="GND10" gate="1" x="36.83" y="63.5" smashed="yes">
-<attribute name="VALUE" x="34.925" y="60.96" size="1.778" layer="96"/>
+<instance part="SUPPLY3" gate="+24V" x="70.485" y="125.73" smashed="yes">
+<attribute name="VALUE" x="68.58" y="128.905" size="1.778" layer="96"/>
 </instance>
-<instance part="GND11" gate="1" x="67.31" y="63.5" smashed="yes">
-<attribute name="VALUE" x="65.405" y="60.96" size="1.778" layer="96"/>
+<instance part="SUPPLY5" gate="+24V" x="205.105" y="128.27" smashed="yes">
+<attribute name="VALUE" x="203.2" y="131.445" size="1.778" layer="96"/>
 </instance>
-<instance part="GND12" gate="1" x="77.47" y="63.5" smashed="yes">
-<attribute name="VALUE" x="75.565" y="60.96" size="1.778" layer="96"/>
+<instance part="SUPPLY6" gate="+24V" x="213.995" y="128.27" smashed="yes">
+<attribute name="VALUE" x="212.09" y="131.445" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY2" gate="+24V" x="77.47" y="92.71" smashed="yes">
-<attribute name="VALUE" x="75.565" y="95.885" size="1.778" layer="96"/>
+<instance part="LD1" gate="G$1" x="310.515" y="121.92" smashed="yes">
+<attribute name="NAME" x="299.72" y="118.745" size="1.778" layer="95"/>
+<attribute name="VALUE" x="317.5" y="117.475" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY4" gate="+24V" x="101.6" y="92.71" smashed="yes">
-<attribute name="VALUE" x="99.695" y="95.885" size="1.778" layer="96"/>
+<instance part="SUPPLY8" gate="+24V" x="310.515" y="129.54" smashed="yes">
+<attribute name="VALUE" x="308.61" y="132.715" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY5" gate="+24V" x="104.14" y="-17.78" smashed="yes">
-<attribute name="VALUE" x="102.235" y="-14.605" size="1.778" layer="96"/>
+<instance part="SUPPLY9" gate="+24V" x="356.235" y="129.54" smashed="yes">
+<attribute name="VALUE" x="354.33" y="132.715" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY6" gate="+24V" x="113.03" y="-17.78" smashed="yes">
-<attribute name="VALUE" x="111.125" y="-14.605" size="1.778" layer="96"/>
+<instance part="FRAME1" gate="G$1" x="-1.27" y="-1.27" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="298.45" y="-1.27" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="309.88" y="0" size="2.54" layer="94"/>
+<attribute name="SHEET" x="391.16" y="5.08" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="323.85" y="10.287" size="2.54" layer="94"/>
 </instance>
-<instance part="LD2" gate="G$1" x="265.43" y="95.25" smashed="yes">
-<attribute name="NAME" x="272.415" y="93.345" size="1.778" layer="95"/>
-<attribute name="VALUE" x="272.415" y="90.805" size="1.778" layer="96"/>
+<instance part="R1" gate="G$1" x="22.86" y="193.675" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.685" y="196.215" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="29.21" y="191.135" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY7" gate="+24V" x="265.43" y="102.87" smashed="yes">
-<attribute name="VALUE" x="263.525" y="106.045" size="1.778" layer="96"/>
+<instance part="S1" gate="B" x="34.29" y="185.42" smashed="yes" rot="MR270">
+<attribute name="PART" x="36.195" y="180.34" size="1.778" layer="95" rot="MR0" display="off"/>
 </instance>
-<instance part="SUPPLY8" gate="+24V" x="318.77" y="102.87" smashed="yes">
-<attribute name="VALUE" x="316.865" y="106.045" size="1.778" layer="96"/>
+<instance part="S1" gate="1" x="35.56" y="199.39" smashed="yes" rot="MR270">
+<attribute name="VALUE" x="33.02" y="203.2" size="1.778" layer="96" rot="MR0"/>
+<attribute name="PART" x="42.545" y="201.93" size="1.778" layer="95" rot="MR0"/>
+</instance>
+<instance part="TR?2" gate="G$1" x="249.555" y="200.66" smashed="yes">
+<attribute name="NAME" x="247.015" y="212.09" size="1.778" layer="95"/>
+<attribute name="VALUE" x="245.745" y="209.55" size="1.778" layer="96"/>
+</instance>
+<instance part="R14" gate="G$1" x="316.23" y="192.405" smashed="yes">
+<attribute name="NAME" x="325.755" y="191.389" size="1.27" layer="95"/>
+<attribute name="VALUE" x="325.755" y="189.865" size="1.27" layer="96"/>
+</instance>
+<instance part="K3" gate="1" x="381" y="91.44" smashed="yes">
+<attribute name="VALUE" x="370.84" y="89.916" size="1.27" layer="96"/>
+<attribute name="PART" x="370.84" y="91.44" size="1.27" layer="95"/>
+</instance>
+<instance part="B1" gate="1" x="94.615" y="200.025" smashed="yes">
+<attribute name="NAME" x="97.155" y="202.565" size="1.778" layer="95"/>
+<attribute name="VALUE" x="97.155" y="196.215" size="1.778" layer="96"/>
+</instance>
+<instance part="C4" gate="G$1" x="104.775" y="184.785" smashed="yes">
+<attribute name="NAME" x="99.568" y="182.7276" size="1.778" layer="95"/>
+<attribute name="VALUE" x="109.3724" y="175.768" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C5" gate="G$1" x="117.475" y="184.785" smashed="yes">
+<attribute name="NAME" x="111.379" y="182.626" size="1.778" layer="95"/>
+<attribute name="VALUE" x="122.174" y="177.419" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U1" gate="G$1" x="131.445" y="198.755" smashed="yes">
+<attribute name="NAME" x="125.093809375" y="205.740890625" size="1.77828125" layer="95" ratio="10"/>
+<attribute name="VALUE" x="125.087090625" y="203.20395" size="1.78076875" layer="96" ratio="10"/>
+</instance>
+<instance part="R4" gate="G$1" x="145.415" y="175.895" smashed="yes">
+<attribute name="NAME" x="154.94" y="175.514" size="1.27" layer="95"/>
+<attribute name="VALUE" x="154.94" y="173.99" size="1.27" layer="96"/>
+</instance>
+<instance part="C6" gate="G$1" x="131.445" y="177.165" smashed="yes">
+<attribute name="NAME" x="126.238" y="175.1076" size="1.778" layer="95"/>
+<attribute name="VALUE" x="136.0424" y="170.688" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="C7" gate="G$1" x="167.005" y="184.785" smashed="yes">
+<attribute name="NAME" x="161.798" y="182.7276" size="1.778" layer="95"/>
+<attribute name="VALUE" x="171.6024" y="178.308" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="D2" gate="1" x="153.67" y="196.215" smashed="yes" rot="R90">
+<attribute name="NAME" x="156.21" y="197.3326" size="1.27" layer="95"/>
+<attribute name="VALUE" x="156.21" y="195.1736" size="1.27" layer="96"/>
+</instance>
+<instance part="D1" gate="1" x="131.445" y="210.185" smashed="yes" rot="MR0">
+<attribute name="NAME" x="130.175" y="216.0524" size="1.27" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="128.27" y="213.7664" size="1.27" layer="96" rot="MR180"/>
+</instance>
+<instance part="AMP1" gate="G$1" x="175.895" y="200.025" smashed="yes"/>
+<instance part="VOLT1" gate="G$1" x="184.785" y="183.515" smashed="yes"/>
+<instance part="X1" gate="-1" x="217.805" y="215.265" smashed="yes" rot="R180">
+<attribute name="NAME" x="219.075" y="214.376" size="1.778" layer="95"/>
+</instance>
+<instance part="X1" gate="-2" x="217.805" y="167.005" smashed="yes" rot="R180">
+<attribute name="NAME" x="219.075" y="166.116" size="1.778" layer="95"/>
+</instance>
+<instance part="GND6" gate="1" x="88.265" y="161.925" smashed="yes">
+<attribute name="VALUE" x="86.36" y="159.385" size="1.778" layer="96"/>
+</instance>
+<instance part="K1" gate="2" x="184.785" y="210.185" smashed="yes">
+<attribute name="PART" x="187.325" y="210.185" size="1.778" layer="95"/>
+</instance>
+<instance part="SUPPLY4" gate="+24V" x="104.775" y="213.995" smashed="yes">
+<attribute name="VALUE" x="102.87" y="217.17" size="1.778" layer="96"/>
+</instance>
+<instance part="TR?1" gate="G$1" x="78.74" y="200.66" smashed="yes">
+<attribute name="NAME" x="76.2" y="212.09" size="1.778" layer="95"/>
+<attribute name="VALUE" x="74.93" y="209.55" size="1.778" layer="96"/>
+</instance>
+<instance part="R3" gate="G$1" x="145.415" y="192.405" smashed="yes">
+<attribute name="NAME" x="154.94" y="191.389" size="1.27" layer="95"/>
+<attribute name="VALUE" x="154.94" y="189.865" size="1.27" layer="96"/>
+</instance>
+<instance part="K3" gate="2" x="355.6" y="210.185" smashed="yes">
+<attribute name="PART" x="358.14" y="210.185" size="1.778" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -20615,428 +22855,657 @@ www.ligitek.com or other producers.</description>
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="TR?1" gate="G$1" pin="GRN@1"/>
-<pinref part="B1" gate="1" pin="AC1"/>
-<wire x1="109.22" y1="200.66" x2="121.92" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="200.66" x2="121.92" y2="198.12" width="0.1524" layer="91"/>
+<pinref part="B2" gate="1" pin="AC1"/>
+<pinref part="TR?2" gate="G$1" pin="GRN@1"/>
+<wire x1="265.43" y1="205.105" x2="265.43" y2="207.645" width="0.15" layer="91"/>
+<wire x1="265.43" y1="207.645" x2="257.175" y2="207.645" width="0.15" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="B1" gate="1" pin="AC2"/>
-<pinref part="TR?1" gate="G$1" pin="GRN@2"/>
-<wire x1="121.92" y1="187.96" x2="121.92" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="185.42" x2="109.22" y2="185.42" width="0.1524" layer="91"/>
+<pinref part="B2" gate="1" pin="AC2"/>
+<pinref part="TR?2" gate="G$1" pin="GRN@2"/>
+<wire x1="265.43" y1="194.945" x2="265.43" y2="192.405" width="0.15" layer="91"/>
+<wire x1="265.43" y1="192.405" x2="257.175" y2="192.405" width="0.15" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="VOUT"/>
-<wire x1="176.53" y1="193.04" x2="179.07" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="179.07" y1="190.5" x2="179.07" y2="193.04" width="0.1524" layer="91"/>
-<junction x="179.07" y="193.04"/>
-<pinref part="D2" gate="1" pin="A"/>
-<wire x1="167.64" y1="207.01" x2="179.07" y2="207.01" width="0.1524" layer="91"/>
-<wire x1="179.07" y1="207.01" x2="179.07" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="+"/>
-<wire x1="200.66" y1="180.34" x2="200.66" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="179.07" y1="193.04" x2="189.23" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="D1" gate="1" pin="C"/>
-<wire x1="189.23" y1="193.04" x2="200.66" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="189.23" y1="187.96" x2="189.23" y2="193.04" width="0.1524" layer="91"/>
-<junction x="189.23" y="193.04"/>
-<pinref part="U$1" gate="G$1" pin="P$3"/>
-<wire x1="204.47" y1="193.04" x2="200.66" y2="193.04" width="0.1524" layer="91"/>
-<junction x="200.66" y="193.04"/>
+<pinref part="U2" gate="G$1" pin="VOUT"/>
+<wire x1="313.69" y1="200.025" x2="316.23" y2="200.025" width="0.1524" layer="91"/>
+<junction x="316.23" y="200.025"/>
+<pinref part="D3" gate="1" pin="A"/>
+<wire x1="316.23" y1="197.485" x2="316.23" y2="200.025" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="210.185" x2="316.23" y2="210.185" width="0.1524" layer="91"/>
+<wire x1="316.23" y1="210.185" x2="316.23" y2="200.025" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="+"/>
+<wire x1="337.82" y1="187.325" x2="337.82" y2="200.025" width="0.1524" layer="91"/>
+<wire x1="316.23" y1="200.025" x2="324.485" y2="200.025" width="0.1524" layer="91"/>
+<pinref part="D4" gate="1" pin="C"/>
+<wire x1="324.485" y1="200.025" x2="337.82" y2="200.025" width="0.1524" layer="91"/>
+<wire x1="324.485" y1="198.755" x2="324.485" y2="200.025" width="0.1524" layer="91"/>
+<junction x="324.485" y="200.025"/>
+<pinref part="AMP2" gate="G$1" pin="P$3"/>
+<wire x1="341.63" y1="200.025" x2="337.82" y2="200.025" width="0.1524" layer="91"/>
+<junction x="337.82" y="200.025"/>
+<pinref part="R14" gate="G$1" pin="E"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="GND"/>
-<pinref part="C3" gate="G$1" pin="+"/>
-<wire x1="165.1" y1="170.18" x2="165.1" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="D1" gate="1" pin="A"/>
-<wire x1="165.1" y1="177.8" x2="165.1" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="189.23" y1="182.88" x2="189.23" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="189.23" y1="177.8" x2="179.07" y2="177.8" width="0.1524" layer="91"/>
-<junction x="165.1" y="177.8"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="179.07" y1="177.8" x2="165.1" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="179.07" y1="180.34" x2="179.07" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="E"/>
-<wire x1="179.07" y1="173.99" x2="179.07" y2="177.8" width="0.1524" layer="91"/>
-<junction x="179.07" y="177.8"/>
+<pinref part="U2" gate="G$1" pin="GND"/>
+<pinref part="C10" gate="G$1" pin="+"/>
+<wire x1="302.26" y1="179.705" x2="302.26" y2="184.785" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="184.785" x2="302.26" y2="192.405" width="0.1524" layer="91"/>
+<junction x="302.26" y="184.785"/>
+<wire x1="324.485" y1="184.785" x2="316.23" y2="184.785" width="0.1524" layer="91"/>
+<wire x1="316.23" y1="184.785" x2="302.26" y2="184.785" width="0.1524" layer="91"/>
+<wire x1="316.23" y1="187.325" x2="316.23" y2="184.785" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="E"/>
+<wire x1="316.23" y1="180.975" x2="316.23" y2="184.785" width="0.1524" layer="91"/>
+<junction x="316.23" y="184.785"/>
+<pinref part="R14" gate="G$1" pin="A"/>
+<pinref part="R14" gate="G$1" pin="S"/>
+<wire x1="321.31" y1="192.405" x2="324.485" y2="192.405" width="0.15" layer="91"/>
+<wire x1="324.485" y1="192.405" x2="324.485" y2="184.785" width="0.15" layer="91"/>
+<pinref part="D4" gate="1" pin="A"/>
+<wire x1="324.485" y1="193.675" x2="324.485" y2="192.405" width="0.15" layer="91"/>
+<junction x="324.485" y="192.405"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
 <pinref part="F1" gate="1" pin="1"/>
-<pinref part="U$3" gate="G$1" pin="P$3"/>
-<wire x1="72.39" y1="200.66" x2="66.04" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="200.66" x2="66.04" y2="198.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U$3" gate="G$1" pin="P$2"/>
-<pinref part="TR?1" gate="G$1" pin="GRN/YEL1"/>
-<wire x1="66.04" y1="187.96" x2="66.04" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="185.42" x2="93.98" y2="185.42" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="F1" gate="1" pin="2"/>
-<pinref part="TR?1" gate="G$1" pin="BLK@1"/>
-<wire x1="82.55" y1="200.66" x2="93.98" y2="200.66" width="0.1524" layer="91"/>
+<pinref part="G1" gate="G$1" pin="P$3"/>
+<wire x1="6.985" y1="199.39" x2="5.715" y2="199.39" width="0.1524" layer="91"/>
+<wire x1="5.715" y1="199.39" x2="5.715" y2="198.755" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="E"/>
-<pinref part="IC1" gate="B" pin="+IN"/>
-<wire x1="119.38" y1="-41.91" x2="113.03" y2="-41.91" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="2"/>
-<wire x1="113.03" y1="-50.8" x2="113.03" y2="-41.91" width="0.1524" layer="91"/>
-<wire x1="113.03" y1="-41.91" x2="113.03" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="113.03" y="-41.91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="113.03" y1="-33.02" x2="113.03" y2="-35.56" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="B" pin="+IN"/>
+<wire x1="220.345" y1="101.6" x2="213.995" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="2"/>
+<wire x1="213.995" y1="92.71" x2="213.995" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="213.995" y1="101.6" x2="213.995" y2="110.49" width="0.1524" layer="91"/>
+<junction x="213.995" y="101.6"/>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="213.995" y1="113.03" x2="213.995" y2="110.49" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="120.65" y1="-35.56" x2="113.03" y2="-35.56" width="0.1524" layer="91"/>
-<junction x="113.03" y="-35.56"/>
-<wire x1="95.25" y1="-41.91" x2="113.03" y2="-41.91" width="0.1524" layer="91"/>
+<wire x1="221.615" y1="110.49" x2="213.995" y2="110.49" width="0.1524" layer="91"/>
+<junction x="213.995" y="110.49"/>
+<wire x1="203.2" y1="101.6" x2="213.995" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!VOUT1_POWER_OFF!" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="130.81" y1="-35.56" x2="137.16" y2="-35.56" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="-35.56" x2="137.16" y2="-44.45" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="B" pin="OUT"/>
-<wire x1="137.16" y1="-44.45" x2="134.62" y2="-44.45" width="0.1524" layer="91"/>
-<junction x="137.16" y="-44.45"/>
-<label x="142.24" y="-44.45" size="1.9304" layer="95" xref="yes"/>
-<wire x1="137.16" y1="-44.45" x2="142.24" y2="-44.45" width="0.1524" layer="91"/>
+<wire x1="231.775" y1="110.49" x2="238.125" y2="110.49" width="0.1524" layer="91"/>
+<wire x1="238.125" y1="110.49" x2="238.125" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="B" pin="OUT"/>
+<wire x1="238.125" y1="99.06" x2="235.585" y2="99.06" width="0.1524" layer="91"/>
+<junction x="238.125" y="99.06"/>
+<label x="240.665" y="99.06" size="1.27" layer="95" xref="yes"/>
+<wire x1="238.125" y1="99.06" x2="240.665" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="321.31" y1="80.01" x2="318.77" y2="80.01" width="0.1524" layer="91"/>
-<wire x1="318.77" y1="80.01" x2="318.77" y2="82.55" width="0.1524" layer="91"/>
-<label x="316.23" y="80.01" size="1.9304" layer="95" rot="R180" xref="yes"/>
-<wire x1="316.23" y1="80.01" x2="318.77" y2="80.01" width="0.1524" layer="91"/>
-<junction x="318.77" y="80.01"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="358.775" y1="106.68" x2="356.235" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="356.235" y1="106.68" x2="356.235" y2="109.22" width="0.1524" layer="91"/>
+<label x="353.695" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="353.695" y1="106.68" x2="356.235" y2="106.68" width="0.1524" layer="91"/>
+<junction x="356.235" y="106.68"/>
 </segment>
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="251.46" y1="76.2" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
-<label x="238.76" y="76.2" size="1.9304" layer="95" rot="R180" xref="yes"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<wire x1="295.275" y1="102.87" x2="288.925" y2="102.87" width="0.1524" layer="91"/>
+<label x="288.925" y="102.87" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="76.2" y1="-34.29" x2="73.66" y2="-34.29" width="0.1524" layer="91"/>
-<label x="73.66" y="-34.29" size="1.9304" layer="95" rot="MR0" xref="yes"/>
+<wire x1="187.325" y1="109.22" x2="186.055" y2="109.22" width="0.1524" layer="91"/>
+<label x="186.055" y="109.22" size="1.27" layer="95" rot="MR0" xref="yes"/>
 </segment>
 </net>
 <net name="!VOUT1_POWER_ON!" class="0">
 <segment>
 <pinref part="SW1" gate="G$1" pin="2"/>
-<wire x1="247.65" y1="62.23" x2="247.65" y2="64.77" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="2"/>
-<wire x1="251.46" y1="64.77" x2="247.65" y2="64.77" width="0.1524" layer="91"/>
-<wire x1="247.65" y1="64.77" x2="238.76" y2="64.77" width="0.1524" layer="91"/>
-<junction x="247.65" y="64.77"/>
-<label x="238.76" y="64.77" size="1.9304" layer="95" rot="R180" xref="yes"/>
+<wire x1="292.735" y1="88.9" x2="292.735" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="294.64" y1="91.44" x2="292.735" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="292.735" y1="91.44" x2="288.925" y2="91.44" width="0.1524" layer="91"/>
+<junction x="292.735" y="91.44"/>
+<label x="288.925" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="IC1" gate="B" pin="-IN"/>
-<wire x1="119.38" y1="-46.99" x2="104.14" y2="-46.99" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="-46.99" x2="104.14" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="B" pin="-IN"/>
+<wire x1="220.345" y1="96.52" x2="205.105" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="205.105" y1="96.52" x2="205.105" y2="92.71" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="-33.02" x2="104.14" y2="-46.99" width="0.1524" layer="91"/>
-<junction x="104.14" y="-46.99"/>
-<wire x1="73.66" y1="-46.99" x2="104.14" y2="-46.99" width="0.1524" layer="91"/>
-<label x="73.66" y="-46.99" size="1.9304" layer="95" rot="R180" xref="yes"/>
+<wire x1="205.105" y1="113.03" x2="205.105" y2="96.52" width="0.1524" layer="91"/>
+<junction x="205.105" y="96.52"/>
+<wire x1="186.055" y1="96.52" x2="205.105" y2="96.52" width="0.1524" layer="91"/>
+<label x="186.055" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="-IN"/>
-<pinref part="R11" gate="G$1" pin="S"/>
-<wire x1="140.97" y1="73.66" x2="106.68" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="A" pin="-IN"/>
+<pinref part="R2" gate="G$1" pin="S"/>
+<wire x1="109.855" y1="96.52" x2="75.565" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="Q1" gate="G$1" pin="B"/>
 <pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="-34.29" x2="90.17" y2="-34.29" width="0.1524" layer="91"/>
-<wire x1="90.17" y1="-34.29" x2="90.17" y2="-36.83" width="0.1524" layer="91"/>
+<wire x1="197.485" y1="109.22" x2="198.12" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="109.22" x2="198.12" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="0V" class="0">
 <segment>
-<pinref part="B1" gate="1" pin="-"/>
-<wire x1="116.84" y1="193.04" x2="114.3" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="193.04" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="157.48" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C1" gate="G$1" pin="-"/>
-<wire x1="137.16" y1="157.48" x2="137.16" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="A"/>
-<wire x1="179.07" y1="163.83" x2="179.07" y2="157.48" width="0.1524" layer="91"/>
-<junction x="137.16" y="157.48"/>
-<pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="179.07" y1="157.48" x2="165.1" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="157.48" x2="151.13" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="151.13" y1="157.48" x2="137.16" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="151.13" y1="172.72" x2="151.13" y2="157.48" width="0.1524" layer="91"/>
-<junction x="151.13" y="157.48"/>
-<junction x="179.07" y="157.48"/>
-<pinref part="C4" gate="G$1" pin="-"/>
-<wire x1="200.66" y1="172.72" x2="200.66" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="157.48" x2="189.23" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="-"/>
-<wire x1="189.23" y1="157.48" x2="179.07" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="165.1" y1="162.56" x2="165.1" y2="157.48" width="0.1524" layer="91"/>
-<junction x="165.1" y="157.48"/>
-<pinref part="R2" gate="G$1" pin="S"/>
-<wire x1="184.15" y1="168.91" x2="189.23" y2="168.91" width="0.1524" layer="91"/>
-<wire x1="189.23" y1="168.91" x2="189.23" y2="157.48" width="0.1524" layer="91"/>
-<junction x="189.23" y="157.48"/>
-<pinref part="U$2" gate="G$1" pin="P$2"/>
-<wire x1="218.44" y1="171.45" x2="218.44" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="157.48" x2="200.66" y2="157.48" width="0.1524" layer="91"/>
-<junction x="200.66" y="157.48"/>
-<wire x1="218.44" y1="157.48" x2="269.24" y2="157.48" width="0.1524" layer="91"/>
-<junction x="218.44" y="157.48"/>
-<pinref part="X1" gate="-2" pin="KL"/>
-<pinref part="GND2" gate="1" pin="0V"/>
-<wire x1="114.3" y1="156.21" x2="114.3" y2="157.48" width="0.1524" layer="91"/>
-<junction x="114.3" y="157.48"/>
+<pinref part="B2" gate="1" pin="-"/>
+<wire x1="260.35" y1="200.025" x2="259.08" y2="200.025" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="200.025" x2="259.08" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="167.005" x2="275.59" y2="167.005" width="0.1524" layer="91"/>
+<pinref part="C8" gate="G$1" pin="-"/>
+<wire x1="275.59" y1="167.005" x2="275.59" y2="179.705" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="A"/>
+<wire x1="316.23" y1="170.815" x2="316.23" y2="167.005" width="0.1524" layer="91"/>
+<junction x="275.59" y="167.005"/>
+<pinref part="C9" gate="G$1" pin="2"/>
+<wire x1="316.23" y1="167.005" x2="302.26" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="167.005" x2="288.29" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="288.29" y1="167.005" x2="275.59" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="288.29" y1="179.705" x2="288.29" y2="167.005" width="0.1524" layer="91"/>
+<junction x="288.29" y="167.005"/>
+<junction x="316.23" y="167.005"/>
+<pinref part="C11" gate="G$1" pin="-"/>
+<wire x1="337.82" y1="179.705" x2="337.82" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="337.82" y1="167.005" x2="324.485" y2="167.005" width="0.1524" layer="91"/>
+<pinref part="C10" gate="G$1" pin="-"/>
+<wire x1="324.485" y1="167.005" x2="316.23" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="172.085" x2="302.26" y2="167.005" width="0.1524" layer="91"/>
+<junction x="302.26" y="167.005"/>
+<pinref part="R15" gate="G$1" pin="S"/>
+<wire x1="321.31" y1="175.895" x2="324.485" y2="175.895" width="0.1524" layer="91"/>
+<wire x1="324.485" y1="175.895" x2="324.485" y2="167.005" width="0.1524" layer="91"/>
+<junction x="324.485" y="167.005"/>
+<pinref part="VOLT2" gate="G$1" pin="P$2"/>
+<wire x1="355.6" y1="178.435" x2="355.6" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="167.005" x2="337.82" y2="167.005" width="0.1524" layer="91"/>
+<junction x="337.82" y="167.005"/>
+<wire x1="355.6" y1="167.005" x2="383.54" y2="167.005" width="0.1524" layer="91"/>
+<junction x="355.6" y="167.005"/>
+<pinref part="X2" gate="-2" pin="KL"/>
+<pinref part="GND10" gate="1" pin="0V"/>
+<wire x1="259.08" y1="164.465" x2="259.08" y2="167.005" width="0.1524" layer="91"/>
+<junction x="259.08" y="167.005"/>
 </segment>
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="GND3" gate="1" pin="0V"/>
-<wire x1="104.14" y1="-63.5" x2="104.14" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="GND8" gate="1" pin="0V"/>
+<wire x1="205.105" y1="77.47" x2="205.105" y2="82.55" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="GND4" gate="1" pin="0V"/>
-<wire x1="113.03" y1="-63.5" x2="113.03" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="GND9" gate="1" pin="0V"/>
+<wire x1="213.995" y1="77.47" x2="213.995" y2="82.55" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="A"/>
+<pinref part="R2" gate="G$1" pin="A"/>
 <pinref part="GND5" gate="1" pin="0V"/>
-<wire x1="101.6" y1="66.04" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="70.485" y1="77.47" x2="70.485" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SW1" gate="G$1" pin="1"/>
-<pinref part="GND6" gate="1" pin="0V"/>
-<wire x1="247.65" y1="49.53" x2="247.65" y2="52.07" width="0.1524" layer="91"/>
+<pinref part="GND11" gate="1" pin="0V"/>
+<wire x1="292.735" y1="77.47" x2="292.735" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="K1" gate="1" pin="2"/>
-<wire x1="337.82" y1="59.69" x2="337.82" y2="57.15" width="0.1524" layer="91"/>
-<pinref part="D3" gate="1" pin="A"/>
-<wire x1="347.98" y1="62.23" x2="347.98" y2="57.15" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="57.15" x2="337.82" y2="57.15" width="0.1524" layer="91"/>
-<pinref part="GND1" gate="1" pin="0V"/>
-<wire x1="337.82" y1="49.53" x2="337.82" y2="57.15" width="0.1524" layer="91"/>
-<junction x="337.82" y="57.15"/>
+<pinref part="D5" gate="1" pin="A"/>
+<wire x1="391.795" y1="88.9" x2="391.795" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="391.795" y1="83.82" x2="381" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="0V"/>
+<wire x1="381" y1="83.82" x2="375.285" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="375.285" y1="77.47" x2="375.285" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="K2" gate="1" pin="2"/>
+<wire x1="365.125" y1="86.36" x2="365.125" y2="83.82" width="0.15" layer="91"/>
+<wire x1="365.125" y1="83.82" x2="375.285" y2="83.82" width="0.15" layer="91"/>
+<junction x="375.285" y="83.82"/>
+<pinref part="K3" gate="1" pin="2"/>
+<wire x1="381" y1="86.36" x2="381" y2="83.82" width="0.15" layer="91"/>
+<junction x="381" y="83.82"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A1" pin="GND"/>
-<pinref part="GND7" gate="1" pin="0V"/>
-<wire x1="53.34" y1="66.04" x2="53.34" y2="77.47" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A1" pin="GND"/>
+<pinref part="GND2" gate="1" pin="0V"/>
+<wire x1="25.4" y1="78.74" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="C"/>
-<pinref part="GND8" gate="1" pin="0V"/>
-<wire x1="269.24" y1="49.53" x2="269.24" y2="59.69" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="P" pin="V-"/>
-<pinref part="GND9" gate="1" pin="0V"/>
-<wire x1="148.59" y1="66.04" x2="148.59" y2="68.58" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="GND10" gate="1" pin="0V"/>
-<wire x1="36.83" y1="66.04" x2="36.83" y2="69.85" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C5" gate="G$1" pin="2"/>
-<pinref part="GND11" gate="1" pin="0V"/>
-<wire x1="67.31" y1="69.85" x2="67.31" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="C7" gate="G$1" pin="-"/>
 <pinref part="GND12" gate="1" pin="0V"/>
-<wire x1="77.47" y1="69.85" x2="77.47" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="314.325" y1="77.47" x2="314.325" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="P" pin="V-"/>
+<pinref part="GND7" gate="1" pin="0V"/>
+<wire x1="117.475" y1="77.47" x2="117.475" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="GND1" gate="1" pin="0V"/>
+<wire x1="8.89" y1="78.74" x2="8.89" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="GND3" gate="1" pin="0V"/>
+<wire x1="39.37" y1="93.98" x2="39.37" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C3" gate="G$1" pin="-"/>
+<pinref part="GND4" gate="1" pin="0V"/>
+<wire x1="51.435" y1="93.98" x2="51.435" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="B1" gate="1" pin="-"/>
+<wire x1="89.535" y1="200.025" x2="88.265" y2="200.025" width="0.1524" layer="91"/>
+<wire x1="88.265" y1="200.025" x2="88.265" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="88.265" y1="167.005" x2="104.775" y2="167.005" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="-"/>
+<wire x1="104.775" y1="167.005" x2="104.775" y2="179.705" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="A"/>
+<wire x1="145.415" y1="170.815" x2="145.415" y2="167.005" width="0.1524" layer="91"/>
+<junction x="104.775" y="167.005"/>
+<pinref part="C5" gate="G$1" pin="2"/>
+<wire x1="145.415" y1="167.005" x2="131.445" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="131.445" y1="167.005" x2="117.475" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="117.475" y1="167.005" x2="104.775" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="117.475" y1="179.705" x2="117.475" y2="167.005" width="0.1524" layer="91"/>
+<junction x="117.475" y="167.005"/>
+<junction x="145.415" y="167.005"/>
+<pinref part="C7" gate="G$1" pin="-"/>
+<wire x1="167.005" y1="179.705" x2="167.005" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="167.005" y1="167.005" x2="153.67" y2="167.005" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="-"/>
+<wire x1="153.67" y1="167.005" x2="145.415" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="131.445" y1="172.085" x2="131.445" y2="167.005" width="0.1524" layer="91"/>
+<junction x="131.445" y="167.005"/>
+<pinref part="R4" gate="G$1" pin="S"/>
+<wire x1="150.495" y1="175.895" x2="153.67" y2="175.895" width="0.1524" layer="91"/>
+<wire x1="153.67" y1="175.895" x2="153.67" y2="167.005" width="0.1524" layer="91"/>
+<junction x="153.67" y="167.005"/>
+<pinref part="VOLT1" gate="G$1" pin="P$2"/>
+<wire x1="184.785" y1="178.435" x2="184.785" y2="167.005" width="0.1524" layer="91"/>
+<wire x1="184.785" y1="167.005" x2="167.005" y2="167.005" width="0.1524" layer="91"/>
+<junction x="167.005" y="167.005"/>
+<wire x1="184.785" y1="167.005" x2="212.725" y2="167.005" width="0.1524" layer="91"/>
+<junction x="184.785" y="167.005"/>
+<pinref part="X1" gate="-2" pin="KL"/>
+<pinref part="GND6" gate="1" pin="0V"/>
+<wire x1="88.265" y1="164.465" x2="88.265" y2="167.005" width="0.1524" layer="91"/>
+<junction x="88.265" y="167.005"/>
 </segment>
 </net>
 <net name="VOUT1_SHORT_CIRCUIT_MONITOR" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="+IN"/>
-<wire x1="140.97" y1="78.74" x2="139.7" y2="78.74" width="0.1524" layer="91"/>
-<label x="139.7" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="IC2" gate="A" pin="+IN"/>
+<wire x1="109.855" y1="101.6" x2="108.585" y2="101.6" width="0.1524" layer="91"/>
+<label x="108.585" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="P$3"/>
-<pinref part="U$1" gate="G$1" pin="P$2"/>
-<wire x1="218.44" y1="181.61" x2="218.44" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="193.04" x2="214.63" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="VOLT2" gate="G$1" pin="P$3"/>
+<pinref part="AMP2" gate="G$1" pin="P$2"/>
+<wire x1="355.6" y1="188.595" x2="355.6" y2="200.025" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="200.025" x2="351.79" y2="200.025" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="207.645" x2="355.6" y2="200.025" width="0.1524" layer="91"/>
+<junction x="355.6" y="200.025"/>
+<label x="360.68" y="200.025" size="1.27" layer="95" xref="yes"/>
+<wire x1="355.6" y1="200.025" x2="360.68" y2="200.025" width="0.1524" layer="91"/>
+<pinref part="K3" gate="2" pin="P"/>
+</segment>
+<segment>
+<pinref part="VOLT1" gate="G$1" pin="P$3"/>
+<pinref part="AMP1" gate="G$1" pin="P$2"/>
+<wire x1="184.785" y1="188.595" x2="184.785" y2="200.025" width="0.1524" layer="91"/>
+<wire x1="184.785" y1="200.025" x2="180.975" y2="200.025" width="0.1524" layer="91"/>
 <pinref part="K1" gate="2" pin="P"/>
-<wire x1="218.44" y1="200.66" x2="218.44" y2="193.04" width="0.1524" layer="91"/>
-<junction x="218.44" y="193.04"/>
-<label x="223.52" y="193.04" size="1.27" layer="95" xref="yes"/>
-<wire x1="218.44" y1="193.04" x2="223.52" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="184.785" y1="207.645" x2="184.785" y2="200.025" width="0.1524" layer="91"/>
+<junction x="184.785" y="200.025"/>
+<label x="189.865" y="200.025" size="1.27" layer="95" xref="yes"/>
+<wire x1="184.785" y1="200.025" x2="189.865" y2="200.025" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="X1" gate="-1" pin="KL"/>
-<pinref part="K1" gate="2" pin="O"/>
-<wire x1="269.24" y1="208.28" x2="223.52" y2="208.28" width="0.1524" layer="91"/>
+<pinref part="X2" gate="-1" pin="KL"/>
+<wire x1="383.54" y1="215.265" x2="360.68" y2="215.265" width="0.1524" layer="91"/>
+<pinref part="K3" gate="2" pin="O"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="D3" gate="1" pin="C"/>
-<wire x1="347.98" y1="67.31" x2="347.98" y2="72.39" width="0.1524" layer="91"/>
-<wire x1="347.98" y1="72.39" x2="337.82" y2="72.39" width="0.1524" layer="91"/>
-<pinref part="K1" gate="1" pin="1"/>
-<wire x1="337.82" y1="72.39" x2="337.82" y2="69.85" width="0.1524" layer="91"/>
+<pinref part="D5" gate="1" pin="C"/>
+<wire x1="391.795" y1="93.98" x2="391.795" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="391.795" y1="99.06" x2="381" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="C"/>
-<wire x1="337.82" y1="74.93" x2="337.82" y2="72.39" width="0.1524" layer="91"/>
-<junction x="337.82" y="72.39"/>
-<wire x1="269.24" y1="74.93" x2="269.24" y2="72.39" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="381" y1="99.06" x2="375.285" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="375.285" y1="101.6" x2="375.285" y2="99.06" width="0.1524" layer="91"/>
+<junction x="375.285" y="99.06"/>
+<wire x1="314.325" y1="101.6" x2="314.325" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
 <pinref part="Q2" gate="G$1" pin="E"/>
-<wire x1="269.24" y1="72.39" x2="337.82" y2="72.39" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="69.85" x2="269.24" y2="72.39" width="0.1524" layer="91"/>
-<junction x="269.24" y="72.39"/>
+<wire x1="314.325" y1="99.06" x2="365.125" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="365.125" y1="99.06" x2="375.285" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="314.325" y1="96.52" x2="314.325" y2="99.06" width="0.1524" layer="91"/>
+<junction x="314.325" y="99.06"/>
+<pinref part="K2" gate="1" pin="1"/>
+<wire x1="365.125" y1="96.52" x2="365.125" y2="99.06" width="0.15" layer="91"/>
+<junction x="365.125" y="99.06"/>
+<pinref part="K3" gate="1" pin="1"/>
+<wire x1="381" y1="96.52" x2="381" y2="99.06" width="0.15" layer="91"/>
+<junction x="381" y="99.06"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <pinref part="Q3" gate="G$1" pin="B"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="331.47" y1="80.01" x2="332.74" y2="80.01" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="368.935" y1="106.68" x2="370.205" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <pinref part="Q2" gate="G$1" pin="B"/>
-<pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="64.77" x2="264.16" y2="64.77" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="304.8" y1="91.44" x2="309.245" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+24V" class="0">
+<net name="12V" class="0">
 <segment>
-<pinref part="B1" gate="1" pin="+"/>
-<pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="127" y1="193.04" x2="137.16" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="193.04" x2="137.16" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VIN"/>
-<wire x1="137.16" y1="193.04" x2="151.13" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="+"/>
+<wire x1="51.435" y1="101.6" x2="51.435" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="A1" pin="VO"/>
+<wire x1="35.56" y1="109.22" x2="39.37" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="39.37" y1="109.22" x2="51.435" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="151.13" y1="193.04" x2="153.67" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="151.13" y1="180.34" x2="151.13" y2="193.04" width="0.1524" layer="91"/>
-<junction x="151.13" y="193.04"/>
-<junction x="137.16" y="193.04"/>
-<pinref part="D2" gate="1" pin="C"/>
-<wire x1="162.56" y1="207.01" x2="151.13" y2="207.01" width="0.1524" layer="91"/>
-<wire x1="151.13" y1="207.01" x2="151.13" y2="193.04" width="0.1524" layer="91"/>
-<junction x="151.13" y="193.04"/>
-<pinref part="SUPPLY1" gate="+24V" pin="+24V"/>
-<wire x1="137.16" y1="204.47" x2="137.16" y2="193.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="A1" pin="VI"/>
-<pinref part="SUPPLY3" gate="+24V" pin="+24V"/>
-<wire x1="43.18" y1="85.09" x2="36.83" y2="85.09" width="0.1524" layer="91"/>
-<wire x1="36.83" y1="85.09" x2="36.83" y2="90.17" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="36.83" y1="77.47" x2="36.83" y2="85.09" width="0.1524" layer="91"/>
-<junction x="36.83" y="85.09"/>
-</segment>
-<segment>
-<pinref part="C7" gate="G$1" pin="+"/>
-<wire x1="77.47" y1="77.47" x2="77.47" y2="85.09" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A1" pin="VO"/>
-<wire x1="63.5" y1="85.09" x2="67.31" y2="85.09" width="0.1524" layer="91"/>
-<wire x1="67.31" y1="85.09" x2="77.47" y2="85.09" width="0.1524" layer="91"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="67.31" y1="77.47" x2="67.31" y2="85.09" width="0.1524" layer="91"/>
-<junction x="67.31" y="85.09"/>
+<wire x1="39.37" y1="101.6" x2="39.37" y2="109.22" width="0.1524" layer="91"/>
+<junction x="39.37" y="109.22"/>
 <pinref part="SUPPLY2" gate="+24V" pin="+24V"/>
-<wire x1="77.47" y1="90.17" x2="77.47" y2="85.09" width="0.1524" layer="91"/>
-<junction x="77.47" y="85.09"/>
+<wire x1="51.435" y1="124.46" x2="51.435" y2="109.22" width="0.1524" layer="91"/>
+<junction x="51.435" y="109.22"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="P" pin="V+"/>
-<wire x1="148.59" y1="83.82" x2="148.59" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="148.59" y1="86.36" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="E"/>
-<wire x1="101.6" y1="78.74" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="SUPPLY4" gate="+24V" pin="+24V"/>
-<wire x1="101.6" y1="90.17" x2="101.6" y2="86.36" width="0.1524" layer="91"/>
-<junction x="101.6" y="86.36"/>
+<pinref part="IC2" gate="P" pin="V+"/>
+<wire x1="117.475" y1="106.68" x2="117.475" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="117.475" y1="109.22" x2="70.485" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="E"/>
+<wire x1="70.485" y1="101.6" x2="70.485" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="SUPPLY3" gate="+24V" pin="+24V"/>
+<wire x1="70.485" y1="123.19" x2="70.485" y2="109.22" width="0.1524" layer="91"/>
+<junction x="70.485" y="109.22"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="-22.86" x2="104.14" y2="-20.32" width="0.1524" layer="91"/>
+<wire x1="205.105" y1="123.19" x2="205.105" y2="125.73" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="+24V" pin="+24V"/>
 </segment>
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="113.03" y1="-22.86" x2="113.03" y2="-20.32" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="213.995" y1="123.19" x2="213.995" y2="125.73" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="+24V" pin="+24V"/>
 </segment>
 <segment>
-<pinref part="SUPPLY7" gate="+24V" pin="+24V"/>
-<wire x1="265.43" y1="97.79" x2="265.43" y2="100.33" width="0.1524" layer="91"/>
-<pinref part="LD2" gate="G$1" pin="A"/>
+<pinref part="SUPPLY8" gate="+24V" pin="+24V"/>
+<wire x1="310.515" y1="124.46" x2="310.515" y2="127" width="0.1524" layer="91"/>
+<pinref part="LD1" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="Q3" gate="G$1" pin="E"/>
-<wire x1="337.82" y1="85.09" x2="337.82" y2="95.25" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="95.25" x2="318.77" y2="95.25" width="0.1524" layer="91"/>
-<pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="318.77" y1="92.71" x2="318.77" y2="95.25" width="0.1524" layer="91"/>
-<pinref part="SUPPLY8" gate="+24V" pin="+24V"/>
-<wire x1="318.77" y1="100.33" x2="318.77" y2="95.25" width="0.1524" layer="91"/>
-<junction x="318.77" y="95.25"/>
+<wire x1="375.285" y1="111.76" x2="375.285" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="375.285" y1="121.92" x2="356.235" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="356.235" y1="119.38" x2="356.235" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="SUPPLY9" gate="+24V" pin="+24V"/>
+<wire x1="356.235" y1="127" x2="356.235" y2="121.92" width="0.1524" layer="91"/>
+<junction x="356.235" y="121.92"/>
 </segment>
 </net>
 <net name="!SHORT_CIRCUIT_DETECTED!" class="0">
 <segment>
-<pinref part="IC1" gate="A" pin="OUT"/>
-<wire x1="156.21" y1="76.2" x2="158.75" y2="76.2" width="0.1524" layer="91"/>
-<label x="158.75" y="76.2" size="1.27" layer="95" xref="yes"/>
+<pinref part="IC2" gate="A" pin="OUT"/>
+<wire x1="125.095" y1="99.06" x2="125.73" y2="99.06" width="0.1524" layer="91"/>
+<label x="125.73" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="C"/>
-<label x="73.66" y="-41.91" size="1.9304" layer="95" rot="MR0" xref="yes"/>
-<wire x1="85.09" y1="-41.91" x2="73.66" y2="-41.91" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="LD2" gate="G$1" pin="CR"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="261.62" y1="76.2" x2="261.62" y2="86.36" width="0.1524" layer="91"/>
+<label x="186.055" y="101.6" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="193.04" y1="101.6" x2="186.055" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="269.24" y1="86.36" x2="269.24" y2="85.09" width="0.1524" layer="91"/>
-<pinref part="LD2" gate="G$1" pin="CG"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="314.325" y1="113.03" x2="314.325" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="LD1" gate="G$1" pin="CG"/>
+</segment>
+</net>
+<net name="30V" class="0">
+<segment>
+<pinref part="IC1" gate="A1" pin="VI"/>
+<pinref part="SUPPLY1" gate="+24V" pin="+24V"/>
+<wire x1="15.24" y1="109.22" x2="8.89" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="8.89" y1="109.22" x2="8.89" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="8.89" y1="101.6" x2="8.89" y2="109.22" width="0.1524" layer="91"/>
+<junction x="8.89" y="109.22"/>
+</segment>
+<segment>
+<pinref part="B2" gate="1" pin="+"/>
+<pinref part="C8" gate="G$1" pin="+"/>
+<wire x1="270.51" y1="200.025" x2="275.59" y2="200.025" width="0.1524" layer="91"/>
+<wire x1="275.59" y1="200.025" x2="275.59" y2="187.325" width="0.1524" layer="91"/>
+<pinref part="U2" gate="G$1" pin="VIN"/>
+<wire x1="275.59" y1="200.025" x2="288.29" y2="200.025" width="0.1524" layer="91"/>
+<pinref part="C9" gate="G$1" pin="1"/>
+<wire x1="288.29" y1="200.025" x2="290.83" y2="200.025" width="0.1524" layer="91"/>
+<wire x1="288.29" y1="187.325" x2="288.29" y2="200.025" width="0.1524" layer="91"/>
+<junction x="288.29" y="200.025"/>
+<junction x="275.59" y="200.025"/>
+<pinref part="D3" gate="1" pin="C"/>
+<wire x1="299.72" y1="210.185" x2="288.29" y2="210.185" width="0.1524" layer="91"/>
+<wire x1="288.29" y1="210.185" x2="288.29" y2="200.025" width="0.1524" layer="91"/>
+<junction x="288.29" y="200.025"/>
+<pinref part="SUPPLY7" gate="+24V" pin="+24V"/>
+<wire x1="275.59" y1="211.455" x2="275.59" y2="200.025" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="B1" gate="1" pin="+"/>
+<pinref part="C4" gate="G$1" pin="+"/>
+<wire x1="99.695" y1="200.025" x2="104.775" y2="200.025" width="0.1524" layer="91"/>
+<wire x1="104.775" y1="200.025" x2="104.775" y2="187.325" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="VIN"/>
+<wire x1="104.775" y1="200.025" x2="117.475" y2="200.025" width="0.1524" layer="91"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="117.475" y1="200.025" x2="120.015" y2="200.025" width="0.1524" layer="91"/>
+<wire x1="117.475" y1="187.325" x2="117.475" y2="200.025" width="0.1524" layer="91"/>
+<junction x="117.475" y="200.025"/>
+<junction x="104.775" y="200.025"/>
+<pinref part="D1" gate="1" pin="C"/>
+<wire x1="128.905" y1="210.185" x2="117.475" y2="210.185" width="0.1524" layer="91"/>
+<wire x1="117.475" y1="210.185" x2="117.475" y2="200.025" width="0.1524" layer="91"/>
+<junction x="117.475" y="200.025"/>
+<pinref part="SUPPLY4" gate="+24V" pin="+24V"/>
+<wire x1="104.775" y1="211.455" x2="104.775" y2="200.025" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="LD1" gate="G$1" pin="CR"/>
+<wire x1="305.435" y1="102.87" x2="306.705" y2="102.87" width="0.15" layer="91"/>
+<wire x1="306.705" y1="102.87" x2="306.705" y2="113.03" width="0.15" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="S1" gate="B" pin="S"/>
+<wire x1="29.21" y1="182.88" x2="27.94" y2="182.88" width="0.15" layer="91"/>
+<wire x1="27.94" y1="182.88" x2="27.94" y2="194.31" width="0.15" layer="91"/>
+<pinref part="S1" gate="1" pin="S"/>
+<wire x1="27.94" y1="194.31" x2="30.48" y2="194.31" width="0.15" layer="91"/>
+</segment>
+</net>
+<net name="127V_A" class="0">
+<segment>
+<pinref part="TR?2" gate="G$1" pin="BLK@1"/>
+<wire x1="241.935" y1="208.915" x2="240.03" y2="208.915" width="0.15" layer="91"/>
+<label x="240.03" y="208.915" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="22.86" y1="198.755" x2="22.86" y2="199.39" width="0.15" layer="91"/>
+<pinref part="F1" gate="1" pin="2"/>
+<wire x1="17.145" y1="199.39" x2="22.86" y2="199.39" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="199.39" x2="22.86" y2="203.835" width="0.15" layer="91"/>
+<junction x="22.86" y="199.39"/>
+<label x="22.86" y="203.835" size="1.27" layer="95" ratio="5" rot="R90" xref="yes"/>
+<pinref part="S1" gate="1" pin="O"/>
+<wire x1="30.48" y1="199.39" x2="22.86" y2="199.39" width="0.15" layer="91"/>
+</segment>
+<segment>
+<pinref part="TR?1" gate="G$1" pin="BLK@1"/>
+<wire x1="71.12" y1="208.915" x2="69.215" y2="208.915" width="0.15" layer="91"/>
+<label x="69.215" y="208.915" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="0V_B" class="0">
+<segment>
+<pinref part="TR?2" gate="G$1" pin="GRN/YEL"/>
+<wire x1="241.935" y1="201.295" x2="241.3" y2="201.295" width="0.15" layer="91"/>
+<label x="241.3" y="201.295" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="S1" gate="B" pin="P"/>
+<wire x1="39.37" y1="185.42" x2="43.18" y2="185.42" width="0.15" layer="91"/>
+<label x="43.18" y="185.42" size="1.27" layer="95" ratio="5" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TR?1" gate="G$1" pin="GRN/YEL"/>
+<wire x1="71.12" y1="201.295" x2="70.485" y2="201.295" width="0.15" layer="91"/>
+<label x="70.485" y="201.295" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="127V_B" class="0">
+<segment>
+<pinref part="TR?2" gate="G$1" pin="BLK@2"/>
+<label x="241.3" y="198.755" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
+<wire x1="241.3" y1="198.755" x2="241.935" y2="198.755" width="0.15" layer="91"/>
+</segment>
+<segment>
+<pinref part="S1" gate="1" pin="P"/>
+<wire x1="40.64" y1="196.85" x2="43.18" y2="196.85" width="0.15" layer="91"/>
+<label x="43.18" y="196.85" size="1.27" layer="95" ratio="5" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TR?1" gate="G$1" pin="BLK@2"/>
+<label x="70.485" y="198.755" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
+<wire x1="70.485" y1="198.755" x2="71.12" y2="198.755" width="0.15" layer="91"/>
+</segment>
+</net>
+<net name="0V_A" class="0">
+<segment>
+<pinref part="TR?2" gate="G$1" pin="GRN/YEL1"/>
+<wire x1="241.935" y1="191.135" x2="240.03" y2="191.135" width="0.15" layer="91"/>
+<label x="240.03" y="191.135" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="22.86" y1="188.595" x2="22.86" y2="187.96" width="0.15" layer="91"/>
+<pinref part="G1" gate="G$1" pin="P$2"/>
+<wire x1="5.715" y1="188.595" x2="5.715" y2="187.96" width="0.15" layer="91"/>
+<wire x1="5.715" y1="187.96" x2="22.86" y2="187.96" width="0.15" layer="91"/>
+<pinref part="S1" gate="B" pin="O"/>
+<wire x1="22.86" y1="187.96" x2="29.21" y2="187.96" width="0.15" layer="91"/>
+<junction x="22.86" y="187.96"/>
+<wire x1="22.86" y1="187.96" x2="22.86" y2="182.88" width="0.15" layer="91"/>
+<label x="22.86" y="182.88" size="1.27" layer="95" ratio="5" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TR?1" gate="G$1" pin="GRN/YEL1"/>
+<wire x1="71.12" y1="191.135" x2="69.215" y2="191.135" width="0.15" layer="91"/>
+<label x="69.215" y="191.135" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="B1" gate="1" pin="AC1"/>
+<pinref part="TR?1" gate="G$1" pin="GRN@1"/>
+<wire x1="94.615" y1="205.105" x2="94.615" y2="207.645" width="0.15" layer="91"/>
+<wire x1="94.615" y1="207.645" x2="86.36" y2="207.645" width="0.15" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="B1" gate="1" pin="AC2"/>
+<pinref part="TR?1" gate="G$1" pin="GRN@2"/>
+<wire x1="94.615" y1="194.945" x2="94.615" y2="192.405" width="0.15" layer="91"/>
+<wire x1="94.615" y1="192.405" x2="86.36" y2="192.405" width="0.15" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="VOUT"/>
+<wire x1="142.875" y1="200.025" x2="145.415" y2="200.025" width="0.1524" layer="91"/>
+<junction x="145.415" y="200.025"/>
+<pinref part="D1" gate="1" pin="A"/>
+<wire x1="145.415" y1="197.485" x2="145.415" y2="200.025" width="0.1524" layer="91"/>
+<wire x1="133.985" y1="210.185" x2="145.415" y2="210.185" width="0.1524" layer="91"/>
+<wire x1="145.415" y1="210.185" x2="145.415" y2="200.025" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="+"/>
+<wire x1="167.005" y1="187.325" x2="167.005" y2="200.025" width="0.1524" layer="91"/>
+<wire x1="145.415" y1="200.025" x2="153.67" y2="200.025" width="0.1524" layer="91"/>
+<pinref part="D2" gate="1" pin="C"/>
+<wire x1="153.67" y1="200.025" x2="167.005" y2="200.025" width="0.1524" layer="91"/>
+<wire x1="153.67" y1="198.755" x2="153.67" y2="200.025" width="0.1524" layer="91"/>
+<junction x="153.67" y="200.025"/>
+<pinref part="AMP1" gate="G$1" pin="P$3"/>
+<wire x1="170.815" y1="200.025" x2="167.005" y2="200.025" width="0.1524" layer="91"/>
+<junction x="167.005" y="200.025"/>
+<pinref part="R3" gate="G$1" pin="E"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="GND"/>
+<pinref part="C6" gate="G$1" pin="+"/>
+<wire x1="131.445" y1="179.705" x2="131.445" y2="184.785" width="0.1524" layer="91"/>
+<wire x1="131.445" y1="184.785" x2="131.445" y2="192.405" width="0.1524" layer="91"/>
+<junction x="131.445" y="184.785"/>
+<wire x1="153.67" y1="184.785" x2="145.415" y2="184.785" width="0.1524" layer="91"/>
+<wire x1="145.415" y1="184.785" x2="131.445" y2="184.785" width="0.1524" layer="91"/>
+<wire x1="145.415" y1="187.325" x2="145.415" y2="184.785" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="E"/>
+<wire x1="145.415" y1="180.975" x2="145.415" y2="184.785" width="0.1524" layer="91"/>
+<junction x="145.415" y="184.785"/>
+<pinref part="R3" gate="G$1" pin="A"/>
+<pinref part="R3" gate="G$1" pin="S"/>
+<wire x1="150.495" y1="192.405" x2="153.67" y2="192.405" width="0.15" layer="91"/>
+<wire x1="153.67" y1="192.405" x2="153.67" y2="184.785" width="0.15" layer="91"/>
+<pinref part="D2" gate="1" pin="A"/>
+<wire x1="153.67" y1="193.675" x2="153.67" y2="192.405" width="0.15" layer="91"/>
+<junction x="153.67" y="192.405"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="X1" gate="-1" pin="KL"/>
+<pinref part="K1" gate="2" pin="O"/>
+<wire x1="212.725" y1="215.265" x2="189.865" y2="215.265" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -21045,6 +23514,10 @@ www.ligitek.com or other producers.</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
