@@ -23461,16 +23461,16 @@ VOLTAGE REGULATOR 2</text>
 <attribute name="NAME" x="12.7" y="138.684" size="1.778" layer="95"/>
 <attribute name="VALUE" x="12.7" y="135.89" size="1.778" layer="96"/>
 </instance>
-<instance part="R20" gate="G$1" x="22.225" y="150.495" smashed="yes" rot="R90">
-<attribute name="NAME" x="20.7264" y="149.225" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="25.527" y="146.685" size="1.778" layer="96" rot="R90"/>
+<instance part="R20" gate="G$1" x="26.67" y="150.495" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.1714" y="149.225" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="29.972" y="146.685" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R21" gate="G$1" x="22.225" y="125.73" smashed="yes" rot="R90">
-<attribute name="NAME" x="20.7264" y="124.46" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="25.527" y="121.92" size="1.778" layer="96" rot="R90"/>
+<instance part="R21" gate="G$1" x="26.67" y="125.73" smashed="yes" rot="R90">
+<attribute name="NAME" x="25.1714" y="124.46" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="29.972" y="121.92" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND10" gate="1" x="22.225" y="111.76" smashed="yes">
-<attribute name="VALUE" x="20.955" y="109.22" size="1.778" layer="96"/>
+<instance part="GND10" gate="1" x="26.67" y="111.76" smashed="yes">
+<attribute name="VALUE" x="25.4" y="109.22" size="1.778" layer="96"/>
 </instance>
 <instance part="GND14" gate="1" x="10.16" y="111.76" smashed="yes">
 <attribute name="VALUE" x="8.89" y="109.22" size="1.778" layer="96"/>
@@ -23487,8 +23487,8 @@ VOLTAGE REGULATOR 2</text>
 <instance part="SUPPLY10" gate="+24V" x="66.675" y="165.735" smashed="yes">
 <attribute name="VALUE" x="64.77" y="168.91" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY11" gate="+24V" x="22.225" y="165.735" smashed="yes">
-<attribute name="VALUE" x="20.32" y="168.91" size="1.778" layer="96"/>
+<instance part="SUPPLY11" gate="+24V" x="26.67" y="165.735" smashed="yes">
+<attribute name="VALUE" x="24.765" y="168.91" size="1.778" layer="96"/>
 </instance>
 <instance part="D3" gate="1" x="150.495" y="152.4" smashed="yes" rot="MR180">
 <attribute name="NAME" x="149.225" y="149.3774" size="1.778" layer="95" rot="MR180"/>
@@ -23928,7 +23928,7 @@ VOLTAGE REGULATOR 2</text>
 <segment>
 <pinref part="R21" gate="G$1" pin="1"/>
 <pinref part="GND10" gate="1" pin="0V"/>
-<wire x1="22.225" y1="120.65" x2="22.225" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="26.67" y1="120.65" x2="26.67" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R19" gate="G$1" pin="A"/>
@@ -24456,11 +24456,11 @@ VOLTAGE REGULATOR 2</text>
 <segment>
 <pinref part="IC3" gate="C" pin="+IN"/>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="29.21" y1="137.16" x2="22.225" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="22.225" y1="137.16" x2="22.225" y2="145.415" width="0.1524" layer="91"/>
+<wire x1="29.21" y1="137.16" x2="26.67" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="26.67" y1="137.16" x2="26.67" y2="145.415" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="2"/>
-<wire x1="22.225" y1="130.81" x2="22.225" y2="137.16" width="0.1524" layer="91"/>
-<junction x="22.225" y="137.16"/>
+<wire x1="26.67" y1="130.81" x2="26.67" y2="137.16" width="0.1524" layer="91"/>
+<junction x="26.67" y="137.16"/>
 </segment>
 </net>
 <net name="+24V" class="0">
@@ -24485,7 +24485,7 @@ VOLTAGE REGULATOR 2</text>
 <segment>
 <pinref part="R20" gate="G$1" pin="2"/>
 <pinref part="SUPPLY11" gate="+24V" pin="+24V"/>
-<wire x1="22.225" y1="163.195" x2="22.225" y2="155.575" width="0.1524" layer="91"/>
+<wire x1="26.67" y1="163.195" x2="26.67" y2="155.575" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="P" pin="V+"/>
