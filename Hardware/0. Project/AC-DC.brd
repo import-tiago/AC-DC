@@ -26,18 +26,18 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -308,22 +308,22 @@
 <rectangle x1="7.77875" y1="10.00125" x2="9.02335" y2="10.09015" layer="21"/>
 <rectangle x1="7.77875" y1="10.09015" x2="9.02335" y2="10.17905" layer="21"/>
 <rectangle x1="7.77875" y1="10.17905" x2="9.02335" y2="10.26795" layer="21"/>
-<text x="1.3335" y="57.785" size="0.8128" layer="21" font="vector" ratio="17">TRAFO 1</text>
-<text x="1.2446" y="22.7584" size="0.8128" layer="21" font="vector" ratio="17">TRAFO 2</text>
-<text x="30.5816" y="6.8453" size="0.8128" layer="21" font="vector" ratio="17">LM338</text>
-<text x="30.3149" y="67.2084" size="0.8128" layer="21" font="vector" ratio="17">LM338</text>
-<text x="38.8493" y="69.2531" size="0.8128" layer="21" font="vector" ratio="17">POT1</text>
-<text x="39.116" y="5.2451" size="0.8128" layer="21" font="vector" ratio="17">POT2</text>
-<text x="81.1657" y="67.0306" size="0.8128" layer="21" font="vector" ratio="17">AMP1</text>
-<text x="80.899" y="6.9342" size="0.8128" layer="21" font="vector" ratio="17">AMP2</text>
-<text x="95.2119" y="51.3842" size="0.8128" layer="21" font="vector" ratio="17">OUT1</text>
-<text x="95.2119" y="16.0909" size="0.8128" layer="21" font="vector" ratio="17">OUT2</text>
+<text x="1.2446" y="61.6966" size="1.016" layer="21" font="vector" ratio="17">TRAFO 1</text>
+<text x="0.8001" y="12.2682" size="1.016" layer="21" font="vector" ratio="18">TRAFO 2</text>
+<text x="30.7594" y="7.112" size="1.016" layer="21" font="vector" ratio="17">LM338</text>
+<text x="32.6263" y="66.7639" size="1.016" layer="21" font="vector" ratio="17">LM338</text>
+<text x="38.8493" y="68.8975" size="1.016" layer="21" font="vector" ratio="17">POT1</text>
+<text x="39.116" y="5.2451" size="1.016" layer="21" font="vector" ratio="17">POT2</text>
+<text x="86.233" y="66.7639" size="1.016" layer="21" font="vector" ratio="17">AMP1</text>
+<text x="82.4103" y="7.2009" size="1.016" layer="21" font="vector" ratio="17">AMP2</text>
+<text x="96.2787" y="57.8739" size="0.8128" layer="21" font="vector" ratio="17">OUT1</text>
+<text x="96.1898" y="22.7584" size="0.8128" layer="21" font="vector" ratio="17">OUT2</text>
 <text x="95.3008" y="65.3415" size="0.8128" layer="21" font="vector" ratio="17">VOLT1</text>
 <text x="94.4118" y="9.779" size="0.8128" layer="21" font="vector" ratio="17">VOLT2</text>
-<text x="94.6785" y="32.3596" size="0.8128" layer="21" font="vector" ratio="17">LED</text>
-<text x="95.123" y="48.6283" size="0.8128" layer="21" font="vector" ratio="17">TEMP</text>
+<text x="94.3229" y="33.3375" size="0.8128" layer="21" font="vector" ratio="17" rot="R90">LED</text>
+<text x="96.3676" y="48.6283" size="0.8128" layer="21" font="vector" ratio="17">TEMP</text>
 <text x="76.2762" y="31.5595" size="0.8128" layer="21" font="vector" ratio="17" rot="R90">COOLER</text>
-<text x="94.1451" y="24.1808" size="0.8128" layer="21" font="vector" ratio="17">TEMP</text>
+<text x="94.0562" y="24.3586" size="0.8128" layer="21" font="vector" ratio="17">TEMP</text>
 <text x="76.0095" y="38.8493" size="0.8128" layer="21" font="vector" ratio="17" rot="R90">SWITCH</text>
 <polygon width="0.0254" layer="29">
 <vertex x="36.2712" y="2.667"/>
@@ -4202,8 +4202,6 @@ design rules under a new name.</description>
 <via x="11.7094" y="43.2308" extent="1-16" drill="0.6"/>
 <via x="17.2212" y="43.2308" extent="1-16" drill="0.6"/>
 <via x="1.651" y="59.4106" extent="1-16" drill="0.6"/>
-<via x="2.7432" y="61.6712" extent="1-16" drill="0.6"/>
-<via x="4.953" y="63.1698" extent="1-16" drill="0.6"/>
 <via x="12.2936" y="63.8302" extent="1-16" drill="0.6"/>
 <via x="15.494" y="58.3438" extent="1-16" drill="0.6"/>
 <via x="19.1008" y="55.1688" extent="1-16" drill="0.6"/>
@@ -4313,10 +4311,10 @@ design rules under a new name.</description>
 <via x="13.7668" y="3.0734" extent="1-16" drill="0.6"/>
 <via x="11.8618" y="11.5316" extent="1-16" drill="0.6"/>
 <via x="2.413" y="7.3406" extent="1-16" drill="0.6"/>
-<via x="2.2606" y="10.8966" extent="1-16" drill="0.6"/>
-<via x="6.0198" y="12.1666" extent="1-16" drill="0.6"/>
+<via x="3.7719" y="9.8298" extent="1-16" drill="0.6"/>
+<via x="6.5532" y="11.1887" extent="1-16" drill="0.6"/>
 <via x="18.4658" y="1.5494" extent="1-16" drill="0.6"/>
-<via x="1.8034" y="13.9446" extent="1-16" drill="0.6"/>
+<via x="1.8034" y="9.3218" extent="1-16" drill="0.6"/>
 <via x="1.5494" y="25.019" extent="1-16" drill="0.6"/>
 <via x="1.8034" y="65.9638" extent="1-16" drill="0.6"/>
 <via x="45.9486" y="46.8122" extent="1-16" drill="0.6"/>
