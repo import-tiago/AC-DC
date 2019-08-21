@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -23366,8 +23366,8 @@ Siemens, Philips, Valvo&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
 <package name="11MM">
-<pad name="P$1" x="0" y="0" drill="0.6"/>
-<pad name="P$2" x="7" y="0" drill="0.6"/>
+<pad name="P$1" x="0" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="P$2" x="7" y="0" drill="1" shape="long" rot="R90"/>
 <wire x1="0" y1="-2" x2="7" y2="-2" width="0.127" layer="21"/>
 <wire x1="0" y1="2" x2="7" y2="2" width="0.127" layer="21"/>
 <wire x1="7" y1="2" x2="9" y2="0" width="0.127" layer="21" curve="-90"/>
@@ -26919,6 +26919,8 @@ R2 3 2 {val-val*var/100}
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 <part name="D8" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="7" value="1N4007"/>
 <part name="D9" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="7" value="1N4007"/>
+<part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF x 50V"/>
+<part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="0V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -27342,29 +27344,29 @@ VOLTAGE REGULATOR 2</text>
 <instance part="SUPPLY2" gate="+24V" x="12.7" y="81.915" smashed="yes">
 <attribute name="VALUE" x="10.795" y="85.09" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="47.625" y="36.195" smashed="yes">
-<attribute name="NAME" x="40.894" y="34.036" size="1.778" layer="95"/>
-<attribute name="VALUE" x="52.324" y="28.829" size="1.778" layer="96" rot="R90"/>
+<instance part="C3" gate="G$1" x="42.545" y="36.195" smashed="yes">
+<attribute name="NAME" x="38.354" y="39.116" size="1.778" layer="95"/>
+<attribute name="VALUE" x="47.244" y="28.829" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C1" gate="G$1" x="12.7" y="36.195" smashed="yes">
 <attribute name="NAME" x="5.969" y="34.036" size="1.778" layer="95"/>
 <attribute name="VALUE" x="17.399" y="28.194" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="C4" gate="G$1" x="61.595" y="36.195" smashed="yes">
-<attribute name="NAME" x="55.118" y="34.1376" size="1.778" layer="95"/>
-<attribute name="VALUE" x="66.1924" y="29.718" size="1.778" layer="96" rot="R90"/>
+<instance part="C4" gate="G$1" x="53.975" y="36.195" smashed="yes">
+<attribute name="NAME" x="50.038" y="39.2176" size="1.778" layer="95"/>
+<attribute name="VALUE" x="58.5724" y="29.718" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND2" gate="1" x="12.7" y="18.415" smashed="yes">
 <attribute name="VALUE" x="11.43" y="15.875" size="1.778" layer="96"/>
 </instance>
-<instance part="GND8" gate="1" x="47.625" y="18.415" smashed="yes">
-<attribute name="VALUE" x="46.355" y="15.875" size="1.778" layer="96"/>
+<instance part="GND8" gate="1" x="42.545" y="18.415" smashed="yes">
+<attribute name="VALUE" x="41.275" y="15.875" size="1.778" layer="96"/>
 </instance>
-<instance part="GND9" gate="1" x="61.595" y="18.415" smashed="yes">
-<attribute name="VALUE" x="60.325" y="15.875" size="1.778" layer="96"/>
+<instance part="GND9" gate="1" x="53.975" y="18.415" smashed="yes">
+<attribute name="VALUE" x="52.705" y="15.875" size="1.778" layer="96"/>
 </instance>
-<instance part="SUPPLY5" gate="+24V" x="61.595" y="81.915" smashed="yes">
-<attribute name="VALUE" x="59.69" y="85.09" size="1.778" layer="96"/>
+<instance part="SUPPLY5" gate="+24V" x="53.975" y="81.915" smashed="yes">
+<attribute name="VALUE" x="52.07" y="85.09" size="1.778" layer="96"/>
 </instance>
 <instance part="IC4" gate="A" x="167.005" y="52.705" smashed="yes">
 <attribute name="NAME" x="169.545" y="46.99" size="1.778" layer="95"/>
@@ -27586,6 +27588,13 @@ VOLTAGE REGULATOR 2</text>
 <instance part="D9" gate="G$1" x="295.91" y="231.775" smashed="yes" rot="MR90">
 <attribute name="NAME" x="301.7774" y="233.045" size="1.27" layer="95" rot="MR270"/>
 <attribute name="VALUE" x="299.4914" y="234.95" size="1.27" layer="96" rot="MR270"/>
+</instance>
+<instance part="C16" gate="G$1" x="65.405" y="36.195" smashed="yes">
+<attribute name="NAME" x="60.579" y="39.116" size="1.778" layer="95"/>
+<attribute name="VALUE" x="70.104" y="28.829" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND30" gate="1" x="65.405" y="18.415" smashed="yes">
+<attribute name="VALUE" x="64.135" y="15.875" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -27847,12 +27856,12 @@ VOLTAGE REGULATOR 2</text>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
 <pinref part="GND8" gate="1" pin="0V"/>
-<wire x1="47.625" y1="31.115" x2="47.625" y2="20.955" width="0.1524" layer="91"/>
+<wire x1="42.545" y1="31.115" x2="42.545" y2="20.955" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="-"/>
 <pinref part="GND9" gate="1" pin="0V"/>
-<wire x1="61.595" y1="31.115" x2="61.595" y2="20.955" width="0.1524" layer="91"/>
+<wire x1="53.975" y1="31.115" x2="53.975" y2="20.955" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R8" gate="G$1" pin="A"/>
@@ -27919,6 +27928,11 @@ VOLTAGE REGULATOR 2</text>
 <pinref part="GND29" gate="1" pin="0V"/>
 <wire x1="183.515" y1="69.215" x2="183.515" y2="69.85" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="GND30" gate="1" pin="0V"/>
+<wire x1="65.405" y1="31.115" x2="65.405" y2="20.955" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SHORT_CIRCUIT_MONITOR_1" class="0">
 <segment>
@@ -27936,17 +27950,6 @@ VOLTAGE REGULATOR 2</text>
 <pinref part="K4" gate="2" pin="P"/>
 <pinref part="AMP1" gate="G$1" pin="P$2"/>
 <pinref part="VOLT1" gate="G$1" pin="P$3"/>
-</segment>
-<segment>
-<wire x1="375.92" y1="215.9" x2="375.92" y2="227.33" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="227.33" x2="372.11" y2="227.33" width="0.1524" layer="91"/>
-<wire x1="375.92" y1="234.95" x2="375.92" y2="227.33" width="0.1524" layer="91"/>
-<junction x="375.92" y="227.33"/>
-<label x="386.715" y="227.33" size="1.27" layer="95" rot="R270" xref="yes"/>
-<wire x1="375.92" y1="227.33" x2="386.715" y2="227.33" width="0.1524" layer="91"/>
-<pinref part="K3" gate="2" pin="P"/>
-<pinref part="AMP2" gate="G$1" pin="P$2"/>
-<pinref part="VOLT2" gate="G$1" pin="P$3"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -28330,18 +28333,23 @@ VOLTAGE REGULATOR 2</text>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="+"/>
-<wire x1="61.595" y1="38.735" x2="61.595" y2="51.435" width="0.1524" layer="91"/>
-<wire x1="39.37" y1="51.435" x2="47.625" y2="51.435" width="0.1524" layer="91"/>
-<wire x1="47.625" y1="51.435" x2="61.595" y2="51.435" width="0.1524" layer="91"/>
+<wire x1="53.975" y1="38.735" x2="53.975" y2="51.435" width="0.1524" layer="91"/>
+<wire x1="39.37" y1="51.435" x2="42.545" y2="51.435" width="0.1524" layer="91"/>
+<wire x1="42.545" y1="51.435" x2="53.975" y2="51.435" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="47.625" y1="38.735" x2="47.625" y2="51.435" width="0.1524" layer="91"/>
-<junction x="47.625" y="51.435"/>
+<wire x1="42.545" y1="38.735" x2="42.545" y2="51.435" width="0.1524" layer="91"/>
+<junction x="42.545" y="51.435"/>
 <pinref part="IC1" gate="A1" pin="VO"/>
 <pinref part="SUPPLY5" gate="+24V" pin="+24V"/>
-<wire x1="61.595" y1="79.375" x2="61.595" y2="51.435" width="0.1524" layer="91"/>
-<junction x="61.595" y="51.435"/>
+<wire x1="53.975" y1="79.375" x2="53.975" y2="51.435" width="0.1524" layer="91"/>
+<junction x="53.975" y="51.435"/>
 <pinref part="IC2" gate="A1" pin="VI"/>
-<wire x1="61.595" y1="51.435" x2="69.85" y2="51.435" width="0.1524" layer="91"/>
+<wire x1="53.975" y1="51.435" x2="65.405" y2="51.435" width="0.1524" layer="91"/>
+<wire x1="65.405" y1="51.435" x2="69.85" y2="51.435" width="0.1524" layer="91"/>
+<wire x1="62.23" y1="51.435" x2="65.405" y2="51.435" width="0.1524" layer="91"/>
+<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="65.405" y1="38.735" x2="65.405" y2="51.435" width="0.1524" layer="91"/>
+<junction x="65.405" y="51.435"/>
 </segment>
 <segment>
 <pinref part="IC4" gate="P" pin="V+"/>
@@ -28407,6 +28415,17 @@ VOLTAGE REGULATOR 2</text>
 <pinref part="IC3" gate="D" pin="+IN"/>
 <wire x1="126.365" y1="138.43" x2="120.65" y2="138.43" width="0.1524" layer="91"/>
 <label x="120.65" y="138.43" size="1.27" layer="95" ratio="5" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<wire x1="375.92" y1="215.9" x2="375.92" y2="227.33" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="227.33" x2="372.11" y2="227.33" width="0.1524" layer="91"/>
+<wire x1="375.92" y1="234.95" x2="375.92" y2="227.33" width="0.1524" layer="91"/>
+<junction x="375.92" y="227.33"/>
+<label x="386.715" y="227.33" size="1.27" layer="95" rot="R270" xref="yes"/>
+<wire x1="375.92" y1="227.33" x2="386.715" y2="227.33" width="0.1524" layer="91"/>
+<pinref part="K3" gate="2" pin="P"/>
+<pinref part="AMP2" gate="G$1" pin="P$2"/>
+<pinref part="VOLT2" gate="G$1" pin="P$3"/>
 </segment>
 </net>
 <net name="N$23" class="0">
