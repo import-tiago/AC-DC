@@ -5,7 +5,7 @@ AC-DC is a 240W linear bench power supply features two variable and independent 
 <img src="https://github.com/TiagoPaulaSilva/AC-DC/blob/master/Others/Gerber%20Preview.png" width="60%" height="60%">
 
 ## Schematic
-<img src="https://github.com/TiagoPaulaSilva/AC-DC/blob/master/Others/Schematic%20Preview.png" width="100%" height="100%">)
+<img src="https://github.com/TiagoPaulaSilva/AC-DC/blob/master/Others/Schematic%20Preview.png" width="100%" height="100%">
 
 ### Contributing
 0. Give this project a :star:
