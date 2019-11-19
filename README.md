@@ -1,6 +1,9 @@
 # AC-DC
-AC-DC is a 240W linear bench power supply features two variable and independent 1.2V-24V and 5A outputs.
 
+[![Status](https://img.shields.io/badge/Status-Finished-green.svg)](https://github.com/TiagoPaulaSilva/AC-DC)
+[![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
+
+AC-DC is a 240W linear bench power supply features two variable and independent 1.2V-24V and 5A outputs.
 
 ## Mounted Power Supply
 <img src="https://github.com/TiagoPaulaSilva/AC-DC/blob/master/Others/Power%20Supply%20(2).jpg" width="100%" height="100%">
