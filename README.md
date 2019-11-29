@@ -1,18 +1,28 @@
 # AC-DC
+
+[![Status](https://img.shields.io/badge/Status-Finished-green.svg)](https://github.com/TiagoPaulaSilva/AC-DC)
+[![Donate](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/TiagoPaulaSilva)
+
 AC-DC is a 240W linear bench power supply features two variable and independent 1.2V-24V and 5A outputs.
 
+## Mounted Power Supply  
+<p float="left">
+  <img src="https://github.com/TiagoPaulaSilva/AC-DC/blob/master/Others/Mounted%20PCB.jpeg" width="30%" height="30%"/>
+  <img src="https://github.com/TiagoPaulaSilva/AC-DC/blob/master/Others/Power%20Supply%20(2).jpg" width="65%" height="65%"/>
+</p>
+
 ## Gerber Preview
-![enter image description here](https://lh3.googleusercontent.com/ALbq4wtvn4nd15e0iOyvRG1uhjxgR6GaMGGSU6dHxigwsx3rLIKsBFHUGa_7MXSxkwqqYP9fCtBFtQ)
+<img src="https://github.com/TiagoPaulaSilva/AC-DC/blob/master/Others/Gerber%20Preview.png" width="60%" height="60%">
 
 ## Schematic
-![enter image description here](https://lh3.googleusercontent.com/jJRPWQ1ll_xE3IndTrh5NDm8u7B4m3HXzVyDUDwx4zEw2_gwMyIuqzye-_rhDFTTdPoVB87NjnuVxw=s2000)
+<img src="https://github.com/TiagoPaulaSilva/AC-DC/blob/master/Others/Schematic%20Preview.png" width="100%" height="100%">
 
 ### Contributing
 0. Give this project a :star:
 1. Create an issue and describe your idea
 2. [Fork it](https://github.com/TiagoPaulaSilva/AC-DC/fork)
 3. Create your feature branch (`git checkout -b my-new-feature`)
-4. Commit your changes (`git commit -am 'Add some feature'`)
+4. Commit your changes (`git commit -a -m "Added feature title"`)
 5. Publish the branch (`git push origin my-new-feature`)
 6. Create a new pull request
 7. Done! :heavy_check_mark:
